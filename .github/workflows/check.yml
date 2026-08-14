@@ -1,0 +1,22 @@
+name: check sources
+
+# Run this by hand from the Actions tab whenever you want to know which lab
+# feeds are alive. It sends nothing and changes nothing.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * 1"     # and once a week, Monday 09:00 UTC
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m bigtechtea.cli check

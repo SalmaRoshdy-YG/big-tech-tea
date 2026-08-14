@@ -1,0 +1,34 @@
+name: validate
+
+on:
+  pull_request:
+    paths:
+      - "subscriptions/**"
+      - "sources.yaml"
+      - "bigtechtea/**"
+      - "tests/**"
+
+permissions:
+  contents: read                # fork PRs get no write access and no secrets
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Subscriptions and sources are valid
+        run: python -m bigtechtea.cli list
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+
+      # A lab's feed being down is not the contributor's fault, so this
+      # reports without blocking the PR.
+      - name: Sources reachable (advisory)
+        continue-on-error: true
+        run: python -m bigtechtea.cli check

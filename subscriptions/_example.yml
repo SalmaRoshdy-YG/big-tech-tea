@@ -1,0 +1,47 @@
+# Template. Files starting with "_" are ignored by the runner.
+# Copy to subscriptions/<your-github-username>.yml and edit, or use the site:
+# https://SalmaRoshdy-YG.github.io/big-tech-tea
+#
+# Two different things are called "topic" in this project. They are unrelated:
+#
+#   ntfy_topic  the channel string you create in the ntfy app and paste here.
+#               This is what your phone listens to. Treat it as a password:
+#               anyone who knows it can read your alerts and send you their own.
+#
+#   interests   the research subjects you want alerts about.
+
+subscriptions:
+  - name: agents-and-reasoning
+    ntfy_topic: 7f3a9c1e04b7d2e8         # openssl rand -hex 12
+    # Or, to keep the channel out of this public repo, delete the line above
+    # and name a GitHub Actions secret instead:
+    # ntfy_topic_env: NTFY_TOPIC_MINE
+    # server: https://ntfy.sh            # your own ntfy instance, if you run one
+    # token_env: NTFY_TOKEN_ALICE        # env var NAME, never the token itself
+
+    interests:
+      any_of:                             # fires if ANY term appears
+        - agentic
+        - tool use
+        - chain of thought
+        - reinforcement learning
+      none_of:                            # ...and NO term here appears
+        - hiring
+        - internship
+      # all_of: [multimodal]              # every term must appear
+      # regex: "(retrieval|RAG)[- ]augmented"
+      content: paper                      # papers only; "blog" or "any" also work
+      # sources: [arxiv-deepmind]         # limit to specific labs
+      # title_only: true                  # ignore abstracts when matching
+
+    priority: 3          # ntfy priority, 1-5
+    digest: false        # true = one bundled message per run
+    lookback_days: 7     # ignore anything older than this
+    max_per_run: 15      # cap so a feed reindex can't flood your phone
+
+  - name: efficient-inference
+    ntfy_topic: a1b2c3d4e5f67890
+    interests:
+      any_of: [quantization, distillation, kv cache, speculative decoding, mixture-of-experts]
+    digest: true
+    lookback_days: 14

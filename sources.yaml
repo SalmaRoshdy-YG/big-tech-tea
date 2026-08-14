@@ -1,0 +1,181 @@
+# Where papers and research posts are pulled from.
+#
+# kind: feed  -> any RSS 2.0 or Atom 1.0 URL
+# kind: arxiv -> arXiv API query (http://export.arxiv.org/api/query)
+#
+# Feed URLs move around. Run `python -m bigtechtea.cli check` after cloning and
+# open a PR if one has rotted. Prefer official feeds over HTML scraping: they are
+# stable, cheap, and explicitly meant to be polled.
+
+sources:
+  - slug: openai
+    org: OpenAI
+    kind: feed
+    content: blog
+    url: https://openai.com/news/rss.xml
+    max_items: 60          # this feed returns 1000+ items; keep the newest
+    extra_tags: [openai]
+
+  - slug: deepmind
+    org: Google DeepMind
+    kind: feed
+    content: blog
+    url: https://deepmind.google/blog/rss.xml
+    extra_tags: [deepmind, google]
+
+  - slug: google-research
+    org: Google Research
+    kind: feed
+    content: blog
+    url: https://research.google/blog/rss/
+    extra_tags: [google]
+
+  - slug: google-ai
+    org: Google AI
+    kind: feed
+    content: blog
+    url: https://blog.google/technology/ai/rss/
+    extra_tags: [google]
+
+  # Meta publishes no RSS feed for ai.meta.com/blog (checked Aug 2026), and
+  # research.facebook.com/feed stopped updating in 2023. Meta coverage comes
+  # from arxiv-fair below instead. Re-enable if they ever ship a feed.
+  - slug: meta-ai
+    org: Meta AI
+    kind: feed
+    content: blog
+    url: https://ai.meta.com/blog/rss/
+    enabled: false
+    extra_tags: [meta, fair]
+
+  - slug: microsoft-research
+    org: Microsoft Research
+    kind: feed
+    content: blog
+    url: https://www.microsoft.com/en-us/research/feed/
+    extra_tags: [microsoft]
+
+  - slug: amazon-science
+    org: Amazon Science
+    kind: feed
+    content: blog
+    url: https://www.amazon.science/index.rss
+    extra_tags: [amazon, aws]
+
+  - slug: qwen
+    org: Alibaba Qwen
+    kind: feed
+    content: blog
+    url: https://qwenlm.github.io/blog/index.xml
+    extra_tags: [alibaba, qwen]
+
+  - slug: nvidia-research
+    org: NVIDIA Research
+    kind: feed
+    content: blog
+    url: https://blogs.nvidia.com/blog/category/deep-learning/feed/
+    extra_tags: [nvidia]
+
+  # ---- arXiv: the actual papers ------------------------------------------
+  # These are the point of the project. Lab blogs announce maybe a tenth of what
+  # their researchers publish, and mostly the product-shaped tenth.
+  #
+  # Caveat worth knowing: arXiv has no affiliation field, so `all:"OpenAI"`
+  # searches titles, abstracts, author names and comments. It catches papers
+  # that name the lab and misses ones that don't, and it picks up papers merely
+  # *citing* the lab. Expect roughly the right papers, not exactly them.
+  # For precision, pair these with tight `interests` in your subscription.
+
+  - slug: arxiv-deepmind
+    org: Google DeepMind
+    kind: arxiv
+    content: paper
+    query: 'all:"Google DeepMind" OR all:"DeepMind"'
+    max_results: 60
+    extra_tags: [arxiv, deepmind, google]
+
+  - slug: arxiv-google
+    org: Google Research
+    kind: arxiv
+    content: paper
+    query: 'all:"Google Research" OR all:"Google Brain"'
+    max_results: 60
+    extra_tags: [arxiv, google]
+
+  - slug: arxiv-fair
+    org: Meta FAIR
+    kind: arxiv
+    content: paper
+    query: 'all:"Meta AI" OR all:"FAIR" OR all:"Facebook AI Research"'
+    max_results: 60
+    extra_tags: [arxiv, meta]
+
+  - slug: arxiv-openai
+    org: OpenAI
+    kind: arxiv
+    content: paper
+    query: 'all:"OpenAI"'
+    max_results: 60
+    extra_tags: [arxiv, openai]
+
+  - slug: arxiv-microsoft
+    org: Microsoft Research
+    kind: arxiv
+    content: paper
+    query: 'all:"Microsoft Research"'
+    max_results: 60
+    extra_tags: [arxiv, microsoft]
+
+  - slug: arxiv-amazon
+    org: Amazon Science
+    kind: arxiv
+    content: paper
+    query: 'all:"Amazon Science" OR all:"Amazon AWS AI"'
+    max_results: 40
+    extra_tags: [arxiv, amazon]
+
+  - slug: arxiv-alibaba
+    org: Alibaba
+    kind: arxiv
+    content: paper
+    query: 'all:"Alibaba" OR all:"Qwen"'
+    max_results: 40
+    extra_tags: [arxiv, alibaba, qwen]
+
+  # ---- arXiv firehoses by field -------------------------------------------
+  # Every paper in the category, from any lab or university - roughly 400 new
+  # papers a day across these four. They are ON here, which only works if your
+  # `interests` are narrow. If your phone gets noisy, set `enabled: false` on
+  # the categories outside your field rather than widening your keywords.
+
+  - slug: arxiv-cs-cl
+    org: arXiv cs.CL
+    kind: arxiv
+    content: paper
+    query: "cat:cs.CL"
+    max_results: 100
+    extra_tags: [arxiv, nlp]
+
+  - slug: arxiv-cs-lg
+    org: arXiv cs.LG
+    kind: arxiv
+    content: paper
+    query: "cat:cs.LG"
+    max_results: 100
+    extra_tags: [arxiv, ml]
+
+  - slug: arxiv-cs-cv
+    org: arXiv cs.CV
+    kind: arxiv
+    content: paper
+    query: "cat:cs.CV"
+    max_results: 100
+    extra_tags: [arxiv, vision]
+
+  - slug: arxiv-cs-ai
+    org: arXiv cs.AI
+    kind: arxiv
+    content: paper
+    query: "cat:cs.AI"
+    max_results: 100
+    extra_tags: [arxiv, ai]

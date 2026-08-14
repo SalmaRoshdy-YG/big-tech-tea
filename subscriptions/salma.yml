@@ -1,0 +1,11 @@
+subscriptions:
+  - name: salma-alerts
+    ntfy_topic_env: NTFY_TOPIC_MINE
+    interests:
+      any_of:
+        - your
+        - keywords
+        - here
+      content: paper
+    lookback_days: 7
+    max_per_run: 15
