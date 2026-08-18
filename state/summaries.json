@@ -101,6 +101,18 @@
   "problem": "Self-evolving agents improve future behavior from interaction experience, yet existing evaluations typically optimize under fixed execution conditions and do not test recovery after those conditions change.",
   "results": "A code-driven design that succeeds in the source fails in the target, where agents must iteratively\u2026"
  },
+ "08c5b0d1517bdfeb": {
+  "approach": "We introduce GalerkinFlow, an equation-agnostic framework that turns each coarse--fine pair into supervision along an entire reconstruction path.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Most super-resolution models learn from paired data by supervising only the final high-resolution output. This provides little control over how the prediction should evolve between the downsampled observation and its fine target.",
+  "results": "We show that the reconstruction loss\u2026 At a random sample of intermediate states on the reconstruction path, the model predicts the coarse-to-fine residual velocity and uses coarse-anchor point to define a pseudo-endpoint."
+ },
  "09e8af3ba0c7b2a7": {
   "approach": "",
   "mode": "heuristic",
@@ -133,6 +145,28 @@
   "overview": "Given a dataset where a portion of the samples are contaminated, our goal is to recover the underlying clean population distribution. To this end, we propose Wasserstein Filtering (WF), a novel sample selection framework that discards a fraction of suspicious samples and estimates the target distribution using the empirical measure of the remaining data.",
   "prior_work": "",
   "problem": "",
+  "results": ""
+ },
+ "0ccfebfbc33df2a8": {
+  "approach": "In this paper, we propose BinRVR, a binarized RAW video restoration framework that reduces computation and parameters by approximately 96% while incurring only about 4% performance degradation.\u2026 While binary neural networks (BNNs) enable efficient lightweight deployment for image enhancement, their deficiencies in modeling temporal coherence and activation value distributions hinder their effectiveness when applied to video scenarios.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "RAW video restoration is fundamental to high-quality low-level perception and serves as the basis for a wide range of downstream vision applications.",
+  "results": ""
+ },
+ "0e55735ea73c9381": {
+  "approach": "we propose Intent-Guided Decoding (IGD), a framework that arbitrates between retrieved context and parametric memory according to user intent.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing RAG systems often apply a fixed trust policy toward retrieved evidence, which can either over-trust incorrect context or underuse context when the user explicitly asks for context-following behavior.",
+  "problem": "Retrieval-augmented generation (RAG) improves large language models by grounding generation in external evidence, but it also introduces a source trust problem: retrieved context may be useful, irrelevant, or even misleading.",
   "results": ""
  },
  "0e9e2fa1330cdaf0": {
@@ -193,6 +227,18 @@
   "problem": "Neural Architecture Search (NAS) is naturally formulated as a bilevel optimization problem, where the upper-level optimizes the architecture using validation performance and the lower-level trains network parameters using training loss. NAS is computationally expensive due to discrete architectural decisions, exponentially growing search spaces, and the high cost of training candidate architectures.",
   "results": "This work develops a general bilevel optimization framework for NAS across diverse architectures, including MLPs, CNNs, RNNs, and Transformers, to identify compact architectures with\u2026"
  },
+ "0fb27c5e3ed24633": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Accurate classification of circulating tumor cell (CTC) phenotypes can provide valuable information for assessing metastatic potential. Label free microfluidic devices provide a hydrodynamic obstacle course that transforms subtle biophysical characteristics of CTCs, including size and deformability, into distinct kinematic trajectories.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "1132bc3c3efe4e77": {
   "approach": "In this paper, we address this issue by approximating the solution to a relaxed Muon objective in the low-rank setting via linearization and then least-squares. One potential reason is that the most common PEFT method, LoRA, does not naturally combine with Muon since it is not mathematically possible to orthogonalize the weight update given by a low-rank parameterization.",
   "mode": "heuristic",
@@ -204,6 +250,28 @@
   "prior_work": "",
   "problem": "The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks. it is used less frequently for parameter-efficient fine-tuning (PEFT).",
   "results": "We provide an efficient implementation that uses\u2026"
+ },
+ "12fd06c9a55d5920": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable evidence of which causally relevant internal state occurred.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "143a6e402a6993ee": {
+  "approach": "We introduce Q-based Variational IRL (QVIRL), a novel Bayesian IRL method that recovers a posterior distribution over rewards from expert demonstrations via primarily learning a variational distribution over optimal Q-values.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Unlike previous approaches,\u2026",
+  "problem": "The development of safe and beneficial AI requires that systems can learn and act in accordance with human preferences. explicitly specifying these preferences by hand is often infeasible.",
+  "results": ""
  },
  "14bc8d06c1cc28ba": {
   "approach": "In this paper, we introduce a\u2026 While tensor factorizations have successfully revealed interpretable patterns from such complex data, they have so far been mainly data-driven.",
@@ -262,6 +330,18 @@
   "prior_work": "",
   "problem": "Digital restoration of historical manuscript images aims to improve readability while preserving the authenticity of cultural heritage documents. evaluating quality of restored manuscripts remains challenging, where readability is often subjective and expert annotations are scarce.",
   "results": "Two experiments were conducted with publicly-available data sets, facilitating manual quality scores by experts and\u2026"
+ },
+ "156ec4cb2676375f": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "A radiologist reading a model's output faces two problems. The model returns a number and no reason, and any system that turns that number into readable prose can quietly add claims the model never made.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
  },
  "16217220030d29d0": {
   "approach": "",
@@ -369,6 +449,18 @@
   "problem": "",
   "results": ""
  },
+ "19897f6f4bda3f8d": {
+  "approach": "We present PCA-DMD, a scalable operator-theoretic framework that segments LFP recordings into overlapping windows, projects them into a compact PCA space, learns linear Koopman evolution in the latent space, and reconstructs continuous signals through inverse projection and overlap-add aggregation.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Accurate reconstruction of long-duration neural recordings is challenging because local field potentials (LFPs) are high-resolution, multichannel, transient, and variable across subjects.",
+  "results": "On 200,000-sample hippocampal recordings, PCA-DMD outperformed Classical DMD, SpDMD, MrDMD, and HODMD,\u2026"
+ },
  "19ed7d015e08ad48": {
   "approach": "We propose a measure of training data influence that does not require selecting a downstream task or validation set as the attribution target.",
   "mode": "heuristic",
@@ -381,6 +473,16 @@
   "problem": "Measuring training data influence consistently across language model pretraining is challenging. It is difficult to select downstream tasks or validation sets representative of a model's general capabilities, and reliance on task performance at intermediate checkpoints complicates comparisons across training.",
   "results": "we define an example's influence by how much its gradient update reduces the squared distance to the final parameters of a given\u2026"
  },
+ "1a21e25afb025bd0": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Unlike conventional search, generative search synthesizes information into direct answers rather than presenting competing sources, which can further amplify these risks, as assessing source provenance and authority requires additional user interaction.",
+  "problem": "Generative Engine Optimization (GEO) modifies web content to increase its likelihood of being selected and cited by generative search engines. This can give strategically optimized pages visibility disproportionate to their authority or relevance and even make weak or false information appear well supported.",
+  "results": "Despite these concerns, systematic\u2026"
+ },
  "1ac1b71363268a33": {
   "approach": "",
   "mode": "heuristic",
@@ -392,6 +494,18 @@
   "prior_work": "",
   "problem": "Mixture-of-Experts (MoE) models have been widely adopted in real-time interactive applications such as coding assistants, real-time audio-video interaction systems. To meet the extremely low response latency requirements of these scenarios, practitioners commonly employ small-batch decoding, under which MoE inference becomes memory-bound and is severely bottlenecked by expert weight loading.",
   "results": ""
+ },
+ "1b89547caa37dd11": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Reinforcement learning algorithms for Large Language Models (LLMs) are largely distinguished by their variance reduction strategy. additional infrastructure engineering challenges combined with the practical success of\u2026",
+  "results": "Group-relative methods like GRPO reduce gradient variance by sampling multiple rollouts per prompt, but provide only sequence-level credit. Training is also blocked by straggler rollouts, reducing throughput and increasing off-policyness."
  },
  "1b98fec79f40c6db": {
   "approach": "In this work, we propose a novel framework that reconstructs high-quality 3D\u2026",
@@ -417,6 +531,30 @@
   "problem": "As large language models (LLMs) are increasingly applied for emotional companionship, evaluating their behavior and capabilities in intimate relationships has become a pressing issue. existing assessments primarily characterize general personality traits, providing limited insight into model behavior within intimate and emotionally sensitive contexts.",
   "results": "To evaluate emotional companionship capabilities\u2026"
  },
+ "1c49a05428fa8237": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Human visual search is serial: the fovea must land on a candidate to confirm it, and those landings form a scanpath. Whether multimodal large language models (MLLMs), given the same foveated input, search as humans do bears on their use as models of human vision and on attention-alignment scores.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "1d468059504495cc": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Despite recent advances in unified multimodal models for multi-reference image generation, existing benchmarks remain organized around predefined task types (e.g., \"subject composition\"), which are ill-suited to this combinatorial setting and lead to fragmented coverage, uncontrolled complexity, and little diagnostic value. Recognizing that diverse multi-reference tasks share a common set of atomic operations, we adopt a capability-oriented perspective and formalize four operators: Anchor ($f$), Disentangle ($g$), Apply ($\\oplus$), and Compose ($C$).",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "1d8721fb9a4f8532": {
   "approach": "We present a unified framework that bridges systematic hazard analysis and runtime enforcement using hazard-informed safety envelopes. Rather than treating safety as a static constraint isolated within individual software modules, we introduce a cross-layer safety transformation process spanning symbolic, spatial, and dynamic world models.",
   "mode": "heuristic",
@@ -428,6 +566,16 @@
   "prior_work": "",
   "problem": "As heterogeneous robotic systems deploy across diverse urban zones, maintaining safety amid complex human-robot interactions remains a critical challenge.",
   "results": "We show how this representation naturally interfaces with physical AI runtime harnesses to guarantee\u2026"
+ },
+ "1e7ca9ef3608c8d2": {
+  "approach": "We present GoalEvolve, a goal-driven framework that makes physical design algorithm evolution accountable for the final quality of results (QoR) of the complete flow.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing program-evolution frameworks often rely on stage-local objectives or undifferentiated multi-metric feedback, which neither guarantee better final results nor identify which unmet requirement should guide the next iteration.",
+  "problem": "Physical design algorithms operate within tightly coupled, multi-stage optimization flows, where stage-local gains may vanish or induce downstream degradation.",
+  "results": "Given a multi-objective QoR target\u2026"
  },
  "1ea3eea3d9a52b4c": {
   "approach": "",
@@ -477,6 +625,18 @@
   "problem": "Existing vision-language model (VLM) benchmarks emphasize perception and reasoning accuracy (how well VLMs describe and reason about what they see in an image), with limited attention to behavioral reliability under uncertainty (how they behave when visual evidence is missing or misleading).",
   "results": "It contains 250 figures with high-quality human annotations across three evaluation aspects, totaling 600+ hours of\u2026"
  },
+ "214f8828ea8ac087": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "The language-model head maps a hidden state of width D to a vocabulary of size V, so its transpose can return at most D independent directions to the Transformer. Godey and Artzi argue that this severe projection is a harmful optimization bottleneck.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "2163b413300de52f": {
   "approach": "",
   "mode": "heuristic",
@@ -500,6 +660,30 @@
   "prior_work": "",
   "problem": "Principle-based regulation, with evaluative standards such as \"fair, clear, and not misleading\" or \"deliver good outcomes\", cannot be reduced to binary predicates, and LLM-as-judge is increasingly used as the substitute.",
   "results": "Our position is that any such judge must be evaluated on four axes: accuracy, paraphrase robustness, adversarial robustness, and calibration."
+ },
+ "21e2c17f280165bc": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Palmyra x6 is a large language model optimized for use with enterprise-oriented agentic tasks. The model was built by post-training a Mixture-of-Experts base model with Anchored Supervised Fine-Tuning on a compact corpus of verified, synthetic tool-use trajectories, optimized with a Muon + Adam hybrid.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "21e8e9006af89862": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Across a Physical AI stack, evaluation maturity is inversely aligned with deployment risk: foundation models enjoy mature, standardized harnesses, while the embodied layers on which deployment actually turns remain fragmented across benchmark-specific simulators, embodiments, and interfaces. The first DeepInsight report (v1) unified evaluation across this stack behind three abstractions---task, resource, and result---but its quantitative evidence centered on the foundation-model layer; navigation and manipulation (System 1) and whole-body control (System 0) remained simulation case studies,\u2026",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
  },
  "22a0daa173c87df0": {
   "approach": "",
@@ -593,6 +777,18 @@
   "problem": "Neural networks trained by gradient descent on a smooth cost function can nevertheless learn in steps: the cost holds on long plateaus and then drops abruptly. Meanwhile, training losses instead follow smooth power laws.",
   "results": "We show that a symmetry fixes what those variables are: a network layer is a sum over interchangeable units, so relabeling the units leaves it unchanged; given smoothness and the condition that a unit's gradient vanish\u2026"
  },
+ "28842fd5954c8d51": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "This paper proposes a calibration-free framework for reliably and effectively estimating vehicle speeds from monocular videos, without relying on roadway features, camera calibration, or roadway-feature-based reference objects. The proposed framework estimates vehicle speeds using a 36-keypoint vehicle template and a homography matrix updated at each frame.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "296b95d62f193ef7": {
   "approach": "",
   "mode": "heuristic",
@@ -653,6 +849,28 @@
   "problem": "",
   "results": ""
  },
+ "2c539e6ac6432d0c": {
+  "approach": "In this work, we propose a novel Unsupervised Restoration-Segmentation Collaborative\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing approaches implicitly assume that restoration and segmentation provide mutually beneficial guidance.",
+  "problem": "Unsupervised Domain Adaptation for Adverse Weather Semantic Segmentation (UDA-ASS) aims to transfer semantic knowledge from labeled normal-weather images to unlabeled adverse environments. under severe degradation and without target-domain supervision, the validity of cross-task optimization directions becomes fundamentally unidentifiable, leading to hallucination-driven error propagation.",
+  "results": ""
+ },
+ "2c71e234adea0060": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Objective assessment of learning remains a fundamental challenge in education. Electroencephalography (EEG) provides a direct, non-invasive window into the neural correlates of knowledge acquisition, including cognitive familiarity.",
+  "results": "This study benchmarks fifteen machine learning (ML) and deep learning (DL) models for EEG-based familiarity prediction across two cognitive domains: faces (factual knowledge) and mathematical equations (conceptual knowledge). Using continuous EEG data from 23 participants, we extract spectral features (Power Spectral Density) across six frequency bands."
+ },
  "2dc10287974eae97": {
   "approach": "This paper addresses these challenges by introducing a robust framework optimized for real-world battlefield conditions. We propose the integration of Per-Channel Energy Normalization (PCEN) and attention-based pooling to enhance feature extraction under low signal-to-noise ratio\u2026",
   "mode": "heuristic",
@@ -675,6 +893,18 @@
   "overview": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
   "prior_work": "",
   "problem": "",
+  "results": ""
+ },
+ "2f7cb90db3d8b1f2": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Large Audio Language Models (LALMs) have made rapid progress on standardized benchmarks, yet their deployment in practical media workflows, curation, archival indexing, and content distribution remains largely unrealized. We identify automated audio chapterization, the task of segmenting continuous audio streams into thematically coherent chapters, as a demanding and commercially consequential setting that exposes this gap.",
   "results": ""
  },
  "30a8ab0b9c3bbdae": {
@@ -713,6 +943,30 @@
   "problem": "Training Multimodal Large Language Models for audio-visual social understanding is a crucial step toward embodied social intelligence. Second, current reasoning approaches are expensive and surprisingly\u2026",
   "results": "Chain-of-thought (CoT) reasoning has become the dominant approach, with HumanOmniV2 and its IntentBench benchmark as a prominent reference point. First, IntentBench is highly noisy: $\\sim$7% of questions are broken and $\\sim$23% are trivially answerable without the video input."
  },
+ "3238db26fd75bf61": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Can a language model recover the true research idea of a published paper when given only that paper's pre-publication bibliography?",
+  "results": "We introduce Reconstruction, a blind idea-recovery benchmark that withholds the seed paper and all contemporaneous or future literature, and asks models to propose hypotheses that an independent large language model judge matches against the held-out ground-truth idea. A strict anti-leakage protocol-temporal citation cutoff, anonymous reference IDs, and frozen per-paper bibliographies, which prevents prompt-time leakage of the seed idea."
+ },
+ "32bbcee10709d098": {
+  "approach": "Here, we develop a framework for determining when\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Earth observation foundation models (EOFMs) are emerging as reusable representation frameworks for data-driven retrieval, prediction and process modelling within ecohydrology, which integrate EO, meteorological forcing and process models to characterise coupled water, energy and carbon dynamics in vegetation and soil across scales. there is yet to be an ecohydrology-specific synthesis assessing the EOFM relevance, application evidence or evaluation requirements under uncertain reference data, scale mismatch and temporal dependence.",
+  "results": ""
+ },
  "3352719ef2dfde43": {
   "approach": "",
   "mode": "heuristic",
@@ -733,6 +987,18 @@
   "problem": "We study quantum multi-armed bandits (QMAB) and quantum linear bandits (QLB) in the model of Wan et al. [2023], where the learner queries each arm or action through a quantum reward oracle or its inverse.",
   "results": "We prove the first minimax lower bounds of $\u03a9(K\\log(T/K))$ for QMAB and $\u03a9(d\\log(T/d))$ for finite-action QLB, resolving the\u2026"
  },
+ "33ef23626363fcb0": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Large Language Models (LLMs) have demonstrated capabilities in in-context learning, task decomposition, step-by-step reasoning, and code generation, driving their gradual evolution from text generation models into the core of agents capable of perceiving environments, invoking tools, and executing tasks. Traditional LLM Agents typically obtain information through webpages, documents, databases, or external tools and generate corresponding invocation sequences according to user goals; when this technology is further integrated with robotic systems, large language models begin to undertake\u2026",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "34a4ef9713dd43bd": {
   "approach": "",
   "mode": "heuristic",
@@ -743,6 +1009,16 @@
   "overview": "The early detection of delayed cases in business processes is a critical capability for organizations. Predictive process monitoring (PPM) supports this task by using historical event logs to predict the remaining time of ongoing cases, enabling timely interventions to avoid missed deadlines and service level violations.",
   "prior_work": "",
   "problem": "",
+  "results": ""
+ },
+ "370b6afbba359542": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing methods focus on designing an intricate $U$ to unlearn $D_f \\subset D$ from a previous model $A(D)$, so that the unlearned model performs as closely as possible to the retrained model $A(D \\setminus D_f)$.",
+  "problem": "Various machine unlearning techniques have been developed in response to privacy legislation requirements, enabling individuals to exercise their legal right to have their data $D_f$ removed from a machine learning model. these methods often suffer from high computational costs\u2026",
   "results": ""
  },
  "378f9f88f3eb0c28": {
@@ -793,6 +1069,40 @@
   "problem": "",
   "results": ""
  },
+ "3904465a6e6eecec": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Video Diffusion Transformers (DiTs) spend most of their compute inside the Self-Attention operation, whose cost grows quadratically, $\\mathcal{O}(n^2)$, with the number of latent tokens $n$. For the task of video generation, the token count is large, so this term dominates runtime and memory, and thereby caps the resolution and duration we can generate.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "394c0ee6dfbee80a": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "First, we revisit Adam's divergence--convergence debate and show the existence of a problem-dependent phase transition: with properly chosen, batch-size-dependent hyperparameters, Adam converges, whereas under small-$\u03b2_2$ regimes it can diverge.",
+  "problem": "Reliable optimization is central to neural network (NN) training, yet Adam, the default optimizer for modern LLMs, rests on a fragile foundation. This thesis develops a principled grounding for Adam and motivates new designs.",
+  "results": "Second, we investigate why Adam substantially outperforms SGD on Transformers through Hessian structure."
+ },
+ "398a1e5a867d8168": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "This cumulative habilitation thesis studies probabilistic circuits (PCs) as a powerful and tractable framework for reasoning and learning under uncertainty in artificial intelligence (AI). It first advocates for probability as a core language for AI, emphasizing its connections to logic and information theory; the conceptual simplicity of probabilistic reasoning---based primarily on the sum and product rules; the parallels between probabilistic inference and human cognition; and the role of probability in optimal decision making.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "3a25715955ab85cc": {
   "approach": "In this paper, we present RankT2I, a novel, training-free, and model-agnostic framework that automates the discovery of editable semantics in diffusion and FLUX-based models.",
   "mode": "heuristic",
@@ -802,6 +1112,18 @@
   "prior_work": "Most existing approaches require users to manually specify semantics to modify a particular image, a time-consuming process that often involves extensive trial and error.",
   "problem": "Recent advances in text-to-image (T2I) models have revolutionized the field of image generation and editing. identifying semantics that a T2I model can successfully edit in an image continues to be a challenging task.",
   "results": "Given a visual domain, we\u2026"
+ },
+ "3a2b98b50ba3cbf7": {
+  "approach": "We propose an end-to-end reinforcement learning framework for sequential tumour segmentation directly on WSIs. Instead of treating the slide as a predefined collection of candidate patches, we formulate the WSI itself as a hierarchical multi-resolution environment through which an agent navigates using movement, zooming, and tumour selection actions.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Whole-slide image (WSI) analysis remains computationally challenging due to the extremely large spatial resolution of slides and the sparse distribution of tumour regions.",
+  "results": "The agent jointly processes local observations and a global thumbnail\u2026"
  },
  "3a5a37797d222667": {
   "approach": "To tackle this issue, we present Consistency Forcing (CForce) for dLLMs, a distillation method to force the mask predictions of early stages to align with those of later stages.",
@@ -814,6 +1136,18 @@
   "prior_work": "",
   "problem": "Diffusion large language models (dLLMs) accelerate language generation by predicting multiple masks in a single forward pass. existing dLLMs can suffer from unreliable predictions in early denoising stages under aggressive parallelism strategies, leading to errors that can propagate to later stages.",
   "results": "CForce trains the model on pre-collected self-rollout trajectories, thereby improving training-inference\u2026"
+ },
+ "3a5d7f38d0dfc910": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Radio frequency identification (RFID) technology has been widely implemented for real-time data collection in manufacturing shop floors, which, in turn, can be used to support dynamic shop floor production planning and scheduling. Within such an environment, uncertainty in operation and production processes collectively contribute to the dynamicity in manufacturing, thereby hampering the scheduling system from achieving maximal utility.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
  },
  "3a6db000dc6ddf1f": {
   "approach": "",
@@ -883,6 +1217,16 @@
   "problem": "Post-click conversion rate (CVR) is a key metric in various scenarios including e-commerce and advertising, reflecting the efficiency and user experience in the second stage of the conversion process. Estimating the causal effect on CVR is therefore of great practical importance.",
   "results": "Recent studies on CVR prediction introduce \"ideal loss\", which optimizes model parameters using an unbiased estimate of the loss over the\u2026"
  },
+ "3c849c0d9abba3a5": {
+  "approach": "In this paper, we introduce TDD-Agent, which operationalizes the test-driven development paradigm for code generation.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing approaches often use generated tests as static post-hoc validators, which limits their ability to guide implementation and may introduce misleading feedback when the tests themselves are incomplete or incorrect.",
+  "problem": "Large Language Models (LLMs) have achieved remarkable progress in code generation, yet ensuring correctness in complex, repository-level tasks remains challenging.",
+  "results": "TDD-Agent first prompts the model to generate executable tests, encouraging it to clarify\u2026"
+ },
  "3ce222447ac98b2a": {
   "approach": "In this paper, we build an automatic pipeline that is problem-agnostic to all problems in the MiniZinc format.",
   "mode": "heuristic",
@@ -904,6 +1248,30 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "3d7bc64fe9fb672e": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "As autonomous vehicles (AVs) approach Level 4 and Level 5 operational capability [SAE International, 2018], their on- board decision systems must handle not only safety-critical locomotion but also their subsequent moral weight. This paper details the Ethical Decision Head (EDH), a deep re- inforcement learning (RL) framework that encodes ethical reasoning as a differentiable reward signal, enabling a pol- icy gradient agent to learn morally-aligned driving behavior in scenarios whose state representation is aligned with the CARLA simulation environment [Dosovitskiy et al., 2017].",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "3f2ca3d68daf3415": {
+  "approach": "We present the Domain-Robust Asymmetric Fusion Ensemble (DRAFE), which combines independently trained LW-DETR and RF-DETR detectors for cross-city fine-grained traffic object detection.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Deep learning-based object detectors are fundamental to intelligent transportation systems, enabling traffic monitoring, vehicle analytics, and infrastructure management. achieving both fine-grained vehicle recognition and robust cross-city domain generalization remains challenging.",
+  "results": "DRAFE employs a two-stage training strategy that first pretrains complementary detectors on diverse public traffic\u2026"
  },
  "3f371e30e46ea6f2": {
   "approach": "Pursuing a different paradigm, we introduce Synthetic Persona Pretraining (SPP), which installs the desired assistant persona from token zero in pretraining. This can make values a thin overlay, rather than deeply rooted, and facilitate subsequent misalignment.",
@@ -975,6 +1343,38 @@
   "problem": "We study masking diffusion for discrete sampling and introduce a path-resolved measure of data geometry called the \\emph{unmasking growth complexity} ({\\textsf{UGC}\\xspace}). Its local increments directly control Kullback--Leibler (KL) discretization error, yielding a unified analysis of Bernoulli-subset and fixed-cardinality unmasking schemes.",
   "results": "In log-reveal-odds coordinates, this structure yields optimized single-block and multi-block schedules, and quantifies the gains from adapting computational effort to data geometry. Crucially, we show how {\\textsf{UGC}\\xspace} increments can be\u2026"
  },
+ "4135420c6b328595": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Background Lung cancer remains the deadliest cancer worldwide because it is often diagnosed too late. the growing number of patients and the limited number of radiologists lead to prolonged diagnostic waiting times.",
+  "results": "In very early stage lung cancer, nodule visibility is further reduced by adjacent blood vessels and airway walls, because nodules are often connected to or supplied by these structures. Task-specific analysis of the bronchovascular bundle is therefore important for efficient nodule detection, and its\u2026"
+ },
+ "41fb04c9a4e1107c": {
+  "approach": "This couples compute cost to sensor resolution and blurs the temporal information.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Meanwhile, existing generative baselines rely on the\u2026",
+  "problem": "Event cameras generate asynchronous, high-frequency data streams offering spatially sparse information at lower latency than traditional cameras.In principle, these properties should be ideal for the design of control policies.However, reinforcement learning research in this field remains limited as existing approaches fail to fully exploit the sensor's properties.CNN-based methods negate the sensors benefits by aggregating events into sparse grids.",
+  "results": ""
+ },
+ "4203a93ed091ca1a": {
+  "approach": "Subsequently, a variational generalized expectation-maximization procedure is used to learn the latent variables and GPR model parameters.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Experiments on synthetic and real datasets under different contamination settings demonstrate that the\u2026",
+  "problem": "Outliers can substantially distort Gaussian process regression (GPR) due to its conventional Gaussian observation likelihood, leading to inaccurate model learning and prediction. To address this limitation, this article introduces a generative GPR model that captures observation-specific contamination and adaptively mitigates the influence of outliers.",
+  "results": ""
+ },
  "420db1a44a4d677f": {
   "approach": "",
   "mode": "heuristic",
@@ -1008,6 +1408,18 @@
   "prior_work": "The return distribution is estimated by nonparametric distributional temporal-difference learning from a single Markov trajectory. We also prove that, conditionally on the observed trajectory, the root-$T$ difference between the bootstrap and original averages converges weakly to the same Gaussian limit.",
   "problem": "We study online statistical inference for functionals of the return distribution under a fixed policy.",
   "results": "These results justify bootstrap\u2026"
+ },
+ "45e64b01b4380552": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Answer-only reinforcement learning (RL) trains reasoning models to solve fully specified problems, but many realistic queries omit a premise needed for a unique answer. In this setting, the useful response is not always refusal: the model should ask for the missing premise, condition its answer on the unknown quantity, or abstain when no informative conditional response is available.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
  },
  "463e5bb58d86fb3d": {
   "approach": "",
@@ -1045,6 +1457,18 @@
   "problem": "In offline RL, estimating the optimal action-value function $Q^*$ can be formulated as solving the optimal Bellman equation based solely on offline observations. A fundamental challenge is that the reward function and transition kernel are unknown, so the optimal Bellman operator is not directly observable from data.",
   "results": "In this approach, we first formulate conditional diffusion models to estimate the reward law and transition kernel, which induces a data-driven approximation of\u2026"
  },
+ "47150de0a44c3d70": {
+  "approach": "Two complementary routes are considered.",
+  "mode": "heuristic",
+  "next_steps": "When the analytical model remains available at inference, it is retained as an explicit baseline and the simulation\u2026",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "High-fidelity finite-element simulations can provide accurate numerical predictions for side-branch resonators, but large simulation datasets are expensive to generate and purely data-driven surrogates may become unreliable when simulation-labelled data are scarce.",
+  "results": "This study develops an analytical-prior learning framework that reuses a low-cost analytical model to improve data efficiency under limited high-fidelity simulation budgets."
+ },
  "47b4e46eef118281": {
   "approach": "we introduce Stealth Visual Prompts, which subtly change visual styling of text, such as color and contrast, while preserving semantic content.",
   "mode": "heuristic",
@@ -1079,6 +1503,28 @@
   "overview": "We consider the notion of shattering introduced by Ben Arous and Jagannath for spherical pure $p$-spin glasses with overlap $q$. For every $p\\geq 3$ and $0 \\sqrt{(p-2)/(p-1)}$.",
   "prior_work": "",
   "problem": "",
+  "results": ""
+ },
+ "49e9d6624b82fdc6": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Repository-scale coding requires an agent to keep tests, imports, configuration, and migration rules consistent within a bounded context window. We model this as reconstructing a coupled-fact graph: at each edit, a required fact comes from recent context or parametric memory, and the facts covered by neither form coherence debt.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "4b41a87d402a048c": {
+  "approach": "We introduce the semantic bandit, an extension of the multi-armed bandit setting that explicitly considers the textual labels assigned to actions, and use it to study how\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Unlike classical agents, LLM agents engage with tasks through natural language, exposing them to semantic information with no formal counterpart in the task structure.",
+  "problem": "Large language models (LLMs) are increasingly deployed as decision-making agents in settings that require sophisticated environmental exploration. existing work has raised questions about how LLMs actually balance exploration and exploitation.",
   "results": ""
  },
  "4b6228991af559a9": {
@@ -1129,6 +1575,16 @@
   "problem": "",
   "results": ""
  },
+ "4d4013fd17404ab5": {
+  "approach": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolated equations.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Finite, noisy data often yield numerically competitive expressions that imply very different behavior outside the observed regime, making numerical fit and syntactic complexity insufficient measures of scientific credibility.",
+  "problem": "",
+  "results": "Existing approaches largely focus on improving expressions, yet the search typically retains little beyond the resulting formula and score, losing the\u2026"
+ },
  "4e1b095993b41699": {
   "approach": "",
   "mode": "heuristic",
@@ -1140,6 +1596,16 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "4ece82d83a310f9a": {
+  "approach": "In this paper, we propose Steering Flow Model Inversion (SFMI), a novel two-stage white-box model inversion method that reformulates inversion as a trajectory-steering task.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing methods typically rely on indirect guidance or highly stochastic guidance, making it difficult to stably optimize generation trajectories toward target facial images.",
+  "problem": "Model Inversion Attacks (MIAs) aim to reconstruct representative training samples of target identities from face recognition models, exposing critical security vulnerabilities.",
+  "results": "Step I, Learning a Generic Flow Matching Prior,\u2026"
  },
  "4ff9683946bf9544": {
   "approach": "",
@@ -1249,6 +1715,18 @@
   "problem": "",
   "results": ""
  },
+ "546a650850e5a088": {
+  "approach": "In this work, we evaluate explanations through the lens of counterfactual simulatability-whether the explanation is useful for predicting model behaviors on related counterfactual inputs. we introduce CHIVE (Counterfactual Hypothesis Investigation Via Edits), a novel agentic pipeline that identifies unexpected model behaviors in the wild and investigates them with counterfactual prompt edits.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Many areas of AI research, such as language model interpretability and chain of thought faithfulness, seek to explain model behaviors. But what constitutes a \"good\" explanation?",
+  "results": ""
+ },
  "548912caf606ffa4": {
   "approach": "We model this interaction as a Stackelberg game and derive the user's unique optimal customized allocation in closed form.",
   "mode": "heuristic",
@@ -1295,6 +1773,18 @@
   "overview": "This paper presents a coordination architecture for heterogeneous UAV/UGV swarms that synthesises mission actions from uncertain, multi-modal sensor evidence while preserving hardware-enforced safety at the actuation boundary. The approach combines radar, RF, acoustic, and visual observations with Topic-Based Communication Space Petri Net (TB-CSPN) orchestration to support incremental mission formation under partial and evolving information.",
   "prior_work": "",
   "problem": "",
+  "results": ""
+ },
+ "59bf81d93348d1f1": {
+  "approach": "In this work, we investigate whether safety signals learned from a high-resource language, like English, can improve multilingual safety. We propose BabelSteering, an activation steering method that acts as a lightweight inference- time intervention, using refusal directions derived from\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Large language models (LLMs) are deployed globally in high-stakes settings, yet most safety research and alignment efforts remain concentrated on English. users interacting with LLMs in other languages may encounter weaker safeguards despite relying on the same systems for similarly sensitive tasks.",
   "results": ""
  },
  "5a27b83845362648": {
@@ -1375,6 +1865,18 @@
    "short feed blurb, not a structured abstract"
   ],
   "overview": "Artificial Intelligence (AI) safety systems combine character shaping (e.g., Reinforcement Learning from Human Feedback [RLHF], Constitutional AI), which modifies behavioral distributions at training time, with rule enforcement (e.g., output filters, safety classifiers), which blocks harmful outputs at inference time, yet little formal analysis exists on how their optimal balance should change as deployment scales increase. We introduce a stylized comparative-statics model that parameterizes safety design as a resource allocation alpha in [0,1] between these two approaches, incorporating\u2026",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "5f48394e0cd17d52": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Multimodal harmful meme detection is typically formulated as image--text harmfulness classification. A model may correctly predict harmfulness while misidentifying the attacked target or its supporting evidence.",
   "prior_work": "",
   "problem": "",
   "results": ""
@@ -1471,6 +1973,18 @@
   "problem": "",
   "results": ""
  },
+ "64c4db99f6e1dcd9": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Physical AI systems such as autonomous vehicles and robots rely on timely exchange of high-dimensional sensory signals under tight bandwidth, latency, and energy budgets. Because the task driving downstream decisions evolves over time, a task-specific codec is brittle and retraining one per task is infeasible in the field.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "64e15e94d967b703": {
   "approach": "We present TopoIntent, a system that compiles security intent into executable, compliance-checked network topologies.",
   "mode": "heuristic",
@@ -1537,6 +2051,18 @@
   "problem": "Deep networks segment brain tumours accurately in-distribution, but can fail silently when the input differs from their training data. That risk is central to clinical deployment and is the premise of the BraTS-GoAT generalizability task.",
   "results": "Both are evaluated for calibration and error detection on a per-region relevant mask, aggregated per case."
  },
+ "6a1411ddad131ab4": {
+  "approach": "We present AffectLoop, a multimodal speaker-listener emotion-dynamics-aware spoken dialogue system implemented on the Misty II robot.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Empathetic social robots should respond not only to what users say, but also to how their emotions dynamically evolve during interaction. existing empathetic dialogue systems are often text-centered and primarily model empathy as a one-way mapping from the user's emotion to the system response, limiting their ability to capture embodied speaker--listener affective exchange.",
+  "results": "The system tracks the speaker's verbal and facial affective dynamics,\u2026"
+ },
  "6b3da2b57fd65f5d": {
   "approach": "",
   "mode": "heuristic",
@@ -1557,6 +2083,18 @@
   "overview": "",
   "prior_work": "To handle tokenizer differences, we perform OPD in a shared text space and align only\u2026",
   "problem": "On-policy distillation (OPD) offers a promising way to transfer reasoning capabilities from stronger teacher models, but applying it to long-context reasoning teachers and short-context students introduces practical challenges, including tokenizer mismatch, teacher-student distribution mismatch, response length explosion, and training instability. In this work, we study this setting by transferring proof-reasoning capabilities from the long-context reasoning model SU-01 to short-context student models.",
+  "results": ""
+ },
+ "6c21c7f5a7929387": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "High-capacity encoders in retrieval-augmented generation (RAG) can let the query dominate the latent state, leaving retrieved evidence functionally irrelevant. We call this failure mode query dominance.",
+  "prior_work": "",
+  "problem": "",
   "results": ""
  },
  "6da5f2d271da214d": {
@@ -1583,6 +2121,16 @@
   "problem": "On-policy distillation (OPD) supervises a student language model on trajectories sampled from its current policy, but assigns equal credit to response tokens with unequal supervision value. Selective OPD addresses this limitation by allocating supervision non-uniformly across response tokens according to their estimated training value.",
   "results": ""
  },
+ "6e657ddc19ec51ae": {
+  "approach": "To address this, we propose DSPrompt, a\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing defenses primarily operate at query time, relying on auxiliary detectors, similarity re-ranking, or feature-consistency checks.",
+  "problem": "Multimodal Retrieval Augmented Generation (M-RAG) is increasingly vulnerable to adversarial attacks where malicious data are crafted to produce embeddings that align with benign entries in the vector space, deceiving retrieval and inducing harmful outputs. these approaches suffer from non-trivial inference overhead, generalize poorly to unseen attack strategies, and often assume specific attack distributions.",
+  "results": ""
+ },
  "6eebe051185ed8bd": {
   "approach": "",
   "mode": "heuristic",
@@ -1601,6 +2149,18 @@
    "short feed blurb, not a structured abstract"
   ],
   "overview": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "6fa1383a700d152e": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next.",
   "prior_work": "",
   "problem": "",
   "results": ""
@@ -1705,6 +2265,18 @@
   "problem": "Monocular temporal 3D detection aims to detect objects in 3D, given a monocular video. Query-based 3D detectors unify detection and cross-view association, but their learnable queries fit the spatial distribution of the training data (e.g., field-of-view).",
   "results": "We show that this issue is especially severe when these models are applied to monocular video, hindering generalization to unseen datasets and environments. Instead of relying on static learnable queries, we\u2026"
  },
+ "78347f5bbc643a74": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Identifying cell types directly from routine haematoxylin and eosin (H&E) histology would enable single-cell analysis at scale, but training such models has relied on manual pathologist annotations, which are slow, expensive and unreliable for many cell types. We instead supervise morphology with molecules.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "79111b6e9d9108c2": {
   "approach": "In this paper, we propose the first fully parallel computing framework to accelerate LiDAR bundle adjustment for large-scale mapping, incorporating three key techniques. First, we design an adaptive, asynchronous data loading strategy to efficiently process large-scale point cloud datasets on memory-constrained GPUs.",
   "mode": "heuristic",
@@ -1765,6 +2337,16 @@
   "problem": "Understanding motion in daily living requires context beyond kinematics, because similar inertial patterns during activities of daily living (ADLs) can reflect intentional stopping, object interaction, or pathological movement impairment. We investigate this challenge through freezing of gait (FOG) detection in Parkinson's disease (PD), a symptom strongly influenced by contextual factors during ADLs.",
   "results": "Using synchronized egocentric video, wearable IMUs, and expert-annotated FOG labels collected from 13 PD\u2026"
  },
+ "7c2fb3fdcc423cdc": {
+  "approach": "We present TCSR-Monitor (Temporal Conformal Surgical Risk Monitor), a post-hoc failure-monitoring framework that combines confidence with observable shape, temporal-consistency, and image-quality cues.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing deployment-time monitors rely primarily on uncertainty estimates and can therefore miss confident failures.",
+  "problem": "Surgical segmentation networks can fail silently under acquisition degradation: predicted masks may be wrong even when model confidence remains high. TCSR-Monitor wraps a frozen segmentation model, requires no model internals, and operates without ground truth at deployment.",
+  "results": ""
+ },
  "7c3372d285c3590c": {
   "approach": "",
   "mode": "heuristic",
@@ -1773,6 +2355,30 @@
    "short feed blurb, not a structured abstract"
   ],
   "overview": "In reasoning supervised fine-tuning, candidate responses for the same instruction can differ substantially in how well they match the student's current distribution. Recent likelihood-based response selection methods suggest that responses closer to the student distribution provide more effective supervision, motivating the hypothesis that high-likelihood responses may generally be preferable for fine-tuning.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "7cb7e95a4565b304": {
+  "approach": "This paper examines that gap using time-aware\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Ship fuel consumption (SFC) prediction supports vessel operation optimisation, emissions estimation, and decision support systems (DSS) for sustainable maritime transportation. Numerous data-driven fuel models have been developed over the past two decades, but a critical and often overlooked limitation lies in their validation practices: most studies evaluate performance using random train--test splits, which, applied to high-frequency records, admit temporal leakage and yield optimistic results that do not reflect deployment conditions.",
+  "results": ""
+ },
+ "7dafab72ae3edbd2": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "For any convex body $\\mathcal{K}\\subset\\mathbb{R}^{n}$ containing a unit ball, the spectral gap of Hit-and-Run is $\u03a9(1/(n^2 C_{\\mathsf{PI}}))$, where $C_{\\mathsf{PI}}$ is the Poincar\u00e9 constant of the uniform distribution $\u03c0$ over $\\mathcal{K}$. This implies that Hit-and-Run converges to a distribution within $\u03c7^2$-divergence $\\varepsilon$ of the uniform distribution $\u03c0$ in $O(n^2 C_{\\mathsf{PI}}\\log(M/\\varepsilon))$ steps from any starting distribution $\u03c0_0$ with $M=\u03c7^2(\u03c0_{0}\\,\\|\\,\u03c0)$, thus refining the known bound of $O(n^2 R^2 \\log(M/\\varepsilon))$ by Lov\u00e1sz and Vempala (2004) in terms of\u2026",
   "prior_work": "",
   "problem": "",
   "results": ""
@@ -1823,6 +2429,18 @@
   "problem": "",
   "results": ""
  },
+ "805fee9a386399fa": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Industrial recommenders rely on two model families that have evolved largely independently: feature-interaction models over multi-field user/item features, and sequential models over user-behavior histories. Production systems couple them only loosely.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "8107cf82053d6d2a": {
   "approach": "We introduce Mobius-v0, an architecture that comprises a globally shared Memory (FFN) that stores knowledge vectors and multiple Reasoners (Self-Attn) that iteratively achieve compositional reasoning.",
   "mode": "heuristic",
@@ -1835,6 +2453,18 @@
   "problem": "Using hidden states as cache and carrier, reasoners repeatedly query memory for required knowledge-vectors, while the knowledge is transmitted back to reasoning operators.",
   "results": "Through this knowledge-reasoning-separation architecture, Mobius achieves better knowledge compression and reasoning efficiency. Built upon Mobius-v0 architecture: 1) Our 7B model trained-from-scratch achieves similar\u2026"
  },
+ "810de1cf1ed8d81d": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Agents now write knowledge graphs, but knowledge-graph stores still carry defaults set when humans curated them: accept writes now and clean later, keep one time axis or none, treat every writer's facts as equally trustworthy, and leave governance to dashboards and middleware. These four defaults are individually convenient and jointly untenable under agent workloads.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "814605b5f8055ce7": {
   "approach": "",
   "mode": "heuristic",
@@ -1846,6 +2476,18 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "8261c02a739a152a": {
+  "approach": "We present a controlled study that varies one generalization factor at a time, from in-domain distribution shifts to cross-domain transfer and the multi-teacher setting.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own policy, yet its generalization behavior remains poorly understood, as most studies evaluate OPD on a single domain and on benchmarks close to the training data.",
+  "results": "We find that OPD transfers a teacher's reasoning behavior rather than its answers to particular problems: training difficulty barely matters, and\u2026"
  },
  "833934ee3b25f4a5": {
   "approach": "",
@@ -1881,6 +2523,18 @@
   "problem": "",
   "results": ""
  },
+ "86700479dac25367": {
+  "approach": "This paper introduces two main innovations: (1) a Prototypical Network head using an EfficientNet-V2-b0 backbone that requires only four genuine samples per class to create reliable prototypes; and (2) an episodic training regime that keeps PAD classes fixed while varying the card domain, allowing the network to learn universal attack cues.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Presentation-Attack Detection (PAD) for national ID cards is limited by the lack of publicly available genuine samples, making it difficult for systems to generalize across countries.",
+  "results": "Evaluated on a large multi-country dataset and the public DLC-2021\u2026"
+ },
  "86d8597359771f5e": {
   "approach": "",
   "mode": "heuristic",
@@ -1915,6 +2569,18 @@
   "problem": "Recipe data arises in domains such as materials synthesis, pharmaceutical formulation, and industrial manufacturing, where procedures are represented as ordered sequences of steps containing heterogeneous structured fields.",
   "results": ""
  },
+ "896cd0a92b85c8b9": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Motivated by modern marketplaces, where the platform or the seller routinely gathers detailed user profiles, we study a novel learning theoretic model that simultaneously involves information and mechanism design. Specifically, we consider the economic setting recently introduced by Bergemann et al.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "8979798b9a971604": {
   "approach": "",
   "mode": "heuristic",
@@ -1925,6 +2591,16 @@
   "overview": "Text-Image-to-Video (TI2V) models are an emerging unified architecture, where a single model simultaneously supports text-to-video (T2V) and image-to-video (I2V) generation. Given a high-quality first frame or a detailed textual prompt, TI2V models unlock substantially better visual quality than their T2V mode, raising a natural question: can the capability elicited by such privileged conditions be internalized into the model's own base generation ability?",
   "prior_work": "",
   "problem": "",
+  "results": ""
+ },
+ "897b798454de8ce6": {
+  "approach": "Motivated by this, we propose VCE-Skill, which distills noisy and\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing skill self-evolution methods primarily revise skills using execution trajectories collected from current tasks, leaving the evolution knowledge accumulated in public skill version histories largely untapped. Our pilot study reveals a clear complementarity between the two sources: public skill changes provide reusable evolution priors, whereas trajectories provide evidence grounded in the current task.",
+  "problem": "Agents increasingly rely on reusable skills to encode task knowledge, tool-use procedures, and validation rules.",
   "results": ""
  },
  "8a7bce334cf51a74": {
@@ -1950,6 +2626,30 @@
   "prior_work": "",
   "problem": "Local chemical perception and property reasoning are both essential for understanding how molecular structure determines properties. Current LLM-based chemical reasoning methods either receive SMILES/molecular images together with descriptions of local motifs, or reason directly from molecular images.",
   "results": ""
+ },
+ "8aa7b8fcacb6e30b": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Class imbalance in LiDAR point clouds poses challenges for semantic segmentation in autonomous navigation and urban mapping. While 2D vision has numerous mitigation techniques, their effectiveness in 3D remains unclear.",
+  "results": "We benchmark six reweighting schemes and five imbalance-aware losses across three datasets (DALES, S3DIS, STPLS3D) using two architectures (KPConv, RandLA-Net). Inverse-frequency weighting degrades performance by up to 12% compared to uniform weighting, with catastrophic failures in minority classes."
+ },
+ "8aad29761d41b641": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "Deleting, permuting, or substituting the governing rule leaves detection accuracy unchanged for every\u2026",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Regulatory compliance monitoring in deployed language models is increasingly implemented as a legal and audit control, checking model outputs against written rules spanning data protection, healthcare, financial regulation, and platform policy. Such monitoring is meaningful only if a detector's verdict depends on the stated rule rather than on surface features of the scenario.",
+  "results": "We show this condition fails across the current class of compliance detectors, a failure we call rule blindness."
  },
  "8b404b545a5e2575": {
   "approach": "We present CAPRI, a contract-aware repair workflow in which Isabelle checks the proof and an independent checker enforces a machine-readable edit contract.",
@@ -2033,6 +2733,28 @@
   "problem": "",
   "results": ""
  },
+ "904112762ec8692f": {
+  "approach": "We introduce HarnessEval-W, an agentified evaluation pipeline that brings the harness paradigm from the LLM ecosystem to\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Humans spot such violations naturally, yet no existing benchmark automates this capability: metrics are computed brute-force, leaving no reasoning chain that can be examined or verified.",
+  "problem": "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score. This is especially critical for world models, where judging a rollout requires understanding whether physics, causality, and world state evolve correctly.",
+  "results": ""
+ },
+ "92677e4487a659c6": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "In this paper, we identify limitations in the use of adaptive-splitting decision trees as ensemble base learners, showing that change detectors often fail to\u2026",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Ensembles of decision trees are well-established methods for data stream classification. In ensemble learning, Hoeffding Trees are widely adopted as base learners, performing periodic split attempts according to the Hoeffding bound.",
+  "results": "Recent studies, however, indicate that this standard splitting mechanism lacks adaptability, while adaptive trees that trigger splits in response to performance degradation have achieved superior results."
+ },
  "92a60ef36418af32": {
   "approach": "",
   "mode": "heuristic",
@@ -2044,6 +2766,38 @@
   "prior_work": "",
   "problem": "Existing global optimization benchmark suites are of a moderate size and are based on a small number of analytical functions that date back even to the 1970s. This causes a risk of biasing the development of global optimization methods.",
   "results": "We argue that the tasks related to the black-box adversarial attack (BBAA) can serve as valuable global optimization benchmark in many-dimensional space. We demonstrate the efficiency of several types of evolutionary algorithms and other metaheuristics in solving example BBAA problems."
+ },
+ "93530a60a4f9ada3": {
+  "approach": "Across 16 frozen encoders, four classification and five segmentation datasets, and two orthogonal stress axes, every encoder degrades as corruption intensifies, and the ranking changes as well.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Geospatial Foundation Models (GeoFMs) are most commonly ranked and selected by accuracy on standard benchmark conditions via averaged ranks.",
+  "results": "We show that this protocol is too narrow: the promised deployment in critical EO tasks requires further angles of analysis, mainly calibration, the agreement between a model's confidence and its correctness. Across the four classification benchmarks,\u2026"
+ },
+ "9376a50f08e95c45": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing methods use structured clinical variables, whole-slide images, genomic profiles, or multimodal inputs, while patient reports remain underexplored.",
+  "problem": "Cancer survival prediction supports treatment planning, risk stratification, and follow-up management. We study report-centric survival prediction using reports that organize pathological, clinical, and molecular evidence.",
+  "results": "Large language models (LLMs) can reason over such reports, but case-wise time regression introduces two mismatches. First, a formulation mismatch arises because survival evaluation depends on ordering comparable\u2026"
+ },
+ "93bd735645acd25d": {
+  "approach": "In this work, we propose two novel attack methods targeted at detectors that leverage autoencoder reconstruction error.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "due to their fundamentally different mode of operation (compared to standard, classifier-based methods), little is known about their adversarial robustness.",
+  "problem": "The impressive visual quality and ubiquity of AI-generated images call for reliable and robust detection methods. Reconstruction-based detectors have emerged as a promising direction for transparent and training-free identification of synthetic images.",
+  "results": "We find that by constructing imperceptible adversarial\u2026"
  },
  "9514940f045b6dec": {
   "approach": "",
@@ -2117,6 +2871,30 @@
   "problem": "Network-level maintenance planning requires repeated evaluations of equilibrium traffic flows under road capacity reductions. While equilibrium traffic assignment models are well established, their repeated solution quickly becomes computationally prohibitive and challenging to embed within maintenance scheduling problems.",
   "results": "A real-world case study based on traffic data from the Newark, New Jersey\u2026"
  },
+ "9960881009485809": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "We initiate a polyhedral study of the graph multi-separator problem proposed by Irmai et al. (2024) as an alternative to the lifted multicut problem for application to the task of image segmentation.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "9a7d262ef9529c78": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Large vision-language models can recognize the objects and attributes in a crowded scene yet assign an attribute to the wrong same-class instance. Generic visual-question-answering accuracy marks the response as wrong, while object-hallucination metrics may regard both the object and attribute as image-supported; neither reveals the transfer.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "9b8749dd5849bf24": {
   "approach": "We propose multiple new convex losses for SVM and Neural Networks, applied to binary classification tasks. In detail, the primal SVM problem with the modified losses has been solved with the Particle Swarm Optimization algorithm.",
   "mode": "heuristic",
@@ -2153,6 +2931,30 @@
   "problem": "",
   "results": ""
  },
+ "9c33d6f1688db536": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Continuous wrist-worn hand sensing for gesture interfaces and motor symptom monitoring needs an always-on front end that fits inside a coin-cell power budget while pairing a micro-electro-mechanical-systems (MEMS) inertial measurement unit (IMU) with a 60 GHz frequency-modulated continuous-wave (FMCW) radar to stay robust under occlusion and on-body drift. We present a design study of such a wristband front end in which classifier wake-up gating, mmWave versus IMU routing, and innovation-based EKF measurement reweighting share a single on-chip residual generator.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "9c5281d93691ee0c": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Systems that generate scientific research questions are evaluated today by expert scores, LLM-as-judge ratings, or curated case studies -- all subjective, none falsifiable. We formalize historical backtesting as an alternative: a system generates questions from a corpus frozen at a historical cutoff, the questions are frozen before any access to later literature, and a temporally isolated future corpus then determines whether each question was subsequently answered, partially addressed, independently posed, or ignored, and whether its underlying premise was supported or refuted.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "9ca2ff86cf9170e4": {
   "approach": "We propose Reduced Matrix Multiplication (RMM), a training-free, input-adaptive inference method that reduces Transformer matrix products by selecting informative slices along their contraction dimensions, without modifying model weights.",
   "mode": "heuristic",
@@ -2176,6 +2978,18 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "9dfad3a44f5b3523": {
+  "approach": "In this work, we present a unified black-box RL framework for stable and scalable optimization of general agents through complex harnesses.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment. reinforcement learning through complex harnesses remains largely unexplored, as scaling such training to long-horizon agent tasks introduces fundamental challenges.",
+  "results": "Concretely, we first build a sandbox-based execution infrastructure that isolates task environments and harnesses within temporary sandboxes for\u2026"
  },
  "9e022b7caa78cba4": {
   "approach": "",
@@ -2213,6 +3027,18 @@
   "problem": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data.",
   "results": "Trained on a mixture of 161 datasets, Mimir v1 outperforms the original HRM-Text 1B and competes with larger frontier\u2026"
  },
+ "a16f0ab192fbf8b7": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "To address these limitations, we present PDDLCoder, an agentic framework for PDDL\u2026",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "LLMs remain unreliable for long-horizon planning, often generating logically inconsistent or non-applicable plans. existing methods frequently rely on rigid generation pipelines, a partial PDDL definition, or human feedback.",
+  "results": "their evaluation is hindered by the lack of standardized benchmarks with automated verification."
+ },
  "a268e53cc471ee96": {
   "approach": "",
   "mode": "heuristic",
@@ -2223,6 +3049,18 @@
   "overview": "To avoid missing important variables and their connections in networks, more and more variables are included in network analysis. Here we show that in a setting with many more parameters than observations (high-dimensional) it is possible to get a conservative (i.e., low false positive rate) estimate of the neighbourhood for each node (which connections are in the network).",
   "prior_work": "",
   "problem": "",
+  "results": ""
+ },
+ "a381d4d243562d77": {
+  "approach": "in this work, we propose a degradation-aligned self-supervised learning (SSL) framework based on a convolutional neural network-gated recurrent unit (CNN-GRU) model, which learns aging-consistent representations from unlabeled data through a cycle-order ranking objective as\u2026 Although compelling, data-driven SOH estimation models typically require large amounts of high-quality labeled cycling data, while in practice such labels are often sparse in both quantity and coverage.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "An accurate estimation of the state of health (SOH) underpins a safe and optimized use of the battery system.",
   "results": ""
  },
  "a3afb1060e999813": {
@@ -2236,6 +3074,42 @@
   "prior_work": "",
   "problem": "Spatial transcriptomics (ST) enables the simultaneous profiling of gene expression and tissue morphology, creating an opportunity to learn multimodal representations capturing shared morpho-transcriptomic structure. standard multimodal models often compress modalities into a common latent space without explicitly separating shared and modality-specific sources of variation, which may limit downstream utility.",
   "results": ""
+ },
+ "a524ed61b23e0a38": {
+  "approach": "Here, we introduce an explainable framework that combines relevance propagation and concept discovery to link transcriptional programs to tissue morphology. We developed a ViT-based framework for virtual ST from H&E images that combines ViT-aware layer-wise\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Recent advances in pathology foundation models have enabled accurate prediction of spatial transcriptomics (ST) from routine H&E images. existing explainability methods for vision transformer (ViT)-based models are largely limited to local heatmaps and do not reveal how morphological concepts contribute to ST predictions.",
+  "results": ""
+ },
+ "a5d39749e902f9be": {
+  "approach": "UFFM comprises two key innovations: unified flow (UF) and feature memory bank (FMB).",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Although semi-supervised semantic segmentation ($\\text{S}^4$) utilizes abundant unlabeled data to reduce manual labeling burdens, independent training of labeled and unlabeled data causes the former to dominate, which severely degrades pseudo-label quality. To address this challenges, we propose a novel remote sensing (RS) $\\text{S}^4$ method via unified flow with feature memory bank (UFFM).",
+  "results": "The UF is a new training flow that generates less biased pseudo-labels by combining an external visual\u2026"
+ },
+ "a62c63ddaa31e7ac": {
+  "approach": "In this work we focus on the small forcing regime and recover the multiscale behavior of the two-point process.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "We study the Random Quadratic Form (RQF) on a sphere in the presence of random Brownian forcing.",
+  "results": "We show that the forcing does not effectively change the law of the process but affects the synchronization properties of the system. While the RQF without forcing exhibits partial synchronization due to the intrinsic symmetries, the introduction of an arbitrarily small forcing results in long-term symmetry breaking and leads to full synchronization."
  },
  "a62cc99cfbd72e75": {
   "approach": "",
@@ -2285,6 +3159,18 @@
   "problem": "",
   "results": ""
  },
+ "a7897550e88149ca": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Sign language serves as a vital means of communication for individuals with hearing impairments, yet recognition resources for the over 100 distinct sign languages are severely lacking. In response, we present our work on sign language recognition using transfer learning and the domain adaptation method TA3N, which utilizes the Temporal Relational Network (TRN) module for aligning multi-scale temporal relations.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "a8e41c8e0b92ee57": {
   "approach": "We propose an intervention-aware clinical world model that represents each patient with a structured latent state and evolves it through time-ordered post-intervention events.",
   "mode": "heuristic",
@@ -2293,6 +3179,18 @@
   "overview": "",
   "prior_work": "The model first encodes baseline imaging\u2026",
   "problem": "Many clinical prediction models treat post-intervention outcomes as a one-step mapping from baseline measurements to a future endpoint. recovery after a procedure often unfolds as an irregular trajectory: clinical observations, medication changes, repeat interventions, and physiological measurements are recorded asynchronously and can change risk assessment over time.",
+  "results": ""
+ },
+ "a90da86a04cbc678": {
+  "approach": "These probes can then be used to build a statistical argument about field performance in a Bayesian way.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Machine learning (ML) is a key technology driving innovation today, but ensuring ML safety remains a major challenge for safety-related applications. many Bayesian field-data approaches in safety engineering model failures as a simple Bernoulli (or\u2026",
   "results": ""
  },
  "a9e51774c4ddcd2b": {
@@ -2304,6 +3202,40 @@
   "prior_work": "RGB representations retain visual context but often suppress joint-level geometry, whereas skeleton representations encode kinematics but discard dense spatial detail.",
   "problem": "Fine-grained human action recognition (FHAR) must distinguish visually similar actions that differ mainly in body configuration, timing, or local appearance.",
   "results": "Pairwise cross-attention enables symmetric, stream-preserving information exchange, followed by a streamwise latent sparse Mixture-of-Experts\u2026"
+ },
+ "a9f0d2b12d440a76": {
+  "approach": "We introduce an instrument to measure this coordination. We apply this instrument to 1902 runs, each evaluated with a fixed test suite, across configurations that vary the\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "We study how teams of AI coding agents coordinate while solving programming tasks. Current evaluations usually report whether the agents complete the task and how much the run costs, leaving the coordination inside the team largely unmeasured.",
+  "results": "Each run is represented as a temporal network in which agents and files are nodes, and messages, file writes, and file reads are timestamped directed edges with an associated cost."
+ },
+ "aaa2d81c80f04c39": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "To address these limitations, we introduce PersonaShot, the first\u2026",
+  "notes": [],
+  "overview": "",
+  "prior_work": "They also rarely provide criterion-specific evaluation methods, although physical continuity, facial dynamics, and cinematic relations require different visual, temporal, and relational evidence.",
+  "problem": "Video generation is rapidly evolving from single-shot clips to multi-shot narratives, where the human character serves as the core narrative anchor. existing benchmarks mainly assess character appearance or individual-shot quality, without measuring whether physical and emotional states remain coherent across cuts.",
+  "results": ""
+ },
+ "ab652e809ba3c02e": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Generative pretraining established reusable task representations; later work on language-based task conditioning and in-context learning showed that a fixed model could adapt its behavior from instructions and demonstrations. Policy Iteration with Human Feedback (PIHF) builds on this development and the recurrent evaluate-and-improve structure of generalized policy iteration.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
  },
  "abec17c4a8219afb": {
   "approach": "",
@@ -2361,6 +3293,18 @@
   "problem": "",
   "results": "Two inference modes operate over this shared representation: diversity-penalized sampling produces trajectories covering distinct plausible routes, while beam search finds the highest-likelihood path."
  },
+ "afa35daa9e5cf772": {
+  "approach": "We introduce CephViT, a Vision Transformer-based model for automated 2D lateral cephalometric landmark localization, and evaluate its use in downstream skeletal malocclusion classification.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Manual cephalometric landmark annotation is important for craniofacial assessment but is labor-intensive and difficult to scale.",
+  "results": "CephViT was trained and benchmarked on a public lateral cephalogram dataset, achieving a mean radial error of 1.28 +/- 1.42 mm and a successful detection rate of 92.0% at 3.0 mm. Because the private evaluation cohort consisted of 3D CBCT scans, lateral cephalogram-like digitally\u2026"
+ },
  "afe20c07332ccb18": {
   "approach": "",
   "mode": "heuristic",
@@ -2385,6 +3329,18 @@
   "problem": "Safety tuning can improve harmful refusal, but models may learn surface-form shortcuts: wrapped harmful prompts bypass safety, while similarly wrapped benign prompts are over-refused.",
   "results": ""
  },
+ "b086766a51d8ae5e": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality and interdependence of humanoid motions make it challenging for conventional single-stage VLA architectures to coordinate locomotion, waist posture, and dual-arm manipulation effectively.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "b0cb1d77ff828161": {
   "approach": "We present our submission to Task 3 of the Gen$\u03bc$ 2.0 Challenge on visual concept unlearning. Building on MapRoute, we introduce task-specific training objectives, richer concept representations, and semantic routing for concept-specific mapper selection.",
   "mode": "heuristic",
@@ -2396,6 +3352,18 @@
   "prior_work": "",
   "problem": "",
   "results": "Our approach improves robust concept removal while preserving unrelated and semantically adjacent concepts. On the official benchmark, evaluated using the Erasing-Retention-Robustness (ERR) metric on Stable Diffusion v1.4, our method outperforms the state-of-the-art baseline by 12.1\\% on average across the five concept categories, achieving\u2026"
+ },
+ "b1236d4722aa0a96": {
+  "approach": "In this paper, we propose Orbit-Planner, a two-stage latent world model for on-orbit obstacle avoidance.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Satellite agents for on-orbit navigation tasks need to predict collision risks using limited onboard observations. conventional planners often rely on predefined maps and fixed environmental assumptions, limiting their adaptability in dynamic on-orbit scenarios.",
+  "results": "Orbit-Planner learns action-conditioned spacecraft dynamics to perform future-state rollouts in latent space, and introduces a Physics Probe to decode physical state changes from imagined latent trajectories."
  },
  "b2626a0a066e452f": {
   "approach": "We introduce WitnessSim, a deposition simulator driven by controllable legal personas. We use an evaluation framework separating behavioral realism from pedagogical usefulness.",
@@ -2481,6 +3449,16 @@
   "problem": "",
   "results": ""
  },
+ "b535d0f52af075d5": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "First, we reformulate the optimization problem allowing us to solve it in a larger setting than was previously possible.",
+  "problem": "The current best bounds on the matrix multiplication exponent $\u03c9$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and propose several improvements.",
+  "results": "Second, we leverage recent advances in machine learning to design a new optimization algorithm for this problem. we refine the resulting\u2026"
+ },
  "b58184cc4e1569c8": {
   "approach": "We present the mathematical foundations of linear independent component analysis (ICA) models based on standard literature in a self-contained note. We first develop the theory of the characteristic functions of probability measures on $\\mathbb{R}^d$, including their analyticity and the way in which they determine and characterise the distributions.",
   "mode": "heuristic",
@@ -2504,6 +3482,18 @@
   "prior_work": "",
   "problem": "Quantum technology has the potential to transform scientific discovery, but quantum advantages often require processing capabilities well beyond the reach of experimental platforms.",
   "results": "We show that coupling a single controllable qubit to an otherwise conventional sensor can exponentially reduce the number of measurements required to learn classical signals. These rigorous quantum advantages apply to fundamental sensing tasks, including learning Fourier coefficients, extracting temporal correlations from time-varying signals, and estimating transformations of physical observables."
+ },
+ "b6ed0a0e03648113": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Retrieval-augmented and agentic question-answering systems increasingly re-derive the meaning of a corpus at query time. Put plainly, instead of re-deriving what a corpus means on every question, the work is done once when a document arrives and is thereafter merely consulted -- a compiler, not an interpreter, of meaning.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
  },
  "b745f26c362287a3": {
   "approach": "We propose a Sustainable Federated Learning as a Service (SFLaaS), a carbon- constrained Neural Architecture Search (NAS) framework for heteroge- neous sustainable constraints. We introduce a requirement-driven search space that transforms consumer sustainability profiles into a feasible architecture region before\u2026",
@@ -2564,6 +3554,18 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "b9be9d8a676f0abc": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Natural language explanations (NLEs) are increasingly used as inputs, for example, as few-shot rationales that influence model behavior in in-context learning (ICL). it remains unclear how different types of NLEs compare in their effects on downstream model performance in explanation-augmented prompting.",
+  "results": "we provide a comparative evaluation across six benchmarks and four instruction-tuned models, studying how NLE source (human-written when available, self-generated explanations, generated by an external LLM) and NLE selection (random vs faithfulness-based filtering) affect\u2026"
  },
  "b9c12fd9004fe014": {
   "approach": "",
@@ -2703,6 +3705,30 @@
   "problem": "",
   "results": ""
  },
+ "beb166a03008c830": {
+  "approach": "In this paper, we introduce a training-free, interpretable mid-generation correction framework that integrates multimodal large\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Recent advances in diffusion models and Transformer architectures have led to significant progress in text-to-video generation. these models often suffer from semantic errors such as missing objects, incorrect attributes, or mismatched actions.",
+  "results": ""
+ },
+ "bf760e6dc128169a": {
+  "approach": "We propose \\methodname, a stability-guided active-set controller for controlled objective admission. \\methodname starts from a small active set, retains admitted objectives, and expands when reward-deviation gates indicate low recent deviation or a patience budget is exhausted.",
+  "mode": "heuristic",
+  "next_steps": "This leaves a temporal decision underspecified: when should each preference dimension enter policy optimization?",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Multi-preference alignment is often framed as scalarization: combine reward dimensions, then optimize.",
+  "results": "A probing phase estimates a hard-to-easy order, and adaptive weighting emphasizes underperforming\u2026"
+ },
  "c06531afa79c7936": {
   "approach": "",
   "mode": "heuristic",
@@ -2773,6 +3799,16 @@
   "problem": "",
   "results": ""
  },
+ "c2f726c160b3a984": {
+  "approach": "We propose GeoPose, a population-trained framework that estimates the C-arm pose in a learned canonical frame and transfers it to the native frame of an unseen CTA through projection-space calibration and transform composition.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Optimization-based methods are sensitive to initialization and may require hundreds of iterations, whereas learning-based approaches commonly rely on patient-specific training.",
+  "problem": "Aligning intraoperative biplanar digital subtraction angiography (DSA) to pre-procedural computed tomography angiography (CTA) requires rapid and accurate 3D-to-2D registration.",
+  "results": ""
+ },
  "c45da2016b26d2a0": {
   "approach": "We present Pairton, an iterative framework for reconstructing short-lived particles in high-energy collision events. Leveraging a pairformer-based architecture with dynamically updated pairwise representations, our method incorporates global event consistency.",
   "mode": "heuristic",
@@ -2797,6 +3833,18 @@
   "problem": "Normative datasets are often used to train and align AI systems, but the norms they contain can function as action-guiding patterns rather than neutral moral knowledge.",
   "results": "First, we demonstrate in controlled experiments that norm-breaking fine-tuning yields norm-divergent actions justified by self-interested rationales, suggesting a systematic shift in patterns of justification."
  },
+ "c51a243139351f09": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Automated detection of errors in clinical documentation is a promising application of large language models (LLMs), yet decisions to deploy such models rest on benchmarks that evaluate each clinical note in isolation.",
+  "results": "Error-detection benchmarks are typically constructed by injecting errors into notes, such that each erroneous note has a natural counterpart. Aggregate discriminative metrics (e.g., balanced accuracy or F1) do not exploit this structure."
+ },
  "c6381fc8204b8bb7": {
   "approach": "",
   "mode": "heuristic",
@@ -2805,6 +3853,30 @@
    "short feed blurb, not a structured abstract"
   ],
   "overview": "High-order multiple-input multiple-output (MIMO) detection requires efficient search over a large discrete symbol space while producing reliable soft information for channel decoding. This paper develops a learning-to-transition (L2T) framework that formulates MIMO detection as a stochastic sequence of complete-vector transitions.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "c65994abdd44f3c7": {
+  "approach": "We propose a learned denoising approach that recovers high-quality THz waveforms from as few as one complete continuous delay sweep, referred to here as a single-scan trace.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Terahertz time-domain spectroscopy (THz-TDS) based on air-plasma generation and balanced air-biased coherent detection offers gap-free broadband coverage, but individual continuous-scan traces are strongly affected by pulse-to-pulse fluctuations and electronic noise. Reaching a useful signal-to-noise ratio therefore requires averaging multiple traces, which directly increases measurement time.",
+  "results": "A compact one-dimensional\u2026"
+ },
+ "c6b3dd2266c6d7d0": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "The rapid evolution of text-to-image (T2I) generation models has effectively solved the foundational challenge of raw pixel synthesis, shifting the community's focus toward fulfilling increasingly intricate user requests. While recent agentic image generation workflows enhance static inference with advanced capabilities like external knowledge retrieval and iterative reasoning, they mostly operate in isolated silos with fixed ``one-size-fits-all\" topologies.",
   "prior_work": "",
   "problem": "",
   "results": ""
@@ -2855,6 +3927,16 @@
   "problem": "",
   "results": ""
  },
+ "c9988922f5a807ff": {
+  "approach": "ALEs rely on computing tight bounds on latent space distances to produce formal explanations.",
+  "mode": "heuristic",
+  "next_steps": "This leaves a critical gap: modern state-of-the-art architectures increasingly rely on non-Euclidean\u2026",
+  "notes": [],
+  "overview": "",
+  "prior_work": "existing ALE formulations are rigidly confined to Euclidean latent spaces.",
+  "problem": "Prototype-based neural networks are hailed as interpretable-by-design architectures. Recently, Abductive Latent Explanations (ALE) were introduced to provide formal, mathematically guaranteed explanations that leverage the intrinsic structure of these networks to ensure both predictive safety and human readability.",
+  "results": ""
+ },
  "ca5f708f85642d5a": {
   "approach": "",
   "mode": "heuristic",
@@ -2890,6 +3972,18 @@
   "prior_work": "",
   "problem": "We consider the problem of autonomously learning robot skills under a limited practice budget for sequential tasks. Computing a budget-optimal allocation is challenging as it requires reasoning about combinatorially many skill plans over a\u2026",
   "results": ""
+ },
+ "cac190d86e00e45b": {
+  "approach": "This paper presents Chronocooked, a reinforcement learning (RL) benchmark suite for studying implicit interval timing in RL agents. The tasks and reward functions are designed such that temporal information is unobserved yet critical for optimal performance.",
+  "mode": "heuristic",
+  "next_steps": "Evaluation metrics are designed to expose limitations in timing abilities of RL agents, and we report baselines using\u2026",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Inspired by Overcooked, the suite comprises cooking scenarios that require temporal decision making.",
+  "results": "The environment is intentionally kept simple to enable controlled experiments and support biologically plausible models."
  },
  "cad35e6294feba2f": {
   "approach": "",
@@ -2949,6 +4043,30 @@
   "problem": "Interactive world models must support persistent memory, responsive interaction, and long-horizon generation, yet these requirements place conflicting demands on the model. Maintaining history in the denoiser context or key-value cache incurs growing cost, forcing a trade-off between session length and retained memory, while low-latency interaction relies on few-step generation whose capabilities are bounded by its teacher.",
   "results": "Scene geometry is maintained\u2026"
  },
+ "cc47520e962999e3": {
+  "approach": "Because early tokens face no compression pressure, they occupy too many degrees of freedom and \"pollute\" the memory state, leaving little capacity for later context and increasing interference between what is stored and what arrives next.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "The quadratic cost of attention-based sequence models for long contexts has motivated a growing line of research on memory-based models that can compress context into a compact state. most existing memory models expose a static memory throughout the entire sequence.",
+  "results": ""
+ },
+ "ccd00734b229c6e8": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Existing image editing frameworks predominantly follow the training paradigm of text-to-image diffusion models. extending this paradigm to image editing highlights two inherent discrepancies, specifically, the insufficient attention to edit concept granularity and the training inefficiency caused by sparse supervision signals.",
+  "results": "To address these issues, we establish a comprehensive hierarchical taxonomy featuring over 1,000 fine-grained edit concepts and build ConceptEdit-12M, a massive dataset of 12 million high-quality editing pairs via an improved synthesis framework."
+ },
  "cd6eb0d9179b433e": {
   "approach": "",
   "mode": "heuristic",
@@ -2971,6 +4089,18 @@
   "overview": "",
   "prior_work": "",
   "problem": "High-resolution image restoration from degraded inputs is challenging because it must preserve global structural consistency while recovering fine-grained local details, especially at 4K resolution where direct diffusion-based restoration is computationally expensive and prone to repeated or inconsistent textures.",
+  "results": ""
+ },
+ "ce1dbb0199c6ceb9": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Language and vision-language models generate plausible embodied plans but do not guarantee executability, as their outputs can violate environment dynamics or act on incorrectly grounded entities. We present a neurosymbolic agent that factors long-horizon household tasks into task-directed visual exploration and constrained symbolic planning.",
+  "prior_work": "",
+  "problem": "",
   "results": ""
  },
  "ce289bf6cc749152": {
@@ -3067,6 +4197,18 @@
   "problem": "Existing palm presentation attack detection (PAD) datasets are often limited by static imagery, restricted acquisition conditions, or insufficient multimodal video data, hindering systematic evaluation across environments, modalities, and attack types.",
   "results": "We construct leakage-controlled protocols that separate palm identity and attack\u2026"
  },
+ "d16c5cf87e3c58b5": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Large Language Models (LLMs) are increasingly being deployed in cybersecurity operations to assist cybersecurity analysts with rapid decision-making against emerging threats. However, there is a main criteria that must be met when using LLMs in cybersecurity, that is, trust in the generated outputs.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "d354fc17d4ba104c": {
   "approach": "In this paper, we present AutoDesign, a framework that aligns with human design priors, where a meta-harness optimizer guides a code agent to recursively improve harness based on\u2026",
   "mode": "heuristic",
@@ -3111,6 +4253,18 @@
   "problem": "Forecasting the long-horizon evolution of mechanical systems from position-only observations is a pivotal yet difficult task, as hidden velocities and trajectory-specific physical properties must be inferred simultaneously. Although physics-guided neural networks like Lagrangian Neural Networks (LNNs) guarantee physical plausibility, they generally require complete state inputs and lack adaptability to changing system parameters.",
   "results": "Grounded in the insight that temporal position sequences implicitly\u2026"
  },
+ "d3c33983f424047e": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Modern Multimodal Retrieval-Augmented Generation (M-RAG) systems are fundamentally limited by the binary connectivity paradigm of traditional simple graphs, which fails to capture the intricate, high-order correlations among heterogeneous entities, such as the N-ary relationships between a visual chart, its scattered textual descriptions, and underlying numerical data. Furthermore, existing refinement strategies often rely on exhaustive, full-page reconstruction to align cross-modal information, leading to prohibitive computational redundancy and the introduction of contextual noise in\u2026",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "d4289937c2fb5b41": {
   "approach": "",
   "mode": "heuristic",
@@ -3121,6 +4275,30 @@
   "overview": "This study investigates the methodological and theoretical properties of session handover in applications that use large language models. A task may continue in a new session when the context reaches the model's input limit, when the application restarts, or when another agent is asked to finish the task.",
   "prior_work": "",
   "problem": "",
+  "results": ""
+ },
+ "d43add97bcc97b2b": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Direct text-to-SQL asks a language model to do two jobs: interpret the business question and construct the complete relational query. In enterprise schemas, SQL can execute successfully while using the wrong relationship role or aggregation grain.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "d47dd7e760277217": {
+  "approach": "In this work, we formulate Progressive Cross-view Video Geo-localization (PCVG) as a deployment-oriented extension and evaluation protocol of CVG, enabling localization under varying temporal budgets, prefix-based inference, random-start evaluation, and long-range localization with interruptions.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Cross-view Video Geo-localization (CVG) aims to localize ground-view videos by retrieving their corresponding geo-tagged aerial images. CVG approaches rely on fixed-length inputs and post-hoc refinement, hindering online-oriented localization under partial or dynamic observations.",
   "results": ""
  },
  "d54c65671a63e91e": {
@@ -3156,6 +4334,18 @@
   "prior_work": "",
   "problem": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional morphometric methods suffer from high structural overlap across sexes, poor cross-population generalizability, and subjective feature engineering.",
   "results": "This study presents an uncertainty-aware deep learning framework for sex attribution in prehistoric hand stencils that explicitly models, propagates, and\u2026"
+ },
+ "d88232b6b70ea145": {
+  "approach": "To bridge this perceptual gap, we propose Visual In-context Editing, a new paradigm elevating video editing from textual instructions to multi-modal visual guidance encompassing single image, image pair, and video pair. We develop an automated pipeline to generate 400K high-quality samples across ten task types,\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Despite progress in instruction-based video editing, unimodal textual instructions inherently struggle to convey fine-grained textures and complex dynamics.",
+  "results": ""
  },
  "d8f43cd5ecc10951": {
   "approach": "We present vToken, a lightweight token-level virtualization layer that decouples logical token liveness from physical block placement. vToken maintains a stable logical token view\u2026 This mismatch causes intra-block fragmentation, leaving a large fraction of allocated KV memory unreclaimable.",
@@ -3227,6 +4417,18 @@
   "problem": "",
   "results": ""
  },
+ "dcad2212b5675eec": {
+  "approach": "We present PixRestore, a VAE-free pixel-space Diffusion Transformer (DiT) for UIR, where the diffusion backbone is\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Unified image restoration (UIR) aims to recover high-quality (HQ) content from low-quality (LQ) images with different degradations using a single model. the variational autoencoder (VAE) in latent T2I models may discard restoration-sensitive details, while the open-ended synthesis prior can introduce content-inconsistent artifacts.",
+  "results": ""
+ },
  "ddbef3fa54551bfd": {
   "approach": "To close this gap, we present CLAIR-Fin, a nine-agent framework that decomposes each question into atomic claims maintained in a typed Financial Claim Ledger.",
   "mode": "heuristic",
@@ -3239,6 +4441,18 @@
   "problem": "Existing defenses against hallucination in retrieval-augmented and multi-agent pipelines remain partial: evidence is trusted despite modality disagreement, debate verifies an aggregate report rather than individual claims, and such verification occurs only after drafting, leaving inter-agent errors undetected until the final text.",
   "results": "Each claim is resolved through Asymmetric Evidence Authority, which conditions evidence trust on claim\u2026"
  },
+ "de04805d4a42e474": {
+  "approach": "We describe a new unsupervised method for cell instance segmentation and phenotypic classification from unlabeled microscopy images. Our method is based on reconstructing each image using a coarse-to-fine routing pyramid that\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Identifying and representing object instances such as cells or nuclei is a common task in microscopy image analysis. Established machine learning workflows typically use supervised detection or segmentation followed by feature extraction or classification, which requires manual annotations and treats instance segmentation and cell representation as separate stages.",
+  "results": ""
+ },
  "de2ca3d7578dd51c": {
   "approach": "",
   "mode": "heuristic",
@@ -3247,6 +4461,18 @@
    "short feed blurb, not a structured abstract"
   ],
   "overview": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "def81e9983aa9ffa": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models. Although numerous studies have explored this topic, most focus on small-scale or class-conditional settings.",
   "prior_work": "",
   "problem": "",
   "results": ""
@@ -3286,6 +4512,18 @@
   "prior_work": "",
   "problem": "LLM-based agents increasingly rely on external memory to support long-horizon reasoning and interaction. the main bottleneck is not simply storing past experience, but recovering the right set of evidence when relevant information is distributed across many interactions.",
   "results": ""
+ },
+ "e1b316097eee5124": {
+  "approach": "We employ unsupervised anomaly detection (AD) and out-of-distribution (OOD) detection as an automated dataset QA mechanism for multi-center dynamic contrast-enhanced breast MRI.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Corrupted, inconsistent, or anomalous data silently threatens the safety and reliability of medical AI. Despite growing regulatory recognition of dataset quality assurance (QA) for high-risk medical AI, scalable automated detection remains underdeveloped.",
+  "results": "We build a controlled AD benchmark of 17 realistic QA-relevant anomaly types from six public datasets (protocol violations, processing errors, incorrect anatomical\u2026"
  },
  "e1dce6e041527405": {
   "approach": "In this work, we study stochastic weight averaging (SWA) as an alternative ensembling technique that does not require repeated training runs.",
@@ -3357,6 +4595,16 @@
   "problem": "",
   "results": ""
  },
+ "e3e4719034d4f217": {
+  "approach": "In this paper, we present Hide&Seek, an end-to-end differentiable\u2026 A growing number of methods learn a selector, which identifies important features, and a predictor, which uses these to make predictions.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "In contrast to global feature selection techniques, instance-wise methods dynamically identify important features for each instance.",
+  "problem": "Instance-wise feature selection is a valuable tool for interpreting labeled data and the predictions of black-box models. these pioneering methods face challenges including information leakage and lack of differentiability, which can slow training.",
+  "results": ""
+ },
  "e433b491156d9e5e": {
   "approach": "",
   "mode": "heuristic",
@@ -3390,6 +4638,18 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "e4bed0e869a536ea": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Inference-time quality-enhancement methods are an effective and widely adopted means of improving diffusion models without expensive retraining. We study a family of training-free techniques conceptually rooted in Classifier-Free Guidance (CFG), most of which were originally proposed on older U-Net diffusion models and validated using metrics that assess image quality in isolation, without accounting for compositional alignment or semantic correspondence between the generated image and its associated text prompt.",
+  "results": "We re-evaluate eight such methods on two open-weight rectified-flow\u2026"
  },
  "e5a35576ac707e76": {
   "approach": "Here we introduce UltraIR, a foundation model for IR spectroscopy with more than 100 million parameters that enables\u2026",
@@ -3449,6 +4709,18 @@
   "problem": "World Models (WM) are increasingly seen as a foundation for intelligent agents that can predict, plan, and act beyond their training distribution. In this paper, we study WMs from a causal perspective across multiple levels of abstraction, ranging from perceptual observations to building a conceptual representation of the structure governing the environment dynamics.",
   "results": "We argue that useful WMs must go beyond generative capabilities alone: they should also capture entity properties, entity-to-entity interactions, and entity-to-environment interactions that determine and explain the dynamics of\u2026"
  },
+ "e80949478288b666": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Decentralized lending lacks a credit bureau: a borrower's capacity to repay must be inferred entirely from public on-chain activity, without income verification or a liability record. This paper presents zLend, a deployed cash-flow underwriting framework that reconstructs a wallet's daily balance history from raw token transfers and derives short-duration repayment-capacity signals from it.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "e83d70611f6b9834": {
   "approach": "",
   "mode": "heuristic",
@@ -3460,6 +4732,18 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "e8bb41ee6047c219": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Multimodal large language models (MLLMs) are widely used for automated annotation, yet their per-class accuracy varies widely (e.g., 12%-98% across the 13 classes of three classroom sub-datasets) and is expensive to measure: evaluating one 27B MLLM on 5,416 validation images takes roughly 14 hours, whereas a frozen-CLIP pass over the same images completes in about 3 minutes. A low-cost signal for ranking classes by expected MLLM annotation difficulty a priori remains underexplored.",
+  "results": "Building on the AnchorProxy construct (per-class zero-shot CLIP accuracy) introduced in the companion study,\u2026"
  },
  "e8e7671fcde25fb5": {
   "approach": "",
@@ -3473,6 +4757,62 @@
   "problem": "",
   "results": ""
  },
+ "ea1ead50b556da65": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "We propose a two-stage large language model (LLM) framework for zero-shot detection of insider threats and advanced persistent threats (APTs) from heterogeneous security logs. The framework models user activity as chronological timelines and incorporates retrieval-augmented generation (RAG) to provide personalised behavioural context from each user's historical activity.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "eae8ebf5ab1c7f8c": {
+  "approach": "We introduce LAVA (Logic-Aware Validation and Augmentation), a modular, backbone-agnostic pipeline built on multimodal large language models, that integrates a four-stage design:\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Financial document validation in production, such as payroll auditing, tax compliance, and loan underwriting, demands exceptional accuracy, consistency, and reproducibility under strict enterprise constraints. In practice, documents arrive with heterogeneous layouts and formats, semantically rich and context-dependent content, and embedded business rules that current pipelines struggle to process reliably.",
+  "results": ""
+ },
+ "eb32c828a279f1bc": {
+  "approach": "We introduce PCA-guided Activation Scaling (PAS), an activation steering framework that decomposes residual\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Yet, existing methods fail to ensure a bidirectional and monotonic relationship between steering strength and behavioral outcome across models and datasets.",
+  "problem": "Large language models (LLMs) exhibit sycophancy, a tendency to agree with user beliefs regardless of factual accuracy.",
+  "results": "This can reinforce misconceptions, but eliminating it entirely risks over-correction against valid opinions. Effective control must therefore both reduce and increase sycophancy with predictable and gradual effect."
+ },
+ "ed7df169c5cfb28b": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Hyperspectral reflectance spectroscopy enables non-destructive estimation of plant functional traits, yet current deep learning approaches process spectra as one-dimensional sequences, which limits how they capture long-range inter-band dependencies.",
+  "results": "We asked whether transforming 1D spectra into 2D image representations improves multi-trait prediction with convolutional neural networks (CNN). We compared nine transformations using EfficientNet-B0 on the GreenHyperSpectra dataset (7,897 labeled spectra, eight traits, 400-2450 nm), benchmarked against published 1D CNN results on the same\u2026"
+ },
+ "ee1800ea88f45758": {
+  "approach": "We propose a Censored Non-crossing Quantile (CNQ) framework for right-censored data that jointly estimates several conditional survival quantiles and guarantees valid\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Quantile-based modeling instead describes the full conditional distribution on the original time scale, but existing censored-data methods are either inflexible or produce logically inconsistent crossing quantile curves.",
+  "problem": "In survival analysis the way covariates act on the risk of an event often differs between early and late failure times, yet hazard- and mean-based summaries collapse this variation into a single number.",
+  "results": ""
+ },
  "ee449db47d8dff19": {
   "approach": "",
   "mode": "heuristic",
@@ -3481,6 +4821,18 @@
    "short feed blurb, not a structured abstract"
   ],
   "overview": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "ee946e4e4df1e74f": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Generating photorealistic novel views from unposed images requires both 3D geometric understanding and the ability to synthesize unseen content. A natural strategy combines feed-forward 3DGS reconstruction with multi-view diffusion.",
   "prior_work": "",
   "problem": "",
   "results": ""
@@ -3551,6 +4903,16 @@
   "problem": "Humans effortlessly perceive the present while remembering the past, yet streaming VLMs often trade off real-time perception against long-term memory.",
   "results": ""
  },
+ "f35f06b00bfbae5c": {
+  "approach": "In this work, we observe that internal visual modality entropy exhibits consistent distinctions between successful and failed tasks across heterogeneous\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing methods either rely on expert annotations or estimate uncertainty only from output statistics, largely ignoring internal signals.",
+  "problem": "Vision-Language-Action models (VLAs) integrate visual perception, language instruction, and action generation into end-to-end policies across heterogeneous architectures. enabling VLAs to self-evaluate their action generation reliability without external supervision remains a major challenge.",
+  "results": ""
+ },
  "f3e3b4b8f8c26bc5": {
   "approach": "",
   "mode": "heuristic",
@@ -3611,6 +4973,18 @@
   "problem": "",
   "results": ""
  },
+ "fa170211d686f55c": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "AI agents increasingly operate as part of interacting systems rather than in isolation. As agents exchange information and jointly make decisions, their interactions can improve collective reasoning but may also produce herding, polarization, or amplify shared biases.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "fb21820d806b1b78": {
   "approach": "",
   "mode": "heuristic",
@@ -3635,6 +5009,18 @@
   "problem": "",
   "results": ""
  },
+ "fbdf2d957494ce36": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Spatially resolved EEDFs/IEDFs provide essential kinetic information about low-temperature plasmas (LTPs) and play a central role in determining transport, chemical reaction rates, and plasma surface interactions. While kinetic simulations directly resolve these distributions, experimental measurements remain challenging and are often invasive, spatially limited, or require assumptions regarding the distribution shape such as a Maxwellian.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "fbe0b37f49930e3c": {
   "approach": "We propose a four-field evidence tuple (hypothesis, reliability bucket, rationale, provenance) and show that fixing it determines both halves. Combining interpretations rewards fixed arithmetic, comparability across instances, and the option to return nothing.",
   "mode": "heuristic",
@@ -3644,6 +5030,30 @@
   "prior_work": "This conflates two operations with different requirements.",
   "problem": "Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. Interpreting a source rewards capacity and context.",
   "results": "The separation also reveals a failure\u2026"
+ },
+ "fbf4010fa32cebb4": {
+  "approach": "We introduce CaliBench, which scores outcomes in a physically interpretable discrete space - a bin index, a die face, a suit, a colour - rather than a learned feature space such as in FID, so the distance from a known reference distribution is measured directly.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Video world models approximate the stochastic distribution of physical outcomes through generative sampling, but existing benchmarks score individual generations or compare distributions coarsely over a whole dataset, leaving the fine-grained aleatoric uncertainty of specific phenomena untested.",
+  "results": "We curate outcome spaces whose\u2026"
+ },
+ "fc9f452012acbf7e": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "We demonstrate that AI models are broadly susceptible to a phenomenon we call model hypnosis, in which individually weak and seemingly irrelevant cues in the prompt can be systematically combined to strongly control model behavior. Model hypnosis occurs across model families and scales, including in frontier reasoning models, and hypnotic prompts can transfer between models.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
  },
  "fce06cf24894f3e7": {
   "approach": "",
@@ -3666,6 +5076,30 @@
   "prior_work": "Among the various NAS methods, differentiable NAS has gained prominence due to its efficiency and accuracy compared to conventional NAS approaches. Since differentiable NAS relaxes the architecture search space into a continuous domain, it is possible to apply principles from continuous optimization to NAS.",
   "problem": "Neural Architecture Search (NAS) aims to automate neural network architecture design, reducing reliance on human expertise.",
   "results": ""
+ },
+ "fd46058672ad6b28": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "An invariant behavioral profile is the defining vulnerability of traditional honeypot installations: a skilled adversary can confirm the presence of a deception environment within only a few diagnostic commands, limiting its intelligence value. High-cost commercial deception products (USD 100,000--150,000 per year) share a related weakness in that their response engines are not coupled to real-time model-driven feedback.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "fe95b9533d3966f2": {
+  "approach": "We introduce PertMind, which combines trusted-trajectory supervised initialization with gene-, pathway-, and format-level reinforcement signals.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Large language models can describe mechanisms, yet scalable post-training still depends on costly, manually curated biological reasoning traces.",
+  "results": "Here we show that cellular perturbation atlases can instead become reinforcement-learning environments, where measured gene responses provide computable rewards for biological reasoning. Trained only on forward perturbation-response prediction, PertMind improved response inference in unseen cellular\u2026"
  },
  "fea9ae47ebf2b0f0": {
   "approach": "",
