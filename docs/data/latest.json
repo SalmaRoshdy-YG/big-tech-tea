@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24T19:03:48+00:00",
+ "generated": "2026-08-24T21:47:24+00:00",
  "labs": [
   {
    "slug": "openai",
@@ -79,6 +79,33 @@
   }
  ],
  "papers": [
+  {
+   "uid": "df015003760c1205",
+   "source": "openai",
+   "org": "OpenAI",
+   "content": "blog",
+   "title": "Advancing price-performance for developers with GPT\u20115.6 in Kiro",
+   "url": "https://openai.com/index/gpt-5-6-in-kiro",
+   "summary": "GPT\u20115.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+   "published": "2026-08-24T12:00:00+00:00",
+   "authors": [],
+   "tags": [
+    "Product",
+    "openai"
+   ],
+   "brief": {
+    "overview": "GPT\u20115.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
   {
    "uid": "59c80b4ad1db0d2f",
    "source": "arxiv-cs-cv",
@@ -4150,41 +4177,6 @@
     "mode": "heuristic",
     "notes": [
      "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "0313d4be5b7966d4",
-   "source": "arxiv-cs-lg",
-   "org": "arXiv cs.LG",
-   "content": "paper",
-   "title": "Jacobian-guided Noise Injection for Quantization Robustness in Large Language Models",
-   "url": "https://arxiv.org/abs/2608.20988v1",
-   "summary": "Quantization of Large Language Models (LLMs) is often hindered by the sensitivity of the self-attention mechanism to discretization errors. We identify the softmax operator as a bottleneck for quantization stability due to its sensitivity to outliers and state-dependent Jacobian. We theoretically establish that suppressing the norm of this Jacobian helps in bounding quantization-induced performance degradation. Based on this, we propose Jacobian-Guided Noise Injection, a training strategy that injects zero-mean Gaussian noise into pre-attention logits, with variance derived directly from the\u2026",
-   "published": "2026-08-21T11:16:40+00:00",
-   "authors": [
-    "Deepanshu Pandey",
-    "Arnav Chavan",
-    "Nahush Lele",
-    "Sankalp Dayal",
-    "Deepak Gupta"
-   ],
-   "tags": [
-    "cs.LG",
-    "cs.AI",
-    "arxiv",
-    "ml"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Quantization of Large Language Models (LLMs) is often hindered by the sensitivity of the self-attention mechanism to discretization errors. We identify the softmax operator as a bottleneck for quantization stability due to its sensitivity to outliers and state-dependent Jacobian.",
-    "prior_work": "",
-    "approach": "Based on this, we propose Jacobian-Guided Noise Injection, a training strategy that injects zero-mean Gaussian noise into pre-attention logits, with variance derived directly from the\u2026 We theoretically establish that suppressing the norm of this Jacobian helps in bounding quantization-induced performance degradation.",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
     ]
    }
   }
