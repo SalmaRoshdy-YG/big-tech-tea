@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31T14:00:41+00:00",
+ "generated": "2026-08-31T20:52:21+00:00",
  "labs": [
   {
    "slug": "openai",
@@ -79,6 +79,91 @@
   }
  ],
  "papers": [
+  {
+   "uid": "43a66fb75b74fa4c",
+   "source": "google-research",
+   "org": "Google Research",
+   "content": "blog",
+   "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+   "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+   "summary": "Data Management",
+   "published": "2026-08-31T17:19:40+00:00",
+   "authors": [],
+   "tags": [
+    "Data Management",
+    "Machine Intelligence",
+    "Product",
+    "google"
+   ],
+   "brief": {
+    "overview": "Data Management",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "one-line feed summary; open the page for detail"
+    ]
+   }
+  },
+  {
+   "uid": "1e90334d4d649bed",
+   "source": "microsoft-research",
+   "org": "Microsoft Research",
+   "content": "blog",
+   "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+   "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+   "summary": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration. The post GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models appeared first on Microsoft Research .",
+   "published": "2026-08-31T16:00:00+00:00",
+   "authors": [
+    "Naoto Usuyama, Jeya Maria Jose Valanarasu, Tristan Naumann"
+   ],
+   "tags": [
+    "Research Blog",
+    "microsoft"
+   ],
+   "brief": {
+    "overview": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "ce45511cbae01f20",
+   "source": "amazon-science",
+   "org": "Amazon Science",
+   "content": "blog",
+   "title": "Developing provably correct Rust code with Verus",
+   "url": "https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus",
+   "summary": "How the Verus \"program verifier\", which automatically checks code against a mathematical specification of its functionality, helps increase security assurance in software projects.",
+   "published": "2026-08-31T15:35:33+00:00",
+   "authors": [],
+   "tags": [
+    "amazon",
+    "aws"
+   ],
+   "brief": {
+    "overview": "How the Verus \"program verifier\", which automatically checks code against a mathematical specification of its functionality, helps increase security assurance in software projects.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
   {
    "uid": "44f61163770f758b",
    "source": "openai",
@@ -4039,113 +4124,6 @@
     "next_steps": "",
     "mode": "heuristic",
     "notes": []
-   }
-  },
-  {
-   "uid": "98628fa63be702b4",
-   "source": "arxiv-cs-ai",
-   "org": "arXiv cs.AI",
-   "content": "paper",
-   "title": "REINS: Refusal-Enhanced Inhibitory Steering with Sparse Autoencoder Features",
-   "url": "https://arxiv.org/abs/2608.28233v1",
-   "summary": "Steering with Sparse Autoencoders (SAEs) offers a lightweight inference-time path for adapting the behavior of large language models without retraining. By exposing sparse and interpretable features, SAE steering provides a promising interface for safety control that guides harmful continuations toward refusal. However, we observe that complex wrappers can still undermine existing SAE steering methods on harmful prompts. To evaluate this failure mode systematically, we construct Generalized Undercover Instruction Safety Evaluation (GUISE), a dataset of harmful prompts with complex wrappers.\u2026",
-   "published": "2026-08-28T11:47:29+00:00",
-   "authors": [
-    "Kai-Xuan Ding",
-    "Hao-Xiang Xu",
-    "Ji-Hua Peng",
-    "Zi-Qi Chen",
-    "Jiaqi Wang",
-    "Zhen-Hua Ling"
-   ],
-   "tags": [
-    "cs.AI",
-    "arxiv",
-    "ai"
-   ],
-   "brief": {
-    "overview": "Steering with Sparse Autoencoders (SAEs) offers a lightweight inference-time path for adapting the behavior of large language models without retraining. By exposing sparse and interpretable features, SAE steering provides a promising interface for safety control that guides harmful continuations toward refusal.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "e0fdb474dedd9971",
-   "source": "arxiv-cs-cl",
-   "org": "arXiv cs.CL",
-   "content": "paper",
-   "title": "Stay Within Your Bounds: Distance-Guided Decoding for Guaranteed Context-Free Grammar Compliance",
-   "url": "https://arxiv.org/abs/2608.28229v1",
-   "summary": "Grammar-constrained decoding helps large language models produce syntactically valid structured outputs, such as code, JSON, and SQL. For context-free grammars, many practical decoders enforce local prefix feasibility: each token must keep the current prefix extendable to some valid completion. Yet, under tokenizer-grammar mismatch and finite token budgets, feasible prefixes may still fail to reach acceptance. We propose a lookahead-guided decoding framework for context-free grammars based on pushdown automata. Offline, we compute bounded pushdown summaries with reachability labels and\u2026",
-   "published": "2026-08-28T11:44:53+00:00",
-   "authors": [
-    "Vincenzo Collura",
-    "Karim Tit",
-    "Eleonora Giunchiglia",
-    "Mike Papadakis",
-    "Maxime Cordy"
-   ],
-   "tags": [
-    "cs.AI",
-    "cs.CL",
-    "cs.FL",
-    "cs.LG",
-    "arxiv",
-    "nlp"
-   ],
-   "brief": {
-    "overview": "Grammar-constrained decoding helps large language models produce syntactically valid structured outputs, such as code, JSON, and SQL. For context-free grammars, many practical decoders enforce local prefix feasibility: each token must keep the current prefix extendable to some valid completion.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "94f3a1b31fc8625c",
-   "source": "arxiv-cs-cv",
-   "org": "arXiv cs.CV",
-   "content": "paper",
-   "title": "RASA: Disentangled Spatial-Motional Priors for Cross-Identity Character Animation",
-   "url": "https://arxiv.org/abs/2608.28219v1",
-   "summary": "Cross-identity character animation aims to drive a target identity from a reference image to follow the motion of a source character from a driving video. The core challenge lies in the inherent entanglement of two capabilities: cross-identity spatial mapping (aligning position, scale, and skeletal proportions) and motion control (refining joint articulation, volumetric consistency, and view coherence). We introduce Reference-Aware Structural Alignment (RASA), a framework that disentangles spatial mapping from motion control by injecting structured priors into a Diffusion Transformer (DiT).\u2026",
-   "published": "2026-08-28T11:36:44+00:00",
-   "authors": [
-    "Zhen Xiao",
-    "Zhen Shen",
-    "Zhaofan Qiu",
-    "Ting Yao",
-    "Xueliang Liu",
-    "Tao Mei"
-   ],
-   "tags": [
-    "cs.CV",
-    "arxiv",
-    "vision"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Cross-identity character animation aims to drive a target identity from a reference image to follow the motion of a source character from a driving video. The core challenge lies in the inherent entanglement of two capabilities: cross-identity spatial mapping (aligning position, scale, and skeletal proportions) and motion control (refining joint articulation, volumetric consistency, and view coherence).",
-    "prior_work": "",
-    "approach": "We introduce Reference-Aware Structural Alignment (RASA), a framework that disentangles spatial mapping from motion control by injecting structured priors into a Diffusion Transformer (DiT).\u2026",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
    }
   }
  ]
