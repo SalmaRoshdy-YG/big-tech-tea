@@ -10087,6 +10087,18 @@
   "problem": "Bridging the gap between the discrete reasoning of Vision-Language Models and the continuous, physics-constrained nature of autonomous driving remains a significant challenge.",
   "results": "Rather than discrete codebook\u2026"
  },
+ "6bfd9dd7313d9950": {
+  "approach": "We develop a geometric view of offline actor updates by modeling policies as a probability manifold endowed with a chosen metric geometry.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Offline reinforcement learning (RL) must reconcile two competing requirements: policy updates should stay near dataset-supported actions to keep value estimates reliable, yet meaningful gains often require moving beyond the behavior distribution.",
+  "results": "Under this lens, a broad class of offline actor objectives can be interpreted as a single proximal policy improvement step (SPI), i.e., an implicit discretization of a manifold gradient flow induced by a\u2026"
+ },
  "6c21c7f5a7929387": {
   "approach": "",
   "mode": "heuristic",
@@ -12472,6 +12484,18 @@
   "prior_work": "",
   "problem": "Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints.",
   "results": "Although many context-biasing methods improve recognition accuracy, they often do not address the practical requirements of modern production ASR systems: streaming inference, efficient batched decoding, user-specific context lists, and low runtime overhead."
+ },
+ "849410ff079740e4": {
+  "approach": "We therefore focus on welfare guarantees satisfied by arbitrary EF1 allocations.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "We study the allocation of indivisible goods among agents with identical additive valuations, focusing on envy-freeness up to one good (EF1) and Nash social welfare (NSW). Since every maximum-NSW allocation is EF1 under additive valuations, the associated threshold problem inherits the known strong NP-hardness of NSW maximization under identical additive valuations and is strongly NP-complete.",
+  "results": "Although every such allocation is known to achieve an $e^{-1/e}$-approximation to the unrestricted optimal NSW, we\u2026"
  },
  "84ae80572431d64a": {
   "approach": "",
@@ -14874,6 +14898,16 @@
   "prior_work": "",
   "problem": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A central challenge is not only how to curate each task-specific corpus, but also how to organize heterogeneous supervision according to the dependencies among generative capabilities.",
   "results": "Its three specialized yet interoperable data engines\u2026"
+ },
+ "9f74d525c2f6782c": {
+  "approach": "We introduce Stateless Bernoulli Watermarking (SBW), a new statistical watermark for Large Language Models that determines green list membership through independent per-token Bernoulli trials.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Unlike KGW's vocabulary permutation or SynthID's multi-layer tournament, SBW requires only a single comparison per token against a counter-based random number generator, reducing membership complexity to $O(1)$ and enabling single-kernel execution with zero intermediate allocations.",
+  "problem": "",
+  "results": "We prove that this formulation preserves the same detection guarantees as fixed-size green lists: the z-score test\u2026"
  },
  "9f9f2452978c4455": {
   "approach": "",
