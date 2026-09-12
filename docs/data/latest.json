@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T23:19:19+00:00",
+ "generated": "2026-09-12T04:42:26+00:00",
  "labs": [
   {
    "slug": "openai",
@@ -79,6 +79,58 @@
   }
  ],
  "papers": [
+  {
+   "uid": "12e9dd6851803557",
+   "source": "openai",
+   "org": "OpenAI",
+   "content": "blog",
+   "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+   "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+   "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+   "published": "2026-09-14T00:00:00+00:00",
+   "authors": [],
+   "tags": [
+    "openai"
+   ],
+   "brief": {
+    "overview": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "c3aa33826442d0f0",
+   "source": "openai",
+   "org": "OpenAI",
+   "content": "blog",
+   "title": "Cognition helps Devin test its own work with GPT\u20116 Astra",
+   "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+   "summary": "GPT\u20116 Astra improves Devin\u2019s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+   "published": "2026-09-11T16:00:00+00:00",
+   "authors": [],
+   "tags": [
+    "openai"
+   ],
+   "brief": {
+    "overview": "GPT\u20116 Astra improves Devin\u2019s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
   {
    "uid": "c7d3c8aeae425678",
    "source": "openai",
@@ -4180,75 +4232,6 @@
     "prior_work": "",
     "approach": "In this paper, we present UBone3D, a novel framework based on physics-rectified conditional flow matching (CFM) that performs point cloud completion directly from partial US observations.",
     "results": "UBone3D models deterministic physics artifacts (e.g., surface thickening, streaking,\u2026",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "87564bf0b8e120c1",
-   "source": "arxiv-cs-cl",
-   "org": "arXiv cs.CL",
-   "content": "paper",
-   "title": "Structural priors for data-efficient language learning",
-   "url": "https://arxiv.org/abs/2609.11505v1",
-   "summary": "Efficient language learning requires methods to reduce the reliance on large data and computational resources. We investigate structural transfer: First training models on non-language data to induce useful priors for natural language. This approach is a form of weight initialization for multilingual language modeling. We evaluate transfer via next-token-prediction loss, weight shifts in the model, and downstream linguistic benchmarks. Several symbolic data types - notably music, probabilistic grammars, and cellular automata - yield lower language-modeling loss than random initialization.\u2026",
-   "published": "2026-09-10T13:12:48+00:00",
-   "authors": [
-    "Yana Veitsman",
-    "Jonas Mayer Martins",
-    "Jonathan Lautenschlager",
-    "Lisa Beinborn"
-   ],
-   "tags": [
-    "cs.CL",
-    "cs.AI",
-    "cs.LG",
-    "arxiv",
-    "nlp"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Efficient language learning requires methods to reduce the reliance on large data and computational resources. We investigate structural transfer: First training models on non-language data to induce useful priors for natural language.",
-    "prior_work": "",
-    "approach": "This approach is a form of weight initialization for multilingual language modeling.",
-    "results": "We evaluate transfer via next-token-prediction loss, weight shifts in the model, and downstream linguistic benchmarks. Several symbolic data types - notably music, probabilistic grammars, and cellular automata - yield lower language-modeling loss than random initialization.\u2026",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "26c7e67f1200239d",
-   "source": "arxiv-cs-lg",
-   "org": "arXiv cs.LG",
-   "content": "paper",
-   "title": "DeFiFlowBench: Benchmarking and Improving Safe Executability in Natural-Language DeFi Workflow Synthesis",
-   "url": "https://arxiv.org/abs/2609.11504v1",
-   "summary": "A structurally valid DeFi workflow can still authorize a costly trade. We introduce DeFiFlowBench, a benchmark of 207 team-authored prompts for natural-language DeFi workflow synthesis. It measures graph coverage, configuration completeness, and declared safety predicates, then tests supported trade configurations on a local EVM. Direct, constrained, and few-shot prompting produce 14-19 unsafe held-out executions per configuration under a fixed 5% price-impact cap. A slippage bound derived from a quote does not prevent the price impact of the order itself. We propose Koan-Safe, which\u2026",
-   "published": "2026-09-10T13:10:32+00:00",
-   "authors": [
-    "Abhinav Rajeev Kumar",
-    "Harshit Arora",
-    "Varun Singh",
-    "Manikandan Nanjappan"
-   ],
-   "tags": [
-    "cs.LG",
-    "cs.SE",
-    "arxiv",
-    "ml"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "A structurally valid DeFi workflow can still authorize a costly trade.",
-    "prior_work": "",
-    "approach": "We introduce DeFiFlowBench, a benchmark of 207 team-authored prompts for natural-language DeFi workflow synthesis. We propose Koan-Safe, which\u2026",
-    "results": "Direct, constrained, and few-shot prompting produce 14-19 unsafe held-out executions per configuration under a fixed 5% price-impact cap. A slippage bound derived from a quote does not prevent the price impact of the order itself.",
     "next_steps": "",
     "mode": "heuristic",
     "notes": [
