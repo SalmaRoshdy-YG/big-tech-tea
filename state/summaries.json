@@ -59,6 +59,18 @@
   "problem": "",
   "results": ""
  },
+ "0060db2547be227e": {
+  "approach": "Here we present BrainFedFM, a structural brain MRI foundation model federatively pretrained on 164,707 three-dimensional scans drawn from diverse real-world data distributions and\u2026 Such pooling optimization can overemphasize cohort size and overlook complementary information from smaller, specialized cohorts.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Foundation models hold promise for generalizable analysis of structural brain magnetic resonance imaging (MRI) across development, aging and disease. existing models are typically built through centralized pretraining on pooled data, despite privacy and governance constraints.",
+  "results": ""
+ },
  "0068142367a30f33": {
   "approach": "We propose a deep learning framework combining a 1D SE-ResNet with ICU-realistic data augmentations and a physics-informed auxiliary reconstruction task based on the three-element Windkessel hemodynamic model, implemented as a differentiable forward simulation.",
   "mode": "heuristic",
@@ -1227,6 +1239,16 @@
   "problem": "",
   "results": ""
  },
+ "05e7b25e21f2f812": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "existing models rely on the distant-illumination assumption, representing lighting as a far-field environment map.",
+  "problem": "Ill-posed inverse problems require priors to constrain the solution space toward plausible outcomes.",
+  "results": "In inverse rendering, learned priors modeling the distribution of natural illumination improve the recovery of scene properties. This limits their applicability to indoor scenes, where illumination is highly spatially varying due to finite-distance emitters, visibility changes, and parallax, all of which are poorly approximated by a single environment map."
+ },
  "0631a4250c8f2a47": {
   "approach": "",
   "mode": "heuristic",
@@ -2347,6 +2369,18 @@
   "problem": "Vision-language models typically encode an image into hundreds of visual tokens, incurring substantial inference latency and GPU memory overhead.",
   "results": "In the first stage, E2S-Pruner treats each attention head as an independent\u2026"
  },
+ "0c0b4f8e8a023bfb": {
+  "approach": "This work presents BronchoTop, a real-time, RGB-only framework for topological bronchoscopy localization that eliminates the need for patient-specific data.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Accurate localization of the bronchoscope within the bronchial tree is essential for clinicians to be able to reach target lesions, perform biopsies and avoid misidentification of airway segments during diagnostic and therapeutic procedures. existing navigation systems typically rely on patient-specific CT scans or additional external sensors, increasing cost, setup time and patient radiation exposure.",
+  "results": "BronchoTop estimates scope\u2026"
+ },
  "0c0ef93358416a5f": {
   "approach": "To address these issues, we propose\u2026",
   "mode": "heuristic",
@@ -2485,6 +2519,18 @@
   "problem": "A calibrated Vision-Language Model (VLM) can repeatedly self-correct, say \"Wait, I should recheck,\" arrive at the wrong answer, and still report high confidence.",
   "results": "We find that this occurs because verbalized confidence is largely trajectory-independent in the VLMs and calibration methods we evaluate. We show that confidence is insufficiently sensitive to what the reasoning trajectory actually contains, and that calibration training can paradoxically worsen this\u2026"
  },
+ "0cb99a655edee464": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "With the development of applications like autonomous driving, object detection has gained significant attention, while also highlighting critical vulnerabilities like backdoor attacks that severely compromise model integrity. Specifically, such attacks involve altering the categories of objects (i.e., object misclassification), removing bounding boxes (i.e., object disappearance), or generating bounding box proposals for non-existent objects (i.e., object generation) when a predefined trigger is present in the input.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "0cbd3381915496b6": {
   "approach": "",
   "mode": "heuristic",
@@ -2621,6 +2667,18 @@
    "short feed blurb, not a structured abstract"
   ],
   "overview": "Policy learning aims to determine who should be treated based on individual characteristics. In high-stakes settings such as medicine and public policy where safety is a central concern, improving the average outcomes alone may not be sufficient: decision makers may also seek to protect individuals from harm, in line with the Hippocratic principle of ``do no harm.'' In this paper, we propose \\textit{conformal policy learning} (CPL), a policy learning procedure with a new distribution-free safety guarantee that controls the probability of assigning treatment to an individual who would be\u2026",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "0d609b6b71739526": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Segmentation-based multi-object tracking (MOT) with foundation video models such as SAM2 offers strong localization quality, yet remains fragile in crowded, real-world scenes. In detector-prompted SAM2 pipelines, failures typically arise at three stages of the object lifecycle: (i) erroneous or duplicate track initiation, (ii) memory drift during close interactions, and (iii) unreliable re-identification after long occlusions or re-entry.",
   "prior_work": "",
   "problem": "",
   "results": ""
@@ -4915,6 +4973,16 @@
   "overview": "Causal tabular foundation models amortize effect estimation across synthetic mechanisms, but latent-effect supervision rewards posterior shrinkage instead of directly encoding the repeated-sample response needed in a fixed deployment population. We introduce fluctuation-supervised pretraining (FSP): each synthetic table is labeled by its average treatment effect plus its efficient influence-function fluctuation, while deployment remains a single frozen forward pass.",
   "prior_work": "",
   "problem": "",
+  "results": ""
+ },
+ "19302daf1c72a2ac": {
+  "approach": "Considering that the generative prior of diffusion models is suitable for addressing this problem, we explore their application to DCSZ.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "naively applying existing diffusion-based FI models\u2026",
+  "problem": "Digital zoom transitions between dual cameras often exhibit conspicuous discontinuities in geometric structure and chromatic consistency, degrading the user experience. While recent dual-camera smooth zoom (DCSZ) methods attempt to mitigate this by fine-tuning frame interpolation (FI) models on DCSZ data, they struggle with the large cross-view disparities and complex geometric transformations.",
   "results": ""
  },
  "193d45c0225dc96f": {
@@ -7593,6 +7661,18 @@
   "problem": "Distinguishing GPT-assisted from independently authored student writing has become a critical challenge in academia.",
   "results": "On the held-out test set, Random Forest achieved an ROC-AUC of 0.87 and an F1-score of 0.84, with False Positive and False Negative rates of\u2026"
  },
+ "28ca7eb622904765": {
+  "approach": "This paper formalises the correction used in our pipeline, the skin-restricted Reinhard transform.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Catalog skin recolouring has to change pigment and leave shading alone. The classical Reinhard map does not make that split: it rescales lightness by the ratio of standard deviations, and a flat reference swatch therefore flattens the limb.",
+  "results": "It is the diagonal affine map in CIE Lab that translates lightness, matches the chromatic mean, and clamps the chromatic gain to [0.72, 1.18], with moments taken on the central 84% of each channel. A diagonal affine map has six real parameters."
+ },
  "28ec1eee8499ea71": {
   "approach": "",
   "mode": "heuristic",
@@ -8779,6 +8859,16 @@
   "problem": "",
   "results": ""
  },
+ "2f5b416b94431f46": {
+  "approach": "O$^2$-VG-Trans is a cross-modality transformer for oriented object visual grounding.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Most existing methods predict horizontal bounding boxes, which are often inaccurate for objects with arbitrary orientations.",
+  "problem": "Visual grounding in remote sensing images aims to locate objects described by referring expressions. To address this limitation, we introduce O$^2$-VG, a family of models for oriented object visual grounding with three complementary designs.",
+  "results": "It establishes a strong discriminative foundation for the model family. Building upon it, O$^2$-VG-Uni predicts universal oriented\u2026"
+ },
  "2f78a465993ceb52": {
   "approach": "",
   "mode": "heuristic",
@@ -8870,6 +8960,18 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "2fdb856c3bb4b9f2": {
+  "approach": "The objective of this paper is to predict the progression of the condition in a temporal sequence from ages 9 to 24, as measured from a sequence of Dual X-ray Absorptiometry (DXA) scans. we train a transformer model that takes in the curve of the spine to predict curve progression.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Adolescent Idiopathic Scoliosis is defined as a lateral curvature of the spine that develops during adolescence, without known cause. The condition can result in significant pain and disability, and often progresses rapidly during adolescence.",
+  "results": "The model is trained using a large-scale synthetic dataset\u2026"
  },
  "2ff299eb96a4acad": {
   "approach": "Among other methods, ultrasound is a safer and more cost-efficient diagnostic technique because of the lack of radiation exposure.",
@@ -9993,6 +10095,18 @@
    "short feed blurb, not a structured abstract"
   ],
   "overview": "For more than 20 years, the Model-RB benchmark frb100-40 remained an open challenge; since 2014, its public record had stood at 99 of 100 variables. We give a directly checkable 100-vertex independent set for its 4,000-vertex graph.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "35aa1744bda871c3": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Several foundation models dedicated to hyperspectral images have recently been made available. These models are trained on large unlabeled datasets and exhibit strong performance on many hyperspectral imaging tasks, such as classification or denoising.",
   "prior_work": "",
   "problem": "",
   "results": ""
@@ -12119,6 +12233,18 @@
   "problem": "",
   "results": ""
  },
+ "3fc584d667576f53": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Online information is increasingly consumed in video format. Much of this comes in the form of *raw video*: continuous footage taken on a cell phone, with a hand-held camera, or via CCTV, which is then directly uploaded to social media platforms and content sharing services.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "3fe9df75ad147663": {
   "approach": "",
   "mode": "heuristic",
@@ -12915,6 +13041,18 @@
   "overview": "",
   "prior_work": "Differences between the resulting means define own-treatment, peer-exposure, controlled network-evolution, and joint controlled contrasts rather than a mediation decomposition.",
   "problem": "Peer effects are difficult to estimate when interaction graphs evolve because pre-assignment network history, dynamic peer exposure, and post-assignment network change have distinct causal roles.",
+  "results": ""
+ },
+ "4415d187eece53d6": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Global building and settlement datasets increasingly support population mapping, exposure assessment, urban monitoring, and other analyses of the built environment, yet comparative evidence remains fragmented across products, geographic regions, reference datasets, spatial scales, and evaluation methods. We benchmark seven global or near-global products, including Overture Maps, Global Building Atlas, 3D-GloBFP, Google Open Buildings 2.5D Temporal (OBT), Microsoft TEMPO, GHSL, and WSF Tracker, against harmonized reference footprints across 135 study areas.",
+  "prior_work": "",
+  "problem": "",
   "results": ""
  },
  "4429497e153ec184": {
@@ -14268,6 +14406,18 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "4c2af26e9f268fd8": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Remote sensing change detection (RSCD) is essential for monitoring land-cover changes and urban development. most methods demand pixel-level change masks, which are costly and time-consuming to annotate.",
+  "results": "Weakly supervised methods reduce this cost by using image-level change labels. Yet these labels indicate only whether a change occurs, leaving models to recover the location of the change and semantic meaning through additional and complex mechanisms."
  },
  "4c4e112466705ab3": {
   "approach": "",
@@ -17307,6 +17457,18 @@
   "problem": "",
   "results": ""
  },
+ "5ccbd04c9308d785": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Electrocardiography (ECG) contains subject-specific morphology that supports biometric recognition, yet image-based performance depends on how the waveform is rendered. We introduce representative-morphology heatmaps, a deterministic ECG-to-image representation adapted from ECGXtractor.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "5cd0101554b159e2": {
   "approach": "",
   "mode": "heuristic",
@@ -18541,6 +18703,18 @@
   "problem": "Manipulating objects requires understanding not only their motion, but also the physical properties that determine it. For articulated objects, these include inertia, friction, and mechanisms such as springs or door closers, whose effects can vary with configuration and velocity.",
   "results": ""
  },
+ "63541daf1ab8b527": {
+  "approach": "We present VGM-VS, a visual servoing method built on a pretrained feed-forward visual geometry model. The geometry-aware representation acquired from large-scale pretraining keeps this estimate reliable when the target is occluded, weakly textured, or covers only a small part of the image.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "the scale ambiguity inherent to these\u2026 Given the current view and a reference image captured at the target configuration, we estimate the relative camera pose with a visual geometry model and apply it iteratively as the pose increment of a closed-loop pose-based visual servoing (PBVS) scheme.",
+  "results": ""
+ },
  "6357d7795d215a7f": {
   "approach": "",
   "mode": "heuristic",
@@ -19211,6 +19385,16 @@
   "problem": "",
   "results": ""
  },
+ "67b07148debbe4ee": {
+  "approach": "We propose an align-then-fuse framework that first applies triple pairwise cosine alignment to establish segment-level correspondence\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing methods often process point clouds, voxel grids, and multi-view images independently; directly combining these heterogeneous representations may leave substantial feature discrepancy unresolved, while subsequent unconstrained adaptation may distort their internal geometry.",
+  "problem": "Unified 3D vision-language systems must combine complementary geometry, scale, and appearance cues while supporting tasks from instance segmentation to language-guided reasoning.",
+  "results": ""
+ },
  "67b82b0174a232d9": {
   "approach": "We present a novel task-aware deformable prediction (TADP) method for single-stage 3D object detection to solve this problem. we design the multi-scale feature aggregation block to fuse multi-scale features in a scale-aware manner.",
   "mode": "heuristic",
@@ -19494,6 +19678,18 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "68dbd3a3b811f32a": {
+  "approach": "We introduce TEEP-RCNN (Texture-Enhanced Edge-aware Perception Region-based CNN), a two-stage detector built on Faster R-CNN with a Feature Pyramid Network backbone and an improved Convolutional Block Attention Module (CBAM).",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Steel surface defect detection is critical for automated industrial quality control but remains challenging due to subtle inter-class texture differences and pronounced class imbalance.",
+  "results": "Our CBAM adds dropout regularization in the channel attention MLP and batch normalization on the spatial attention branch, reducing co-adaptation and stabilizing gating logits."
  },
  "68e0b35ef540f504": {
   "approach": "",
@@ -20825,6 +21021,18 @@
   "problem": "The availability of high-quality paired data is essential for training learning-based image demoir\u00e9ing models. it remains challenging for existing datasets to encompass the complex moir\u00e9 patterns captured in uncontrolled real-world scenarios.",
   "results": ""
  },
+ "70c39dc44722fdda": {
+  "approach": "In this work, we propose Depth-Guided Contrastive Learning (DGCL), a simple auxiliary objective that injects 3D spatial awareness into 2D contrastive representation learning.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Standard contrastive learning frameworks are mainly designed from a semantic perspective, yet learning 2D visual representations that preserve 3D spatial structure is also important for scene understanding.",
+  "results": "Our key idea is to use depth to convert local 3D proximity into contrastive similarity: pixels that are closer in 3D space are encouraged to have more similar representations than pixels that are farther apart.\u2026"
+ },
  "70de8d751b217300": {
   "approach": "Here we introduce a model-aware schedule construction based on fiberwise optimal transport.",
   "mode": "heuristic",
@@ -21564,6 +21772,18 @@
   "prior_work": "Consider a setting where we measure variables at different physical locations.",
   "problem": "Constrained optimization extends classical optimization by integrating side information, making it widely applicable across scientific and engineering domains. Motivated by an application in geodesy, where contiguous regions of the sea surface must be identified for principal component analysis, we introduce the\u2026",
   "results": "we have a constrained clustering problem where the constraint models coherence."
+ },
+ "7474270097e1340e": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "As mobile robots become increasingly integrated into everyday environments, privacy risks arising from onboard cameras have become a growing concern. Ultra-low-resolution (ULR) RGB can mitigate visual privacy exposure at the source, but ULR appearance alone substantially limits semantic and spatial understanding.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
  },
  "748002420bed0153": {
   "approach": "",
@@ -23263,6 +23483,18 @@
   "problem": "Dense self-supervised learning (SSL) is a powerful paradigm for learning without annotations the local descriptors required to solve dense medical imaging tasks. Pix2Rep-v2 addresses the main challenges of dense SSL by leveraging a redundancy reduction objective at the pixel-level with a principle of equivariance of dense representations, that scales efficiently to 3D or wide field-of-view applications.",
   "results": ""
  },
+ "7caf1a6cbf11a907": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Self-supervised vision transformers trained with DINO-style objectives exhibit striking emergent semantic representation quality across visual tasks, yet the mechanisms underlying this behavior remain unclear. We present a systematic empirical dissection of the DINO family and show that semantic representations arise primarily from enforcing consistency between geometrically distinct global views of the same image instance.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "7cb7e95a4565b304": {
   "approach": "This paper examines that gap using time-aware\u2026",
   "mode": "heuristic",
@@ -24615,6 +24847,18 @@
   "problem": "Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints.",
   "results": "Although many context-biasing methods improve recognition accuracy, they often do not address the practical requirements of modern production ASR systems: streaming inference, efficient batched decoding, user-specific context lists, and low runtime overhead."
  },
+ "846272db9f05a493": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "We present LightMIS, a scalable family of ultra-lightweight convolutional networks for 2D binary medical image segmentation without a learned stage-wise decoder. LightMIS aligns the outputs of a five-level encoder to a common resolution using Scale-Aligned Projection blocks, aggregates them once, and refines the fused representation with an Adaptive Fusion Cascade.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "8483fd633ed4bf8e": {
   "approach": "In this work, we introduce a common framework based on the discretization of functional Gauss--Newton problems by finite families of linear measurements.",
   "mode": "heuristic",
@@ -25284,6 +25528,18 @@
   "prior_work": "",
   "problem": "Large language models can produce fluent answers when their factual support is weak.",
   "results": "In the final balanced-option protocol, Grounded-CoSQ at \u03c4=0.90 reduces the mean unconditional wrong-commitment rate from 13.1% under\u2026"
+ },
+ "89275b36c2c049fa": {
+  "approach": "We present Know-Your-Scene (KYS)-SLAM, a modular extension of ORB-SLAM3 that supplants feature rejection with\u2026 We contend that contextual implausibility is better expressed as a graded quantity than an exclusion criterion.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Stereo visual SLAM systems built on local descriptors suffer from semantic ambiguity, instance-level confusion, and independently moving objects, each corrupting data association and accumulating as trajectory drift. Prevailing semantic and dynamic SLAM methods address this through binary feature rejection, sacrificing correspondence density for outlier suppression.",
+  "results": ""
  },
  "8929d9b709530599": {
   "approach": "We introduce Security Reasoning Topology, which models reasoning through three representative structures: Linear, Branching, and Graph.",
@@ -26878,6 +27134,18 @@
   "prior_work": "",
   "problem": "Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through textual reflection.",
   "results": "Despite strong empirical results, these systems lack a unified account of coordination, memory improvement, and the role of external verification. We then analyse reflection as stochastic movement over semantic memory states."
+ },
+ "91625e27c986178e": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "feed gave no abstract; open the paper for detail"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
  },
  "9178b381e1714c18": {
   "approach": "",
@@ -33585,6 +33853,18 @@
   "problem": "",
   "results": ""
  },
+ "b61297392045c321": {
+  "approach": "To address these problems, we propose a novel dual reversed scanning setup utilizing both RSGR and inverted RSGR views.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "The adoption of CMOS sensors in mobile photography is frequently compromised by the rolling shutter (RS) effect, which introduces geometric distortions and motion artifacts. Particularly, recent rolling shutter with global reset (RSGR) mode, while mitigating some RS issues, also incurs major limitations, including reduced capture speed and compressed dynamic range.",
+  "results": "This solution not only handles the inherent flaws of RSGR by synchronizing complementary exposures to balance\u2026"
+ },
  "b6185b4cea382577": {
   "approach": "To investigate this question, we apply five realistic noise conditions at multiple intensity levels to 3,822 stereotype-related responses and compare the resulting bias judgments with those on the original text.",
   "mode": "heuristic",
@@ -34161,6 +34441,18 @@
   "problem": "",
   "results": ""
  },
+ "b8b19226e7387c81": {
+  "approach": "This paper approaches object removal from a stage-based perspective and proposes a zero-shot framework for constrained latent inpainting with a frozen pretrained Stable Diffusion model, requiring no task-specific training or model fine-tuning.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Removing an object from a real image requires more than synthesizing plausible content within a mask: the method must suppress residual object features, preserve the unedited scene, and generate replacement content that is consistent with the surrounding background.",
+  "results": "The method integrates SAM-based mask construction, BLIP image-caption conditioning,\u2026"
+ },
  "b8b75fbd69bdfcbb": {
   "approach": "",
   "mode": "heuristic",
@@ -34512,6 +34804,18 @@
   "prior_work": "Existing interference analysis approaches, whether manual or model-based, struggle to capture the full range of behaviors arising from the complex\u2026",
   "problem": "The transition from single-core to multi-core architectures in safety-critical embedded systems introduces significant challenges due to inter-core interference caused by contention for shared hardware resources.",
   "results": ""
+ },
+ "bae4920045d7bb1f": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "Our analysis traces this limitation to four key deficiencies: weak fine-grained visual memory, unreliable dynamic world-state tracking, failing to record world state revealed by interaction outcomes, and limited generalization from prior experience.",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Long-horizon embodied interaction requires agents to retain and continually update information about the environment as they observe, act, and encounter change. Yet current agents struggle to maintain such memory reliably.",
+  "results": "existing benchmarks do not directly assess these memory capabilities during long-horizon embodied interaction."
  },
  "bafcdd155f7dc980": {
   "approach": "",
@@ -34976,6 +35280,18 @@
   "prior_work": "",
   "problem": "With the rapid advancement of image editing models and their widespread application across various domains, there is an increasingly urgent need to deploy these model capabilities directly into real-world scenarios. existing benchmarks remain confined to simple single-image tasks, suffering from limited coverage dimensions and an inability to effectively differentiate performance among diverse models.",
   "results": "Consequently, they fail to reliably evaluate model performance in complex multi-image editing, highly demanding reasoning instructions, and practical deployment settings."
+ },
+ "bd42ba9f8450c0a0": {
+  "approach": "We propose Recursive Uncertainty-Gated Image Registration (RUGI), an algorithm for iteratively refining deformation fields predicted by learning-based registration models.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Conventional image registration algorithms are robust to domain shifts and achieve low errors, but they are slow and computationally expensive. Deep-learning methods are efficient at inference-time, but face challenges in out-of-domain samples.",
+  "results": "At each iteration, the registration model predicts an incremental deformation, and a gating map modulates the update. Refinements are hence concentrated in regions that remain\u2026"
  },
  "bd90a6a910d9e1c5": {
   "approach": "",
@@ -37695,6 +38011,18 @@
   "problem": "Space robots operate in extreme environments where hardware degradation can critically compromise traditional control strategies. While continual reinforcement learning offers a promising mechanism for online adaptation, it inherently requires access to a reward signal during deployment.",
   "results": ""
  },
+ "cb9d4f217d65f658": {
+  "approach": "In this paper, we propose a VLM-driven, modular perception framework for scene understanding using off-the-shelf approaches.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Robotic operation in previously unseen environments requires both semantic understanding and reliable metric information. While vision--language models (VLMs) provide strong semantic capabilities, their geometric estimates remain less reliable.",
+  "results": "Starting from a single RGB-D observation, the scene is segmented into object-level regions, annotated by a VLM, and grounded with depth information to construct a task-independent object-centric representation."
+ },
  "cbb3bc8b8fccb622": {
   "approach": "",
   "mode": "heuristic",
@@ -40165,6 +40493,18 @@
   "problem": "",
   "results": ""
  },
+ "d75f95b745cf7e28": {
+  "approach": "To address this issue, we propose a mutually reinforced image registration and fusion diffusion framework via degradation-aware learning, termed Diff-RF.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Image registration and fusion aim to establish spatial correspondences from misaligned multi-modal source images, and integrate complementary information. in real-world imaging scenarios, source images are often affected by complex and diverse degradations, such as low illumination, noise, etc., which severely hinder the effectiveness of registration and fusion.",
+  "results": "It explores the intrinsic coupling between registration-fusion and\u2026"
+ },
  "d75fa451f7596716": {
   "approach": "",
   "mode": "heuristic",
@@ -40888,6 +41228,18 @@
   "prior_work": "",
   "problem": "On-Policy Distillation (OPD) has emerged as a widely adopted post-training paradigm for enhancing large language models in reasoning domains. the data-centric mechanisms in OPD remain relatively underexplored.",
   "results": "Surprisingly, we find that 1-shot OPD is consistently effective across all sampled training examples and harder examples often yield superior performance gain. We next investigate what actually\u2026"
+ },
+ "db4b3d63137a423f": {
+  "approach": "In this paper, we propose MotionSpec, a motion supervision framework centered on\u2026 Even when individual frames appear realistic, the underlying motion may evolve in inconsistent or implausible ways.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Recent advances in text-to-video generation have enabled high-fidelity visual synthesis, yet realistic motion remains challenging. Generated videos may exhibit temporal discontinuities, inconsistent action progression, and structural distortions during complex movements.",
+  "results": "Standard generative objectives provide limited motion-specific supervision, leaving motion evolution insufficiently constrained."
  },
  "db526c19cf1fd16b": {
   "approach": "",
@@ -43613,6 +43965,18 @@
   "overview": "MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs\u2019 spatial reasoning abilities appeared first on Microsoft Research .",
   "prior_work": "",
   "problem": "",
+  "results": ""
+ },
+ "e8e931978b06ae66": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "Consequently, critical historical information, e.g., entity identities, dynamic states, and intervention-induced causal changes, often leaves the active context long before\u2026",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. a fundamental bottleneck emerges: as the generated sequence expands, practical models must operate under strictly bounded context windows, storage, and computational limits.",
   "results": ""
  },
  "e910517a7b161436": {
@@ -47600,6 +47964,18 @@
   "prior_work": "",
   "problem": "We study nonconvex methods for matrix completion, the problem of recovering a low-rank matrix from a subset of its entries.",
   "results": "Convex methods achieve sample complexity linear in the matrix dimension and the rank, up to logarithmic factors, whereas global guarantees for commonly used nonconvex methods require a higher polynomial dependence on the rank. For an $n\\times n$ matrix of rank $r$ with incoherence parameter $\u03bc$ and condition number $\u03ba$, the two methods achieve exact recovery with\u2026"
+ },
+ "fef864f6babe8571": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Automated LOD3 building modeling typically relies on purpose-built geometric or learning-based pipelines, limiting flexibility across heterogeneous buildings and input evidence conditions. This study investigates whether Astra, a general-purpose multimodal foundation model, can address these limitations through zero-shot reconstruction of LOD3 building models within an agentic framework under bounded autonomy.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
  },
  "fefededd7dce3384": {
   "approach": "We propose PerturbRx, a treatment-conditioned representation learning framework that learns intervention-induced latent transitions and uses them as patient-drug response features.",
