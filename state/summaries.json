@@ -8337,6 +8337,18 @@
   "problem": "",
   "results": ""
  },
+ "2982fc7aad4f05d3": {
+  "approach": "In this paper, we present a systematic empirical study of harness effects in SE agents.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Large Language Model (LLM)-based agents are increasingly used for software engineering tasks, yet their performance is not determined by the base model alone. the role of harness design remains insufficiently understood, especially across different models, tasks, and harness components.",
+  "results": "We first evaluate two representative harnesses, mini-SWE-agent and OpenCode, with ten\u2026"
+ },
  "2988be1542c48c0a": {
   "approach": "",
   "mode": "heuristic",
@@ -13019,6 +13031,18 @@
   "problem": "Open-vocabulary scene understanding is fundamental for robotics, laying the groundwork for spatial reasoning and object manipulation.",
   "results": ""
  },
+ "3f4c11aeb8fb83e1": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Smaller activation outliers do not necessarily imply better low-bit quantization: their alignment with the quantizer matters. We introduce PrismQuant, a quantizer-aware rotation framework that aligns the leading activation eigenspace with the constant group subspace of asymmetric grouped INT4.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "3f7bddb876a4bc38": {
   "approach": "In this work, we first provide an explicit task\u2026",
   "mode": "heuristic",
@@ -16450,6 +16474,18 @@
   "prior_work": "",
   "problem": "High-quality creative writing data for large language models (LLMs) remains dominated by story-centric data, limiting models' ability to follow the structural and functional conventions of diverse creative formats.",
   "results": ""
+ },
+ "514869c479bb22e8": {
+  "approach": "We introduce Contextual Early Reward (CER), which predicts terminal reward through behavioral evidence in a trajectory prefix.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Long-horizon coding agents receive verifiable rewards only after completing expensive sequences of tool calls. This increases inference cost, amplifies early wrong hypotheses, and can lead to sparse terminal reward and unstable training.",
+  "results": "In test-time scaling on SWE-bench Verified, CER improves RM@8 over the strongest baseline by 4.2\u2026 CER synthesizes adaptive rubrics specific to the current task and stage through experiences summarized from related historical tasks."
  },
  "514c821ca10f25dc": {
   "approach": "",
@@ -22059,6 +22095,18 @@
   "problem": "",
   "results": ""
  },
+ "6e2b0c46f783646f": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Multi-agent systems distribute large contexts across agents that communicate to solve a task. a full KV cache grows linearly with both the context an individual agent processes, and the number of agents that coordinate together.",
+  "results": "This avoids text generation and can improve accuracy and latency. This raises memory and context costs, often far exceeding available GPU resources and context window sizes."
+ },
  "6e44d380bf2bd83d": {
   "approach": "",
   "mode": "heuristic",
@@ -24211,6 +24259,16 @@
   "problem": "Time series are typically observed at discrete time points and often exhibit regime changes that challenge the assumption of a static causal structure, a limitation in many real-world dynamic systems. To address this challenge, RCBNB-MB identifies latent causal regimes, defined as subsets of time points within which a stable causal structure\u2026",
   "results": ""
  },
+ "78fe2fe55d17df29": {
+  "approach": "We introduce HABIT, a taxonomy of 23 behavioral axes in five categories, which three authors and three LLMs derive bottom-up from 408 agent trajectories across 17 domains.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "For example, agents differ in whether they ask clarifying questions or search the web. On held-out tasks, HABIT distinguishes models more clearly than existing taxonomies of human values and agent\u2026",
+  "problem": "Large language model (LLM) agents assist users with everyday tasks that can be completed in many reasonable ways. Even when their answers are useful, how agents carry out these tasks may not match users' preferences and needs.",
+  "results": ""
+ },
  "79111b6e9d9108c2": {
   "approach": "In this paper, we propose the first fully parallel computing framework to accelerate LiDAR bundle adjustment for large-scale mapping, incorporating three key techniques. First, we design an adaptive, asynchronous data loading strategy to efficiently process large-scale point cloud datasets on memory-constrained GPUs.",
   "mode": "heuristic",
@@ -24680,6 +24738,16 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "7b0651b3a3e5619f": {
+  "approach": "We introduce KV-Lingo, a method for translating the KV cache of a source model into one that can be read by a target model.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Caches are model-specific: for the same text, models with different architectures or weights produce incompatible representations.",
+  "problem": "Large language models represent context with a key-value (KV) cache. This makes it costly to switch models over a shared context: although the context has already been processed by one model, the incoming model must process it again to build its own cache.",
+  "results": "KV-Lingo consists of a collection of linear maps, typically one per layer of the\u2026"
  },
  "7b16cf894ba6d6ba": {
   "approach": "We develop graph structure-agnostic theoretical guarantees for approximate inference of node labels as well as guarantees for maximum angle deviation with\u2026",
@@ -27061,6 +27129,18 @@
   "problem": "A central goal when designing treatment policies is often to \"do no harm\", that is, to avoid interventions that improve average outcomes while worsening outcomes for some individuals. in many applications, treatments operate through mediators, and a single \"total\" FNA can obscure whether harm arises primarily through direct pathways or indirect (mediator-induced) pathways.",
   "results": ""
  },
+ "87e9f16a3ca339d5": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Direct Preference Optimization (DPO) aligns language models by optimizing over sequence-level sums of token-wise implicit reward differences. we identify a pervasive pathology in this formulation: a disproportionately small subset of high-frequency token types dominates cumulative sequence scores while appearing symmetrically across both preferred and dispreferred responses.",
+  "results": "under canonical Qwen tokenization on Anthropic HH-RLHF, merely 69 token types account for $55.1\\%$ of all response tokens and $85.9\\%$ of within-pair shared token mass, exhibiting substantially\u2026"
+ },
  "87f307378000a8c6": {
   "approach": "",
   "mode": "heuristic",
@@ -29216,6 +29296,18 @@
   "prior_work": "Existing CIG benchmarks rely on rigid template prompts (e.g., \"a photo of a skirt\"), failing to reflect natural user queries and obscuring model behavior across levels of linguistic specificity.",
   "problem": "Fashion complementary image generation (CIG) aims to create garments that stylistically match a seed item based on user intent, making it a natural multimodal grounding problem where models must interpret language in visual context.",
   "results": ""
+ },
+ "923c08a05bcd1ecd": {
+  "approach": "We present IndustryLLM, an open-weight industrial language model trained from Qwen3.5-35B-A3B-Base (35B total parameters with ~3B activated per token, with the vision encoder frozen). Rather than relying on generic text scaling, we introduce a failure-driven adaptation recipe spanning continued pre-training (CPT) and supervised fine-tuning (SFT).",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Industrial procurement requires language models to bridge informal buyer jargon, sparse marketplace attributes, and authoritative engineering standards under strict safety tolerances.",
+  "results": "CPT leverages a curated ~100B-token corpus integrating 5B tokens\u2026"
  },
  "925623b3cdc40fde": {
   "approach": "We propose a learning framework that explicitly enforces a structural hierarchy across three scales independently: a local objective for token continuity, a mid-range objective\u2026",
@@ -34133,6 +34225,18 @@
    "short feed blurb, not a structured abstract"
   ],
   "overview": "Built on our latest Nano Banana model, Google Pics \u2014 our image creation and editing tool \u2014 is now available.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "ab201752ca4a71e6": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Large language models are commonly evaluated by generating a small number of stochastic responses for each prompt in a benchmark. Because inference budgets are limited, this shallow evaluation may fail to observe low-probability but operationally important failures.",
   "prior_work": "",
   "problem": "",
   "results": ""
@@ -46003,6 +46107,18 @@
   "problem": "Transforming scholarly PDFs into machine-readable fulltext remains a bottleneck for large-scale information systems.",
   "results": "Recent vision-based parsers improve accuracy, but need GPUs and may introduce noise into the extracted text. We pair it with a lightweight CPU detector localising figure, table, and paratext (header, footer, page number) regions, encoded as typed-area masks whose tokens are routed to GROBID's specialised\u2026"
  },
+ "e41e7651848798d2": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "One variable sets what an upstream fault costs a staged pipeline of language-model agents: re-derivability, how much of what a stage needs it can rebuild from the original problem. Grounding an inspector agent in that problem is worth +0.608 [+0.517, +0.700] to +0.358 over a blind one on four open-weight backbones served with thinking disabled, and on the two Qwen backbones the blind inspector changes no item at all.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "e42b7af4138c252f": {
   "approach": "",
   "mode": "heuristic",
@@ -49059,6 +49175,18 @@
   "problem": "A language model can fail a syntactic test in two distinct ways: by not encoding the relevant structure, or by encoding it but failing to use it at the output. Behavioral evaluation alone cannot tell these apart.",
   "results": "Using a compact trilingual (English, Chinese, German) control-dependency benchmark, we find that probe recoverability exceeds or equals LM-head readout, which in turn exceeds or equals behavioral deployment,\u2026"
  },
+ "f2ca3e5844c40237": {
+  "approach": "We introduce compositional controllability to address these questions. A comparison window covers one stage, several stages, or the whole agent.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Leaderboards rank long-horizon agents by their final outputs.",
+  "results": "Yet a higher score alone does not establish whether two systems are comparable or which stage accounts for the difference. Unequal evidence, inputs, or budgets can affect scores, and statistical corrections do not remove this mismatch."
+ },
  "f2d0a75e3f9c1ebe": {
   "approach": "",
   "mode": "heuristic",
@@ -51472,6 +51600,18 @@
   "prior_work": "",
   "problem": "Reinforcement learning (RL) is an exciting concept as well as a remarkable success story worth sharing. RL builds on rather complex interactions between different objects that play out over several cycles.",
   "results": "At its heart, RLLBC-Lib comprises a comprehensive library of tabular RL approaches to enforce a clear understanding of the\u2026"
+ },
+ "fef526bc0d5d5181": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Diffusion Transformers (DiTs) have become the standard backbone for high-quality generative modeling, yet deploying them in conditional generation tasks remains computationally prohibitive because bidirectional joint attention repeatedly processes large reference streams. While existing optimization schemes mitigate generic temporal redundancy, they typically rely on coarse-grained static reuse and overlook the distinct dynamics of references and targets.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
  },
  "fef72f43525585b1": {
   "approach": "We close this gap by analyzing Riemannian gradient descent (RGD) and Riemannian Gauss--Newton (RGN) methods.",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T21:16:16+00:00",
+ "generated": "2026-09-29T01:05:39+00:00",
  "labs": [
   {
    "slug": "openai",
@@ -215,6 +215,398 @@
    }
   },
   {
+   "uid": "e41e7651848798d2",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "Re-derivability Decides What a Staged Agent Pipeline Recovers After an Upstream Fault",
+   "url": "https://arxiv.org/abs/2609.32802v1",
+   "summary": "One variable sets what an upstream fault costs a staged pipeline of language-model agents: re-derivability, how much of what a stage needs it can rebuild from the original problem. Grounding an inspector agent in that problem is worth +0.608 [+0.517, +0.700] to +0.358 over a blind one on four open-weight backbones served with thinking disabled, and on the two Qwen backbones the blind inspector changes no item at all. That head-to-head is exploratory. One deterministic fault enters the first stage, and we re-expose the original problem to $k = 0,\\dots,3$ of the downstream stages with agents,\u2026",
+   "published": "2026-09-26T17:23:48+00:00",
+   "authors": [
+    "Tianqi Bu",
+    "YuXuan Peng",
+    "Junteng Tu",
+    "Henghui Xiao"
+   ],
+   "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "One variable sets what an upstream fault costs a staged pipeline of language-model agents: re-derivability, how much of what a stage needs it can rebuild from the original problem. Grounding an inspector agent in that problem is worth +0.608 [+0.517, +0.700] to +0.358 over a blind one on four open-weight backbones served with thinking disabled, and on the two Qwen backbones the blind inspector changes no item at all.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "78fe2fe55d17df29",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "AgentHabit: Characterizing Distinct Behaviors of Agents on Everyday Tasks",
+   "url": "https://arxiv.org/abs/2609.32795v1",
+   "summary": "Large language model (LLM) agents assist users with everyday tasks that can be completed in many reasonable ways. Even when their answers are useful, how agents carry out these tasks may not match users' preferences and needs. For example, agents differ in whether they ask clarifying questions or search the web. We introduce HABIT, a taxonomy of 23 behavioral axes in five categories, which three authors and three LLMs derive bottom-up from 408 agent trajectories across 17 domains. On held-out tasks, HABIT distinguishes models more clearly than existing taxonomies of human values and agent\u2026",
+   "published": "2026-09-26T17:09:58+00:00",
+   "authors": [
+    "Woojung Song",
+    "Hoyeol Yang",
+    "Jeonghoon Shim",
+    "Sungjib Lim",
+    "Jonggeun Lee",
+    "Yunho Choi",
+    "Yohan Jo"
+   ],
+   "tags": [
+    "cs.AI",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Large language model (LLM) agents assist users with everyday tasks that can be completed in many reasonable ways. Even when their answers are useful, how agents carry out these tasks may not match users' preferences and needs.",
+    "prior_work": "For example, agents differ in whether they ask clarifying questions or search the web. On held-out tasks, HABIT distinguishes models more clearly than existing taxonomies of human values and agent\u2026",
+    "approach": "We introduce HABIT, a taxonomy of 23 behavioral axes in five categories, which three authors and three LLMs derive bottom-up from 408 agent trajectories across 17 domains.",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": []
+   }
+  },
+  {
+   "uid": "7b0651b3a3e5619f",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "KV-Lingo: Learning KV-Cache Translators with Distillation",
+   "url": "https://arxiv.org/abs/2609.32610v1",
+   "summary": "Large language models represent context with a key-value (KV) cache. Caches are model-specific: for the same text, models with different architectures or weights produce incompatible representations. This makes it costly to switch models over a shared context: although the context has already been processed by one model, the incoming model must process it again to build its own cache. We introduce KV-Lingo, a method for translating the KV cache of a source model into one that can be read by a target model. KV-Lingo consists of a collection of linear maps, typically one per layer of the\u2026",
+   "published": "2026-09-26T13:34:19+00:00",
+   "authors": [
+    "Val\u00e9rie Castin",
+    "Keitaro Sakamoto",
+    "Anastasiia Filippova",
+    "Jo\u00e3o Monteiro",
+    "Marco Cuturi",
+    "Pierre Ablin"
+   ],
+   "tags": [
+    "cs.CL",
+    "cs.LG",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Large language models represent context with a key-value (KV) cache. This makes it costly to switch models over a shared context: although the context has already been processed by one model, the incoming model must process it again to build its own cache.",
+    "prior_work": "Caches are model-specific: for the same text, models with different architectures or weights produce incompatible representations.",
+    "approach": "We introduce KV-Lingo, a method for translating the KV cache of a source model into one that can be read by a target model.",
+    "results": "KV-Lingo consists of a collection of linear maps, typically one per layer of the\u2026",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": []
+   }
+  },
+  {
+   "uid": "ab201752ca4a71e6",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "Prioritizing Repeated LLM Evaluation for Hidden Failure Discovery",
+   "url": "https://arxiv.org/abs/2609.32547v1",
+   "summary": "Large language models are commonly evaluated by generating a small number of stochastic responses for each prompt in a benchmark. Because inference budgets are limited, this shallow evaluation may fail to observe low-probability but operationally important failures. A prompt that produces no failures in a small sample may therefore appear reliable despite having a nonzero latent probability of failure under repeated inference. We formulate LLM reliability evaluation as a budget-constrained discovery problem in which each prompt is associated with an unknown per-generation failure\u2026",
+   "published": "2026-09-26T12:26:48+00:00",
+   "authors": [
+    "Keita Broadwater",
+    "Akin Broadwater"
+   ],
+   "tags": [
+    "cs.LG",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "Large language models are commonly evaluated by generating a small number of stochastic responses for each prompt in a benchmark. Because inference budgets are limited, this shallow evaluation may fail to observe low-probability but operationally important failures.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "2982fc7aad4f05d3",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "Beyond the Model: Demystifying Harness Effects in Software Engineering Agents",
+   "url": "https://arxiv.org/abs/2609.32459v1",
+   "summary": "Large Language Model (LLM)-based agents are increasingly used for software engineering tasks, yet their performance is not determined by the base model alone. The agent harness substantially shapes how SE agents interact with repositories, execute actions, and validate solutions. However, the role of harness design remains insufficiently understood, especially across different models, tasks, and harness components. In this paper, we present a systematic empirical study of harness effects in SE agents. We first evaluate two representative harnesses, mini-SWE-agent and OpenCode, with ten\u2026",
+   "published": "2026-09-26T10:49:28+00:00",
+   "authors": [
+    "Haichuan Hu",
+    "Quanjun Zhang",
+    "Shengcheng Yu",
+    "Zhifei Chen",
+    "Tianyu Luo",
+    "Chunrong Fang",
+    "Zhenyu Chen",
+    "Liang Xiao"
+   ],
+   "tags": [
+    "cs.SE",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Large Language Model (LLM)-based agents are increasingly used for software engineering tasks, yet their performance is not determined by the base model alone. the role of harness design remains insufficiently understood, especially across different models, tasks, and harness components.",
+    "prior_work": "",
+    "approach": "In this paper, we present a systematic empirical study of harness effects in SE agents.",
+    "results": "We first evaluate two representative harnesses, mini-SWE-agent and OpenCode, with ten\u2026",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
+    ]
+   }
+  },
+  {
+   "uid": "87e9f16a3ca339d5",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "Masking Frequent Tokens Sharpens Direct Preference Optimization",
+   "url": "https://arxiv.org/abs/2609.32445v1",
+   "summary": "Direct Preference Optimization (DPO) aligns language models by optimizing over sequence-level sums of token-wise implicit reward differences. However, we identify a pervasive pathology in this formulation: a disproportionately small subset of high-frequency token types dominates cumulative sequence scores while appearing symmetrically across both preferred and dispreferred responses. Specifically, under canonical Qwen tokenization on Anthropic HH-RLHF, merely 69 token types account for $55.1\\%$ of all response tokens and $85.9\\%$ of within-pair shared token mass, exhibiting substantially\u2026",
+   "published": "2026-09-26T10:21:46+00:00",
+   "authors": [
+    "Harshvardhan Saini",
+    "Samyak Jha",
+    "Yiming Tang",
+    "Dianbo Liu"
+   ],
+   "tags": [
+    "cs.CL",
+    "cs.LG",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Direct Preference Optimization (DPO) aligns language models by optimizing over sequence-level sums of token-wise implicit reward differences. we identify a pervasive pathology in this formulation: a disproportionately small subset of high-frequency token types dominates cumulative sequence scores while appearing symmetrically across both preferred and dispreferred responses.",
+    "prior_work": "",
+    "approach": "",
+    "results": "under canonical Qwen tokenization on Anthropic HH-RLHF, merely 69 token types account for $55.1\\%$ of all response tokens and $85.9\\%$ of within-pair shared token mass, exhibiting substantially\u2026",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
+    ]
+   }
+  },
+  {
+   "uid": "3f4c11aeb8fb83e1",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "PrismQuant: Optimal Null-Space Rotations for Grouped Quantizers",
+   "url": "https://arxiv.org/abs/2609.32429v1",
+   "summary": "Smaller activation outliers do not necessarily imply better low-bit quantization: their alignment with the quantizer matters. We introduce PrismQuant, a quantizer-aware rotation framework that aligns the leading activation eigenspace with the constant group subspace of asymmetric grouped INT4. The affine offsets represent the energy in this subspace without widening the range within the group. We formulate rotation design as a Ky Fan trace maximization and derive a closed-form solution that is provably optimal for this alignment objective. Compact Householder transformations and their\u2026",
+   "published": "2026-09-26T10:05:10+00:00",
+   "authors": [
+    "Yanlong Chen",
+    "Yining Chen",
+    "Song Zhang",
+    "Amirhossein Habibian",
+    "Yawei Li"
+   ],
+   "tags": [
+    "cs.AI",
+    "cs.LG",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "Smaller activation outliers do not necessarily imply better low-bit quantization: their alignment with the quantizer matters. We introduce PrismQuant, a quantizer-aware rotation framework that aligns the leading activation eigenspace with the constant group subspace of asymmetric grouped INT4.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "fef526bc0d5d5181",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "RefAdapt-DiT: Adaptive Joint Attention for Reference-Conditioned Diffusion Transformers",
+   "url": "https://arxiv.org/abs/2609.32415v1",
+   "summary": "Diffusion Transformers (DiTs) have become the standard backbone for high-quality generative modeling, yet deploying them in conditional generation tasks remains computationally prohibitive because bidirectional joint attention repeatedly processes large reference streams. While existing optimization schemes mitigate generic temporal redundancy, they typically rely on coarse-grained static reuse and overlook the distinct dynamics of references and targets. Specifically, we observe that reference representations often evolve slowly along the generation trajectory, while the target often\u2026",
+   "published": "2026-09-26T09:44:33+00:00",
+   "authors": [
+    "Jian Tang",
+    "Jiawei Fan",
+    "Qiannan Zhou",
+    "Qingbin Liu",
+    "Jiang Bian",
+    "Zang Li"
+   ],
+   "tags": [
+    "cs.CV",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "Diffusion Transformers (DiTs) have become the standard backbone for high-quality generative modeling, yet deploying them in conditional generation tasks remains computationally prohibitive because bidirectional joint attention repeatedly processes large reference streams. While existing optimization schemes mitigate generic temporal redundancy, they typically rely on coarse-grained static reuse and overlook the distinct dynamics of references and targets.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "f2ca3e5844c40237",
+   "source": "arxiv-openai",
+   "org": "OpenAI",
+   "content": "paper",
+   "title": "What Can a Leaderboard Certify? Compositional Controllability for Fair Evaluation and Training of Biomedical Literature-Review Agents",
+   "url": "https://arxiv.org/abs/2609.32318v1",
+   "summary": "Leaderboards rank long-horizon agents by their final outputs. Yet a higher score alone does not establish whether two systems are comparable or which stage accounts for the difference. Unequal evidence, inputs, or budgets can affect scores, and statistical corrections do not remove this mismatch. We introduce compositional controllability to address these questions. A comparison window covers one stage, several stages, or the whole agent. Our central result bounds the gap between observed and controlled score differences using only nuisance outside the window. This yields an admissibility\u2026",
+   "published": "2026-09-26T07:22:15+00:00",
+   "authors": [
+    "Zhaowei Han",
+    "Xiang Zhang",
+    "Lingxiao Guan",
+    "Danqi Hu",
+    "Kai Liu",
+    "Kevin Chang",
+    "Jie Liu"
+   ],
+   "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "arxiv",
+    "openai"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Leaderboards rank long-horizon agents by their final outputs.",
+    "prior_work": "",
+    "approach": "We introduce compositional controllability to address these questions. A comparison window covers one stage, several stages, or the whole agent.",
+    "results": "Yet a higher score alone does not establish whether two systems are comparable or which stage accounts for the difference. Unequal evidence, inputs, or budgets can affect scores, and statistical corrections do not remove this mismatch.",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
+    ]
+   }
+  },
+  {
+   "uid": "6e2b0c46f783646f",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "Receiver-Conditioned Latent Communication gives 94% CacheBack",
+   "url": "https://arxiv.org/abs/2609.32046v1",
+   "summary": "Multi-agent systems distribute large contexts across agents that communicate to solve a task. Text messages are compact but require decoding and may omit evidence the receiving agent needs. Recent latent communication instead transfers KV caches. This avoids text generation and can improve accuracy and latency. However, a full KV cache grows linearly with both the context an individual agent processes, and the number of agents that coordinate together. This raises memory and context costs, often far exceeding available GPU resources and context window sizes. Our key observation is that\u2026",
+   "published": "2026-09-25T22:20:08+00:00",
+   "authors": [
+    "Maximillian Rossi",
+    "Prajwal Raghunath",
+    "Haoqing Xuan",
+    "Yusen Zhang",
+    "Eugene Wu"
+   ],
+   "tags": [
+    "cs.AI",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Multi-agent systems distribute large contexts across agents that communicate to solve a task. a full KV cache grows linearly with both the context an individual agent processes, and the number of agents that coordinate together.",
+    "prior_work": "",
+    "approach": "",
+    "results": "This avoids text generation and can improve accuracy and latency. This raises memory and context costs, often far exceeding available GPU resources and context window sizes.",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
+    ]
+   }
+  },
+  {
+   "uid": "514869c479bb22e8",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "Before the Rollout Ends: Early Terminal Reward Prediction for Long-horizon Coding Agents",
+   "url": "https://arxiv.org/abs/2609.31995v1",
+   "summary": "Long-horizon coding agents receive verifiable rewards only after completing expensive sequences of tool calls. This increases inference cost, amplifies early wrong hypotheses, and can lead to sparse terminal reward and unstable training. We introduce Contextual Early Reward (CER), which predicts terminal reward through behavioral evidence in a trajectory prefix. CER synthesizes adaptive rubrics specific to the current task and stage through experiences summarized from related historical tasks. In test-time scaling on SWE-bench Verified, CER improves RM@8 over the strongest baseline by 4.2\u2026",
+   "published": "2026-09-25T20:53:04+00:00",
+   "authors": [
+    "Jihan Yao",
+    "Sihan Zeng",
+    "Shangbin Feng",
+    "Zhiyuan Fan",
+    "Banghua Zhu",
+    "Yulia Tsvetkov"
+   ],
+   "tags": [
+    "cs.CL",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Long-horizon coding agents receive verifiable rewards only after completing expensive sequences of tool calls. This increases inference cost, amplifies early wrong hypotheses, and can lead to sparse terminal reward and unstable training.",
+    "prior_work": "",
+    "approach": "We introduce Contextual Early Reward (CER), which predicts terminal reward through behavioral evidence in a trajectory prefix.",
+    "results": "In test-time scaling on SWE-bench Verified, CER improves RM@8 over the strongest baseline by 4.2\u2026 CER synthesizes adaptive rubrics specific to the current task and stage through experiences summarized from related historical tasks.",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
+    ]
+   }
+  },
+  {
    "uid": "d2d497e5eee41848",
    "source": "openai",
    "org": "OpenAI",
@@ -237,6 +629,53 @@
     "mode": "heuristic",
     "notes": [
      "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "923c08a05bcd1ecd",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "IndustryLLM: Failure-Driven LLM Training for Industrial Procurement",
+   "url": "https://arxiv.org/abs/2609.31871v1",
+   "summary": "Industrial procurement requires language models to bridge informal buyer jargon, sparse marketplace attributes, and authoritative engineering standards under strict safety tolerances. We present IndustryLLM, an open-weight industrial language model trained from Qwen3.5-35B-A3B-Base (35B total parameters with ~3B activated per token, with the vision encoder frozen). Rather than relying on generic text scaling, we introduce a failure-driven adaptation recipe spanning continued pre-training (CPT) and supervised fine-tuning (SFT). CPT leverages a curated ~100B-token corpus integrating 5B tokens\u2026",
+   "published": "2026-09-25T18:11:01+00:00",
+   "authors": [
+    "Liang Ding",
+    "Zhiang Xu",
+    "Yuyang Sheng",
+    "Bin Chen",
+    "Songlin Bai",
+    "Run Zhu",
+    "Dingjun Wu",
+    "Hui Xu",
+    "Yandi Wang",
+    "Fulin Shi",
+    "Leilei Gan",
+    "Linlin Yu",
+    "Qihuang Zhong",
+    "Keqin Peng",
+    "Yalong Li",
+    "Chengfu Huo"
+   ],
+   "tags": [
+    "cs.AI",
+    "cs.CL",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Industrial procurement requires language models to bridge informal buyer jargon, sparse marketplace attributes, and authoritative engineering standards under strict safety tolerances.",
+    "prior_work": "",
+    "approach": "We present IndustryLLM, an open-weight industrial language model trained from Qwen3.5-35B-A3B-Base (35B total parameters with ~3B activated per token, with the vision encoder frozen). Rather than relying on generic text scaling, we introduce a failure-driven adaptation recipe spanning continued pre-training (CPT) and supervised fine-tuning (SFT).",
+    "results": "CPT leverages a curated ~100B-token corpus integrating 5B tokens\u2026",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
     ]
    }
   },
@@ -389,8 +828,8 @@
   },
   {
    "uid": "c55450c6c2d90b20",
-   "source": "arxiv-fair",
-   "org": "Meta FAIR",
+   "source": "arxiv-cs-lg",
+   "org": "arXiv cs.LG",
    "content": "paper",
    "title": "Statistical attribute alignment for black-box generative AI via output post-processing",
    "url": "https://arxiv.org/abs/2609.31607v1",
@@ -408,7 +847,7 @@
     "cs.LG",
     "math.ST",
     "arxiv",
-    "meta"
+    "ml"
    ],
    "brief": {
     "overview": "",
@@ -1829,8 +2268,8 @@
   },
   {
    "uid": "177d5ebcf430fd42",
-   "source": "arxiv-fair",
-   "org": "Meta FAIR",
+   "source": "arxiv-cs-lg",
+   "org": "arXiv cs.LG",
    "content": "paper",
    "title": "LandscapeSHAP: Which Persistent Homology Class Gets the Credit?",
    "url": "https://arxiv.org/abs/2609.31469v1",
@@ -1843,7 +2282,7 @@
     "math.AT",
     "cs.LG",
     "arxiv",
-    "meta"
+    "ml"
    ],
    "brief": {
     "overview": "Shapley values, a solution concept from cooperative game theory, have recently become a standard tool for feature credit allocation in machine learning. They provide an axiomatically justified method to fairly distribute a model's prediction among the data features.",
@@ -3798,409 +4237,6 @@
     "mode": "heuristic",
     "notes": [
      "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "1d4f9018d48ed123",
-   "source": "arxiv-cs-lg",
-   "org": "arXiv cs.LG",
-   "content": "paper",
-   "title": "Softmax Reparameterization for Output-Head Quantization",
-   "url": "https://arxiv.org/abs/2609.31291v1",
-   "summary": "Large vocabularies make output heads a substantial inference cost in small language models. We propose softmax reparameterization, a post-training method that selects a functionally equivalent output head before quantization. The method subtracts a scalar multiple of the vocabulary-row mean from every output row and selects the coefficient by validation KL separately for RTN, activation-weighted MSE, and full-Hessian GPTQ. This one-dimensional search includes the original head and fixed mean-centering, preserves the full-precision softmax distribution, and leaves the trained decoder\u2026",
-   "published": "2026-09-25T14:01:25+00:00",
-   "authors": [
-    "Asim Kadav",
-    "Christian Flores",
-    "Chirag Arora",
-    "Varun Kotte",
-    "Hongbo Zheng",
-    "Lan Yan",
-    "Priya Shanmugasundaram",
-    "Tracy Holloway King"
-   ],
-   "tags": [
-    "cs.LG",
-    "cs.AI",
-    "arxiv",
-    "ml"
-   ],
-   "brief": {
-    "overview": "Large vocabularies make output heads a substantial inference cost in small language models. We propose softmax reparameterization, a post-training method that selects a functionally equivalent output head before quantization.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "0d170387e1ac6c1c",
-   "source": "arxiv-openai",
-   "org": "OpenAI",
-   "content": "paper",
-   "title": "When the Model Retires: An Empirical Study of LLM Migration in Open-Source Applications",
-   "url": "https://arxiv.org/abs/2609.31288v1",
-   "summary": "Applications built on commercial large language model (LLM) APIs depend on model versions that providers retire on their own schedule, with notice periods ranging from one year to two weeks. We ask what actually happens to applications when a model is retired. We mine GitHub for commits that migrate away from officially deprecated models and endpoints of OpenAI, Anthropic, and Google, matching each commit to the provider's published announcement and shutdown dates. From 22,555 commits in 17,703 non-fork repositories (2024-2026), 5,139 are matched to an official event; two independent coders\u2026",
-   "published": "2026-09-25T13:57:50+00:00",
-   "authors": [
-    "Hyungjin Lukas Kim"
-   ],
-   "tags": [
-    "cs.SE",
-    "arxiv",
-    "openai"
-   ],
-   "brief": {
-    "overview": "Applications built on commercial large language model (LLM) APIs depend on model versions that providers retire on their own schedule, with notice periods ranging from one year to two weeks. We ask what actually happens to applications when a model is retired.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "633dea48c4b3f3ee",
-   "source": "arxiv-cs-ai",
-   "org": "arXiv cs.AI",
-   "content": "paper",
-   "title": "G2MAF: Test-Time Gradient Guidance for Multi-Agent Flow Policies",
-   "url": "https://arxiv.org/abs/2609.31286v1",
-   "summary": "Offline multi-agent reinforcement learning (MARL) learns cooperative policies from fixed datasets without further environment interaction and a learned policy is frozen at deployment. Such a frozen policy typically proposes a single joint action and executes it directly at deployment time. However, this one-shot deployment often commits to a suboptimal proposal, even when better nearby alternatives remain consistent with the behavior data. To address this issue, we propose Gradient Guided Multi Agent Flow (G2MAF), a refinement framework for optimizing joint policies at test-time. G2MAF\u2026",
-   "published": "2026-09-25T13:57:02+00:00",
-   "authors": [
-    "Guowei Zou",
-    "Haitao Wang",
-    "Guoxin Wang",
-    "Zhiquan Chen",
-    "Beiwen Zhang",
-    "Guojie Wang",
-    "Hejun Wu"
-   ],
-   "tags": [
-    "cs.AI",
-    "arxiv",
-    "ai"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Offline multi-agent reinforcement learning (MARL) learns cooperative policies from fixed datasets without further environment interaction and a learned policy is frozen at deployment. this one-shot deployment often commits to a suboptimal proposal, even when better nearby alternatives remain consistent with the behavior data.",
-    "prior_work": "",
-    "approach": "To address this issue, we propose Gradient Guided Multi Agent Flow (G2MAF), a refinement framework for optimizing joint policies at test-time.",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "1fc2c36688ac0f79",
-   "source": "arxiv-cs-cv",
-   "org": "arXiv cs.CV",
-   "content": "paper",
-   "title": "MoTop: Motion-Topological Model For Micro AU Detection",
-   "url": "https://arxiv.org/abs/2609.31285v1",
-   "summary": "Facial micro-expressions are spontaneous, brief, and subtle facial movements that reveal suppressed emotions in high-stakes environments. In contrast to classic expression analysis, detecting action unit (AU) yields a finer representation of facial movements, serving as a preliminary step before defining expression classes and other downstream tasks. Therefore, it represents a crucial upstream task in facial analysis, and improving an AU detection module increases the precision of facial analysis. Despite that, detecting AU is challenging because of the constrictive nature of the AU\u2026",
-   "published": "2026-09-25T13:56:09+00:00",
-   "authors": [
-    "Huai-Qian Khor",
-    "Mengting Wei",
-    "Yante Li",
-    "Chu Kiong Loo",
-    "Guoying Zhao"
-   ],
-   "tags": [
-    "cs.CV",
-    "arxiv",
-    "vision"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Facial micro-expressions are spontaneous, brief, and subtle facial movements that reveal suppressed emotions in high-stakes environments. Despite that, detecting AU is challenging because of the constrictive nature of the AU\u2026",
-    "prior_work": "In contrast to classic expression analysis, detecting action unit (AU) yields a finer representation of facial movements, serving as a preliminary step before defining expression classes and other downstream tasks.",
-    "approach": "",
-    "results": "it represents a crucial upstream task in facial analysis, and improving an AU detection module increases the precision of facial analysis.",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": []
-   }
-  },
-  {
-   "uid": "8d09eace5f6b68d2",
-   "source": "arxiv-cs-ai",
-   "org": "arXiv cs.AI",
-   "content": "paper",
-   "title": "Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains",
-   "url": "https://arxiv.org/abs/2609.31282v1",
-   "summary": "This paper proposes a blockchain-backed agentic security framework designed to safeguard the complete software development lifecycle (SDLC) while also securing the agentic AI components responsible for monitoring it. The framework coordinates a set of specialised security agents, covering source integrity, dependency and SBOM analysis, CI configura tion auditing, artifact verification, and runtime policy evaluation, each supported by a large language model (LLM) that interprets artefacts, reasons over tool outputs, and produces structured security reports. To ensure agent trustworthiness,\u2026",
-   "published": "2026-09-25T13:53:50+00:00",
-   "authors": [
-    "Toqeer Ali Syed",
-    "Asadullah Abdullah Khan"
-   ],
-   "tags": [
-    "cs.CR",
-    "cs.AI",
-    "arxiv",
-    "ai"
-   ],
-   "brief": {
-    "overview": "This paper proposes a blockchain-backed agentic security framework designed to safeguard the complete software development lifecycle (SDLC) while also securing the agentic AI components responsible for monitoring it. The framework coordinates a set of specialised security agents, covering source integrity, dependency and SBOM analysis, CI configura tion auditing, artifact verification, and runtime policy evaluation, each supported by a large language model (LLM) that interprets artefacts, reasons over tool outputs, and produces structured security reports.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "228bf495b480d34d",
-   "source": "arxiv-cs-ai",
-   "org": "arXiv cs.AI",
-   "content": "paper",
-   "title": "MA-WAM: Multi-Agent World-Action Model for Test-Time Planning",
-   "url": "https://arxiv.org/abs/2609.31281v1",
-   "summary": "Multi-agent cooperative tasks require different agents to execute a joint action simultaneously, and each agent's action affects both the observations and responses of the other agents. Hence, a world model is needed to predict the team return resulting from the joint actions of all agents. A naive extension directly applies a single-agent world model to each agent's action when predicting the team return step by step. However, such an extension fails to capture the dependencies among the simultaneous actions of multiple agents. We propose Multi-Agent World-Action Model (MA-WAM), a test-time\u2026",
-   "published": "2026-09-25T13:52:39+00:00",
-   "authors": [
-    "Guowei Zou",
-    "Haitao Wang",
-    "Guoxin Wang",
-    "Beiwen Zhang",
-    "Zhiquan Chen",
-    "Guojie Wang",
-    "Hejun Wu"
-   ],
-   "tags": [
-    "cs.AI",
-    "arxiv",
-    "ai"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Multi-agent cooperative tasks require different agents to execute a joint action simultaneously, and each agent's action affects both the observations and responses of the other agents. such an extension fails to capture the dependencies among the simultaneous actions of multiple agents.",
-    "prior_work": "",
-    "approach": "We propose Multi-Agent World-Action Model (MA-WAM), a test-time\u2026 A naive extension directly applies a single-agent world model to each agent's action when predicting the team return step by step.",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "f84a1d88ddcf70cc",
-   "source": "arxiv-cs-ai",
-   "org": "arXiv cs.AI",
-   "content": "paper",
-   "title": "Cognitive Skills in the Age of AI: Computing Students and Experts Perceptions",
-   "url": "https://arxiv.org/abs/2609.31272v1",
-   "summary": "AI is becoming increasingly integrated into daily workflows, especially in computing. We are gradually shifting towards an AI-rich future, an impending yet unknown one. One important emerging concern is whether we are accordingly preparing our future computing workforce. Further, we need to know what the important cognitive skills are to remain relevant in the computing workforce and if there are changes in cognitive skill importance. To investigate this direction, we conducted a mixed-methods study, collecting perceptions from computing students and computing experts regarding the\u2026",
-   "published": "2026-09-25T13:48:02+00:00",
-   "authors": [
-    "Neha Rani",
-    "Vu Minh Anh Le",
-    "Austin M. Spangler",
-    "Erta Cenko"
-   ],
-   "tags": [
-    "cs.HC",
-    "cs.AI",
-    "arxiv",
-    "ai"
-   ],
-   "brief": {
-    "overview": "AI is becoming increasingly integrated into daily workflows, especially in computing. We are gradually shifting towards an AI-rich future, an impending yet unknown one.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "d2d7d630f8db257e",
-   "source": "arxiv-cs-cl",
-   "org": "arXiv cs.CL",
-   "content": "paper",
-   "title": "Identifying Scientists on X",
-   "url": "https://arxiv.org/abs/2609.31264v1",
-   "summary": "With the growing importance of science-related discourse on the Web and the erosion of the classical knowledge order, it is important to identify different user groups, such as scientists, automatically. This work proposes an approach for identifying scientists and non- scientists on X/Twitter based on their user biographies and tweets. We show that we are able to classify accounts as scientists and non- scientists on two different datasets, reaching an F1 score of up to 0.88 using Random Forests with linguistic features and up to 0.96 using a contrastively fine-tuned DeBERTa model in an\u2026",
-   "published": "2026-09-25T13:39:48+00:00",
-   "authors": [
-    "Philipp Meier",
-    "Katarina Boland",
-    "Laura Kallmeyer",
-    "Stefan Dietze"
-   ],
-   "tags": [
-    "cs.CL",
-    "arxiv",
-    "nlp"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "With the growing importance of science-related discourse on the Web and the erosion of the classical knowledge order, it is important to identify different user groups, such as scientists, automatically.",
-    "prior_work": "",
-    "approach": "This work proposes an approach for identifying scientists and non- scientists on X/Twitter based on their user biographies and tweets.",
-    "results": "We show that we are able to classify accounts as scientists and non- scientists on two different datasets, reaching an F1 score of up to 0.88 using Random Forests with linguistic features and up to 0.96 using a contrastively fine-tuned DeBERTa model in an\u2026",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "ccd28504a70a09ee",
-   "source": "arxiv-cs-cl",
-   "org": "arXiv cs.CL",
-   "content": "paper",
-   "title": "MoSAR: Mixture of Semantic Attention Regimes for Learning Adaptive and Approximable Attention Geometries",
-   "url": "https://arxiv.org/abs/2609.31261v1",
-   "summary": "The quadratic complexity of dense self-attention remains a central bottleneck for long-context language modeling. Many efficient alternatives address this cost by deciding in advance where attention should be sparse or local. We argue that attention approximation should instead be approached as a geometric problem, with the relevant interaction geometry learned from data: natural-language dependencies are input-dependent and difficult to prescribe in advance, so the model should learn where positional relevance can decay and where broader interactions must be preserved. We introduce Mixture\u2026",
-   "published": "2026-09-25T13:38:28+00:00",
-   "authors": [
-    "Michele Paolicelli",
-    "Alessandro Petruzzelli",
-    "Alessandro Franceso Maria Martina",
-    "Cataldo Musto",
-    "Giovanni Semeraro"
-   ],
-   "tags": [
-    "cs.CL",
-    "cs.AI",
-    "arxiv",
-    "nlp"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "The quadratic complexity of dense self-attention remains a central bottleneck for long-context language modeling. We argue that attention approximation should instead be approached as a geometric problem, with the relevant interaction geometry learned from data: natural-language dependencies are input-dependent and difficult to prescribe in advance, so the model should learn where positional relevance can decay and where broader interactions must be preserved.",
-    "prior_work": "",
-    "approach": "Many efficient alternatives address this cost by deciding in advance where attention should be sparse or local.",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "bec7b594943fe61e",
-   "source": "arxiv-cs-ai",
-   "org": "arXiv cs.AI",
-   "content": "paper",
-   "title": "Agentic Limit Order Books: Phase Transitions and Market Impact",
-   "url": "https://arxiv.org/abs/2609.31260v1",
-   "summary": "We investigate the systemic macroscopic dynamics emerging from Limit Order Books (LOBs) populated exclusively by autonomous reinforcement-learning agentic traders. By formalizing agent interactions within a microscopic order-matching engine, we examine two fundamental quantitative phenomena: equilibrium phase transitions in order flow regime shifts, and the structural dynamics of market impact. We show that agentic LOBs exhibit distinct phase boundaries separating orderly price discovery from hyper-volatile cascade states, governed by critical thresholds in the number of agents and\u2026",
-   "published": "2026-09-25T13:38:26+00:00",
-   "authors": [
-    "Jan Rosenzweig"
-   ],
-   "tags": [
-    "q-fin.TR",
-    "cs.AI",
-    "q-fin.CP",
-    "arxiv",
-    "ai"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "We investigate the systemic macroscopic dynamics emerging from Limit Order Books (LOBs) populated exclusively by autonomous reinforcement-learning agentic traders.",
-    "prior_work": "",
-    "approach": "By formalizing agent interactions within a microscopic order-matching engine, we examine two fundamental quantitative phenomena: equilibrium phase transitions in order flow regime shifts, and the structural dynamics of market impact.",
-    "results": "We show that agentic LOBs exhibit distinct phase boundaries separating orderly price discovery from hyper-volatile cascade states, governed by critical thresholds in the number of agents and\u2026",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "fa79868eeb7e0549",
-   "source": "arxiv-cs-cl",
-   "org": "arXiv cs.CL",
-   "content": "paper",
-   "title": "PIA: A Personal Intelligence Agent Turning Health Conversations into Records and Records into Understanding",
-   "url": "https://arxiv.org/abs/2609.31255v1",
-   "summary": "General-purpose agent memory summarizes conversations: it extracts salient snippets, embeds them, and retrieves the top-k into the prompt. A health agent cannot run on summaries: a dose becomes a sentence, \"since last week\" is resolved at the model's discretion, and a three-month glucose trend cannot be answered by text similarity. We present PIA, a personal intelligence agent deployed alongside a consumer health agent. PIA receives the agent's natural-language requests, decides for itself whether and how to write or read, and turns conversations into typed clinical records and records into\u2026",
-   "published": "2026-09-25T13:32:20+00:00",
-   "authors": [
-    "Jeonghun Yoon",
-    "Dongchan Kim",
-    "Hongyeon Yu",
-    "Young-Bum Kim",
-    "Jaegul Choo"
-   ],
-   "tags": [
-    "cs.CL",
-    "arxiv",
-    "nlp"
-   ],
-   "brief": {
-    "overview": "General-purpose agent memory summarizes conversations: it extracts salient snippets, embeds them, and retrieves the top-k into the prompt. A health agent cannot run on summaries: a dose becomes a sentence, \"since last week\" is resolved at the model's discretion, and a three-month glucose trend cannot be answered by text similarity.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "102c9d41eded6b20",
-   "source": "arxiv-cs-lg",
-   "org": "arXiv cs.LG",
-   "content": "paper",
-   "title": "Deterministic Regime Switching and Feasibility Inversion in Dynamic Tensor Rematerialization",
-   "url": "https://arxiv.org/abs/2609.31250v1",
-   "summary": "We report fine-grained, deterministic instability in Dynamic Tensor Rematerialization (DTR), an online eviction policy for memory-constrained DNN training, measured on the reference DTR simulator (simrd) using public execution traces. On an LSTM trace, memory budgets differing by 0.10% of unconstrained peak memory select fast and slow execution regimes whose overheads differ by as much as 7.3x; the slow regime is driven by broadly repeated re-eviction of the same storages (evictions per storage rise from 1.33 to 8.27 while the set of distinct evicted storages is essentially unchanged: 5,233\u2026",
-   "published": "2026-09-25T13:26:36+00:00",
-   "authors": [
-    "Mahesh Reddy Pagadala"
-   ],
-   "tags": [
-    "cs.LG",
-    "cs.DC",
-    "arxiv",
-    "ml"
-   ],
-   "brief": {
-    "overview": "We report fine-grained, deterministic instability in Dynamic Tensor Rematerialization (DTR), an online eviction policy for memory-constrained DNN training, measured on the reference DTR simulator (simrd) using public execution traces. On an LSTM trace, memory budgets differing by 0.10% of unconstrained peak memory select fast and slow execution regimes whose overheads differ by as much as 7.3x; the slow regime is driven by broadly repeated re-eviction of the same storages (evictions per storage rise from 1.33 to 8.27 while the set of distinct evicted storages is essentially unchanged: 5,233\u2026",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
     ]
    }
   }
