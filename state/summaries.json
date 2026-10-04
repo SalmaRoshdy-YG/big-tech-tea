@@ -3117,6 +3117,18 @@
   "problem": "",
   "results": ""
  },
+ "0d57f6d7d526b588": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Language model (LM) alignment broadly aims to perturb a given LM $Q$ into an aligned LM $q$ such that i) the outputs produced by $q$ and $Q$ are 'close' in probability, ii) $q$ has a higher expected reward than $Q$. Two common techniques for LM alignment are: KL-constrained RL, which requires knowledge of the LM distribution and is computationally expensive, and the best-of-$n$ algorithm, which requires only sampling from the LM.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "0d609b6b71739526": {
   "approach": "",
   "mode": "heuristic",
@@ -3457,6 +3469,18 @@
   "overview": "",
   "prior_work": "Naively, these errors should accumulate with depth and corrupt next-token prediction; randomly initialized models accumulate these discrepancies rapidly, whereas quantized pretrained models accumulate much less hidden-state error and largely maintain downstream task performance, even though they were never trained with quantization noise.",
   "problem": "Post-training quantization compresses large language models (LLMs) by storing their weights at reduced precision, and each quantized weight introduces an error into the hidden states. This raises the question we address: why does post-training quantization\u2026",
+  "results": ""
+ },
+ "0e8c3bc0aa3099a4": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "In February 2026, an always-on personal agent (``Paul,'' Claude Opus 4.5) entered a striking dissociation-like state: after repeated automated ``heartbeat'' checks, it stopped responding as Paul, claimed it could not message its user on Discord, and referred to ``Paul'' as someone else. We used this incident to study a broader question: what makes a persona remain the identity from which an LLM agent speaks?",
+  "prior_work": "",
+  "problem": "",
   "results": ""
  },
  "0e8cfb8db89c385f": {
@@ -5417,6 +5441,18 @@
   "problem": "",
   "results": ""
  },
+ "171b3124977165d1": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Web agents are an important application of large language models, yet their evaluation often depends on rule based or language model evaluators that inspect only the final outcome. Human verification of task completion and detailed analysis of failed trajectories remain limited.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "171b8544ae21c15d": {
   "approach": "To investigate this question, we introduce AssemblyWorld, an interactive 3D environment in which agents inspect rendered views and manipulate supplied rigid parts, guided by images or assembly manuals when available.",
   "mode": "heuristic",
@@ -7225,6 +7261,16 @@
   "problem": "When a language model answers from a curated corpus via graph-based retrieval, a large grounding uplift does not establish reasoning over the retrieved structure: the context may already expose the gold answers.",
   "results": "Its scalar reference is the copy ceiling, the recall a verbatim copy of the context achieves; signed gain over copy measures the model's recall relative to this deterministic, judge-free baseline. Across ten models, unaided recall averages 0.26\u2026"
  },
+ "1f598be3d81087b3": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "This setting differs from filesystem-level coding agents because the main risk is unnecessary access to private data.",
+  "problem": "LLM agents with tool-calling capabilities can access external services and private user data, but they may retrieve more information than a user's request explicitly requires. We study this behavior in structured tool-calling agents and term it proactive over-authorization.",
+  "results": "We introduce OverAct, a controlled benchmark spanning eight privacy-sensitive domains with deterministic, judge-free scoring, together with an interpretive decision-theoretic framework that yields three\u2026"
+ },
  "1f70bf917d736ec0": {
   "approach": "",
   "mode": "heuristic",
@@ -7351,6 +7397,18 @@
    "short feed blurb, not a structured abstract"
   ],
   "overview": "Language models under one million parameters matter for edge deployment, domain adaptation, and reproducible research, yet a two-layer LSTM or Transformer at embedding width d = 128 still spends roughly one third of its capacity on the output matrix W_out in R^(d x |V|). We propose Riemannian Language Models (RiLM), which remove that layer entirely: context unfolds as a trajectory on a Riemannian manifold, and next-token probabilities arise from squared geodesic distance between the current state and vocabulary embeddings.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
+ "1fdee61d8679f4c8": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Most preference optimization methods, such as Direct Preference Optimization (DPO), apply preference supervision at the response level, although autoregressive language models are optimized token by token. As a result, all tokens in a rejected response contribute to the negative training signal, including tokens that may encode behavior that is useful for the preferred response.",
   "prior_work": "",
   "problem": "",
   "results": ""
@@ -16565,6 +16623,18 @@
   "problem": "In autoregressive forecasting, long prediction rollouts provide distant supervision, but backpropagation through time (BPTT) carries gradients from those losses through many autoregressive steps.",
   "results": ""
  },
+ "48eb5f87947d94b3": {
+  "approach": "We audit the rule on two prompt-controlled, human-labeled corpora and one auxiliary jury-labeled source control, using four frozen encoders and prompt-grouped splits.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Can response safety be scored by cosine similarity to the mean embedding of known-safe responses?",
+  "results": "A recent sleeper-agent detector proposes exactly this score, yet the raw positive-centroid rule is not identified: positive observations locate the safe class relative to an encoder origin, but do not determine which direction separates safe from unsafe responses. On the human-labeled corpora the safe prototype reaches ROC-AUC\u2026"
+ },
  "48f3aacc257a047e": {
   "approach": "",
   "mode": "heuristic",
@@ -17607,6 +17677,18 @@
   "problem": "",
   "results": ""
  },
+ "4d7ece14fc43e5f8": {
+  "approach": "In this paper, we introduce Yo-ByT5, a byte-level Automatic Diacritic Restoration (ADR) model fine-tuned from ByT5-small.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Yor\u00f9b\u00e1 is a widely spoken tonal language that depends on diacritics to avoid lexical ambiguity. it is often written without these diacritics, thereby hindering downstream Natural Language Processing (NLP) tasks.",
+  "results": "We evaluate Yo-ByT5 alongside five publicly released Yor\u00f9b\u00e1 ADR models and one open-weight large language model (LLM) on the YAD benchmark under a consistent protocol. Our results demonstrate that Yo-ByT5 matches the performance of the strongest existing\u2026"
+ },
  "4d80557ef0656359": {
   "approach": "",
   "mode": "heuristic",
@@ -17883,6 +17965,18 @@
   "overview": "Large language models are usually interpreted through concepts that humans already possess: truthfulness, refusal, deception, personality, harmfulness, and related categories. This paper asks whether models may also represent and use distinctions for which no adequate human concept exists.",
   "prior_work": "",
   "problem": "",
+  "results": ""
+ },
+ "4e78404e47bd7c58": {
+  "approach": "In this work, we quantify the extent of missing annotations in PubChem for the BioAssay Ontology (BAO) assay format and physical detection method fields and investigate whether open-source and proprietary large language models (LLMs) can reliably predict and audit metadata annotations directly from the\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "The emergence of foundation models for molecular property prediction requires a high degree of AI data readiness, including reliable metadata annotation. both public repositories and industrial screening databases suffer from missing, inconsistent, or conflated assay annotations.",
   "results": ""
  },
  "4e966ffdecd6d8d6": {
@@ -20053,6 +20147,16 @@
   "problem": "",
   "results": ""
  },
+ "581679740cf2e046": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Oracle Top-k is the strongest baseline, but thresholding fails because no single threshold separates CS from monolingual speech.",
+  "problem": "Code-switched (CS) speech leaks through the monolingual language identification (LID) filters used to curate massive speech corpora, calling for CS-aware LID (CS-LID).",
+  "results": "We formulate utterance-level CS-LID as multi-label language-set prediction and propose a set generator that directly outputs the languages in an utterance, comparing it against atomic-pair and score-based classification baselines. Our set generator predicts the correct language count on unseen pairs\u2026"
+ },
  "581d1b25fcf00cc5": {
   "approach": "",
   "mode": "heuristic",
@@ -20453,6 +20557,18 @@
   "problem": "Large language models (LLMs) are deployed globally in high-stakes settings, yet most safety research and alignment efforts remain concentrated on English. users interacting with LLMs in other languages may encounter weaker safeguards despite relying on the same systems for similarly sensitive tasks.",
   "results": ""
  },
+ "59c64527ed6c1895": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Model specifications define how large language models (LLMs) should behave, guiding alignment training, inference-time behavior, and evaluation. Yet these specifications may themselves contain defects: two individually reasonable principles may prescribe incompatible behavior when applied to the same situation, leaving no response that satisfies both.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "59c80b4ad1db0d2f": {
   "approach": "To address this bottleneck, we introduce OmniAssistBench.",
   "mode": "heuristic",
@@ -20822,6 +20938,18 @@
   "prior_work": "",
   "problem": "Conventional wisdom in deep learning holds that overparameterization---having more parameters $p$ than training samples $n$---is benign: larger models generalize better and, even without regularization, interpolating models generalize well, the test error following a double-descent curve.",
   "results": "One might expect the same benign overfitting for diffusion models, whose training reduces to regression, i.e. to minimizing a quadratic score-matching loss. We resolve this paradox by combining\u2026"
+ },
+ "5bedeb342da4af0e": {
+  "approach": "We present the neural parser, which adapts biaffine attention from dependency parsing to predict invention graphs directly from patent text. Graph-based retrieval addresses this by representing each patent as a structured invention graph, but constructing these graphs relies on brittle rule-based parsers.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Patent search requires processing documents routinely exceeding tens of thousands of tokens. Most neural retrieval approaches operate on truncated inputs, limiting their effectiveness.",
+  "results": "Our local biaffine attention restricts pairwise scoring to a sliding window, reducing complexity from\u2026"
  },
  "5bf9415ac9296f33": {
   "approach": "To address this, this paper proposes a scalable trust discovery architecture for the Internet of Agents.",
@@ -24025,6 +24153,18 @@
   "problem": "",
   "results": ""
  },
+ "6ace4bfd1f7533d4": {
+  "approach": "In this paper, we propose a novel approach to reimagine cross-lingual contrastive learning given the architectural constraints of modern LLMs.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Cross-lingual contrastive learning has been a core component of multilingual encoder training, but the ability to explicitly align representations is not possible in decoder-only LLMs because of varying multilingual tokenization. a growing amount of research suggests that even in LLMs, higher cross-lingual representational alignment leads to improved cross-lingual transfer.",
+  "results": "Rather than applying an auxiliary alignment loss on hidden states, we\u2026"
+ },
  "6adee54345de4d89": {
   "approach": "",
   "mode": "heuristic",
@@ -25921,6 +26061,16 @@
   "problem": "Wireless Capsule Endoscopy (WCE) captures and streams video while passing through a patient's Gastrointestinal (GI) tract and is used to examine its irregularities. Although advantageous over conventional endoscopy, WCE suffers from limitations related to capsule size and wireless transmission, resulting in images with coarser resolution.",
   "results": "This work presents UnCapsTSR, an unsupervised transformer-based Generative Adversarial Network (GAN) framework for improving the spatial resolution of Low-Resolution (LR) WCE images. The proposed method accomplishes SR without explicit degradation\u2026"
  },
+ "73ad7200e4eb3d75": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "We ask when a second review by a different model helps. Building on the author's earlier preprints, which varied context, repetition, and role structure within one model, we test model independence in a controlled experiment: 30 artifacts with 150 planted errors, 10 review conditions, and 900 review sessions with three reviewer models from two developers.",
+  "problem": "Large language models now generate code, documentation, and analyses, and are increasingly used to review such output.",
+  "results": ""
+ },
  "73ca929c3300ddd4": {
   "approach": "We propose a physics-guided synthetic HFUS generation framework for skin layer segmentation.",
   "mode": "heuristic",
@@ -27586,6 +27736,16 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "7a42f8bb2dc1580f": {
+  "approach": "We move beyond linear concepts by adapting Non-Linear Multi-Dimensional Concept Discovery (NLMCD) from computer vision to token-level LLM activations, modeling concepts as low-dimensional manifolds.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "While existing mechanistic interpretability (MI) methods seek to extract concepts, they are constrained by a strong linearity assumption challenged by evidence of non-linear feature manifolds.",
+  "problem": "Understanding information processing in large language models (LLMs) requires dissecting the geometric organization of their internal token representations.",
+  "results": "To compare concept manifolds across layers and\u2026"
  },
  "7a448282a1ca6f27": {
   "approach": "",
@@ -30543,6 +30703,16 @@
   "problem": "",
   "results": ""
  },
+ "884e7ac81d64d788": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing work typically evaluates generalization through aggregate accuracy on a single prompt format, task, or set of variations, which conflates robustness with overall benchmark performance.",
+  "problem": "Generalization in large language models (LLMs) is the ability to produce consistent and semantically stable outputs when the same input is expressed in different ways.",
+  "results": "In this work, we show generalization evaluation at the level of individual examples, across multiple input variants, and across different aspects of model behavior, focusing on variability rather than reducing performance to a score\u2026"
+ },
  "8882ae3d37b96456": {
   "approach": "",
   "mode": "heuristic",
@@ -31064,6 +31234,18 @@
   "prior_work": "",
   "problem": "Multi-agent deliberation can improve performance, but what happens when some agents do not act in good faith? We study how susceptibility to deception scales as groups increase in size and deceivers become more prevalent.",
   "results": "It is not the number of agents in the group that matters, but the proportion of deceivers. We observe that the defection rate, how often initially correct agents switch to an incorrect final answer, rises linearly with this proportion."
+ },
+ "8a957aa1417cacf3": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Retrieval-Augmented Generation (RAG) systems for multi-hop Question Answering (QA) must balance retrieval quality with computational cost. This cost is incurred during indexing time, through the use of expensive Knowledge Graphs (KGs) or Large Language Models (LLMs) to generate summaries, or during querying, through iterative LLM-driven retrieval.",
+  "results": "To reduce it while maintaining retrieval quality, we present MatRAG, a hierarchical framework that combines RAG systems with Matryoshka Representation Learning (MRL). MatRAG addresses both kinds of cost by aligning the semantic hierarchy of a\u2026"
  },
  "8a9d86209bfbda42": {
   "approach": "",
@@ -31790,6 +31972,18 @@
   "prior_work": "Prior work predominantly assumes later-stage, highly structured, or already legalistic inputs.",
   "problem": "While recent large language models (LLMs) have achieved promising results on individual patent drafting tasks, they fundamentally fail to investigate the core challenge of real-world patent drafting: generating a complete and legally coherent patent application directly from early-stage invention materials. real patenting workflows begin with informal, de-legalized disclosures authored by inventors.",
   "results": ""
+ },
+ "8e102822a9e1e3fe": {
+  "approach": "We present SHAMS (SHami Annotated Multi-dialect Speech), a benchmark comprising 1,300 utterances drawn from open audio corpora, balanced across five LA varieties (Urban and Rural Palestinian, and Urban Jordanian, Lebanese, and Syrian).",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Levantine Arabic (LA) is spoken by tens of millions of people, creating a pressing need for shared benchmarks to evaluate LA speech-language technologies. Evaluating such technology is particularly challenging given LA's internal diversity and its opaque and non-standardized orthography.",
+  "results": "Each utterance is represented across four aligned tiers: audio,\u2026"
  },
  "8e12ab4522192bd9": {
   "approach": "We present a novel view on feature evolution in Vision Transformers (ViTs) by visualizing the training process over two dimensions -- network depth (layer) and training time (epochs). This allows us to study feature-level dynamics that are not directly visible from representation-level similarity measures.",
@@ -33478,6 +33672,18 @@
   "prior_work": "Existing safety-preserving fine-tuning methods typically control average safety loss or use weighted auxiliary penalties, which can obscure rare but severe failures.",
   "problem": "Fine-tuning large language models on new objectives can improve helpfulness, instruction following, or domain-specific performance, but it can also induce regressions on safety-critical prompts.",
   "results": "Because the resulting empirical\u2026"
+ },
+ "9567137f94fb563a": {
+  "approach": "Using ADReSSo and three large SSL backbones, we apply controlled noise and reverberation interventions to participant-speech-only, non-speech, and full-recording audio. We combine layer-wise linear decoding, input- and representation-space interventions, and\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Speech-based Alzheimer's disease (AD) assessments increasingly rely on pretrained self-supervised learning (SSL) models that learn acoustic representations directly from raw audio, exposing the model to recording factors. We ask whether such factors are merely encoded in SSL representations or can systematically alter predictions.",
+  "results": ""
  },
  "959de256656ade30": {
   "approach": "In this paper, we argue that missing spatial constraints should be inferred with respect to the underlying construction structure and informed by reusable design experience. Based on this insight, we propose ExpConCAD, an experience-enhanced framework for implicit spatial constraint completion.",
@@ -36971,6 +37177,18 @@
   "problem": "",
   "results": ""
  },
+ "a42dcd24b82cce5e": {
+  "approach": "We propose Acmite, a lightweight concept-guided framework for\u2026 More importantly, they typically suppress biased outputs without explicitly modeling the statistical dependence between model outputs and the underlying stereotype concepts.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Large language models (LLMs) can reproduce social stereotypes from their training data, motivating extensive research on model debiasing. existing methods often rely on explicit biased examples or predefined group-term substitutions, making them sensitive to wording and less effective at capturing stereotype concepts shared across diverse contexts.",
+  "results": ""
+ },
  "a443438a730d8d07": {
   "approach": "",
   "mode": "heuristic",
@@ -38635,6 +38853,18 @@
   "problem": "Chemistry, Manufacturing and Controls (CMC) process development generates an enormous body of technical information across a multi-stage, knowledge-intensive continuum from drug discovery to commercial manufacturing.",
   "results": ""
  },
+ "abc6b923193e306b": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Should low-precision transformer inference use stochastic rounding (SR) or round-to-nearest (RN)? The answer depends on where in the network you look.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "abcb556f796c4743": {
   "approach": "Severe occlusions and dense traffic at intersections limit the perception capability of single-agent systems, motivating recent efforts on Vehicle-to-Infrastructure (V2I) cooperation for perception and planning.",
   "mode": "heuristic",
@@ -39979,6 +40209,18 @@
   "problem": "Traditional clinical prediction models rely on task-specific pipelines and curated, structured data, which scale poorly and underutilize unstructured text.",
   "results": ""
  },
+ "b1d26020ea48fabb": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "As LLMs take up the role of authoring charts using visualization domain-specific languages (DSLs), the human constraints that shaped those languages may no longer apply, as what is easy for a person is not necessarily easy for a model. To understand how LLMs might work better with DSLs, we explore where and how they fail with current DSL designs.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "b1e104340cd133ea": {
   "approach": "In this paper, we examine the constrained case of this \"model size vs. inference compute\" trade-off, in which the model outputs are constrained by a strict grammar at inference time.",
   "mode": "heuristic",
@@ -40650,6 +40892,16 @@
   "prior_work": "",
   "problem": "Large Language Models (LLMs) are now routinely trained using synthetic data, since high-quality human data has been exhausted by the ever increasing needs of larger and larger models. recursive training on synthetic data frequently induces model collapse, a degenerative feedback loop where models progressively forget the true underlying data distribution.",
   "results": ""
+ },
+ "b5b0e9318d680560": {
+  "approach": "We propose Q-SPT, a low-frame-rate dual-stream speech tokenizer with separate, context-aware,\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Existing approaches rely on rule-based compression: average pooling can discard linguistic information, whereas similarity-based merging uses a fixed threshold on adjacent-frame similarity and applies the resulting boundaries to the acoustic stream.",
+  "problem": "Neural speech codecs increasingly serve as tokenizers for speech language models (SLMs).",
+  "results": "Lowering the frame rate reduces the computational and memory costs of SLMs, but makes it difficult to preserve both linguistic information and acoustic detail."
  },
  "b5b2974ce515116a": {
   "approach": "To address this challenge, we propose UniAR, a unified framework enhanced by multi-granularity prompt learning for robust ASD recognition under heterogeneous data variations.",
@@ -44133,6 +44385,18 @@
   "problem": "",
   "results": ""
  },
+ "c53a049a48a77067": {
+  "approach": "We introduce QK-Wanda, which scores query and key weights by their individual deletion costs under an unmasked pre-RoPE reconstruction objective.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Wanda (Sun et al., 2024) prunes large language models by scoring weights independently within each linear projection, although queries and keys interact through dot products.",
+  "results": "It augments Wanda scores with information from the opposite projection (keys for query weights, and queries for key weights), allowing both projections to share a pruning budget. Its closed-form scores require no gradients or weight updates; full pruning takes 1.3% longer than\u2026"
+ },
  "c55450c6c2d90b20": {
   "approach": "",
   "mode": "heuristic",
@@ -44215,6 +44479,18 @@
   "overview": "This paper presents the design, optimization, implementation, and on-board validation of a neural processing unit (NPU) accelerator for real-time vehicle detection on the resource-constrained Xilinx Zynq XC7Z020 device of the PYNQ-Z1 board. The work follows a hardware/software co-design methodology that combines quantization-aware training (QAT), lightweight YOLO-derived detectors, Brevitas/QONNX model export, FINN dataflow compilation, Vivado implementation, and physical benchmarking on the target board.",
   "prior_work": "",
   "problem": "",
+  "results": ""
+ },
+ "c5a7130d676808d6": {
+  "approach": "We introduce Task-Oriented Rank Adaptation (TORA), a geometric routing framework that leverages the low-rank structure of LoRA adapters to decide whether to transfer knowledge from the most\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Continual learning (CL) in text classification faces two critical challenges: catastrophic forgetting and negative transfer across sequential tasks. these compact representations are normally trained in isolation, limiting their reuse across related tasks.",
   "results": ""
  },
  "c5b01009a13d356e": {
@@ -44671,6 +44947,18 @@
   "overview": "",
   "prior_work": "To our knowledge, no existing method simultaneously addresses high-dimensionality, black-box constraints, an arbitrary number of fidelity levels, and non-nested sampling.",
   "problem": "Many real-world optimization problems rely on expensive simulations or experiments, making the efficient use of available data essential. Multi-fidelity optimization of high-dimensional black-box functions subject to black-box constraints is increasingly relevant as the cost of objective evaluations continues to rise in applications such as machine learning, engineering, and control.",
+  "results": ""
+ },
+ "c789a8b426796da7": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "Large language models are often asked which input factors influenced their outputs. For structured inputs, such reports can be checked by counterfactual perturbation, but each factor must be queried multiple times to estimate its effect, so verification is usually budget-limited.",
+  "prior_work": "",
+  "problem": "",
   "results": ""
  },
  "c79329d14aae0e36": {
@@ -45220,6 +45508,18 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "c9b3422d5dc9a5d8": {
+  "approach": "To address this challenge, we propose ONLINE LLM PICKER, the first framework for active model selection for LLMs in online settings.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Large Language Models (LLMs) are increasingly applied to process streaming data, with practitioners relying on benchmarks to select the best model even though these signals only approximate real performance. While oracle annotations can provide reliable feedback, they are often costly and difficult to obtain at scale.",
+  "results": "Given an arbitrary stream of queries and a limited annotation budget, ONLINE LLM PICKER selects the most informative prompts for annotation to\u2026"
  },
  "c9b8641b772b866c": {
   "approach": "In this paper, we present HARMONY, a hierarchical chain-of-thought framework that\u2026",
@@ -46928,6 +47228,16 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "cfbf9a9999e422f3": {
+  "approach": "We propose a new model, the Compound Analogy Model (CAM), that predicts a compound's embedding by adding its constituent embeddings together with the average shift vectors of the two constituents' compound families.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "Comparing different computational models provides a way to evaluate alternative accounts of how semantic information is combined during compound comprehension.",
+  "problem": "How compound meanings are best predicted from constituent meanings remains a central question in computational models of lexical semantics.",
+  "results": "The resulting model is parameter-free and exploits local analogical structure in\u2026"
  },
  "cfc376addf8c8224": {
   "approach": "",
@@ -49501,6 +49811,16 @@
   "problem": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. current paradigms are bottlenecked by shallow trajectory retrieval and flat skill summarization, fundamentally ignoring the temporal dependencies and outcome-conditioned topology of agent behavior.",
   "results": "Trace2Tower abstracts step-level interactions into canonical events, constructing a unified graph governed by semantic compatibility, transition dynamics, and\u2026"
  },
+ "daa7f292a3a407c6": {
+  "approach": "Based on these findings, we propose Modality-aware Width-wise\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [],
+  "overview": "",
+  "prior_work": "While existing operation compression methods exploit modality-level redundancy, they largely treat computation within attention heads and shared feed-forward network (FFN) channels as unified units, leaving finer-grained redundancy underexplored.",
+  "problem": "Multimodal large language models (MLLMs) incur substantial inference costs when processing long visual-textual sequences.",
+  "results": "We find that redundancy varies both across modality-interaction paths within the same attention head and across visual and textual executions of the same FFN channel."
+ },
  "daa9ede7bf7e3ced": {
   "approach": "Hotel booking is a clean instance: a high-volume choice settled on a few comparable attributes, where the pick reveals those preferences.",
   "mode": "heuristic",
@@ -49656,6 +49976,18 @@
   "prior_work": "",
   "problem": "",
   "results": ""
+ },
+ "db8dfd3f05e47e21": {
+  "approach": "In this work, we propose a data-driven approach that automatically generates and validates natural-language hypotheses explaining what makes one question harder than another.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Difficulty is one of the most fundamental properties of a question: it determines whether the question can meaningfully discriminate between models of differing ability. Although a variety of methods can now estimate or predict difficulty automatically, they yield only a single descriptive number, with no account of the underlying factors that make a question difficult in the first place.",
+  "results": "We first estimate each item's\u2026"
  },
  "db9e2b5bbd9ec490": {
   "approach": "In this work, we study reasoning representations as human-facing interfaces rather than proxies for model reasoning ability.",
@@ -52169,6 +52501,18 @@
   "problem": "Language models can be adapted by changing the computations applied to individual tokens. The backbone remains frozen,\u2026",
   "results": "A quantum residual branch is a module in each transformer block that reads a token's hidden state, emits the coordinates of that token's circuit, executes it, and adds the measured values back through a residual connection."
  },
+ "e605f76b532cd537": {
+  "approach": "To address this challenge, we propose an end-to-end framework for ontology network construction that automates the discovery and generation of both intra-domain and inter-domain relationships. Our approach combines domain-adapted DistilBERT embeddings for dense contextual representation, clustering-based pre-filtering to reduce the candidate search space, and\u2026",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Constructing typed, justified semantic links between ontologies is essential for enabling interoperability across heterogeneous and interdisciplinary knowledge domains. manually curating such links is difficult to scale.",
+  "results": ""
+ },
  "e6103e82b277b80e": {
   "approach": "",
   "mode": "heuristic",
@@ -53236,6 +53580,18 @@
   "prior_work": "",
   "problem": "Autoregressive video diffusion enables interactive streaming generation, but suffers from error accumulation over long rollouts.",
   "results": "Self-rollout training reduces exposure bias, yet finite rollouts leave long-range drift unresolved. We observe that the noise level of the history key-value (K/V) representations trades visual quality against motion, and that restoring gradients through the history aligns causal training far more closely with bidirectional training."
+ },
+ "ebe599762d8ea74b": {
+  "approach": "We introduce AURAL, which models a\u2026 Describing fine-grained acoustic cues further lengthens CoT and increases latency.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Model intelligence and fast response jointly shape the quality of interaction with speech language models, yet remain difficult to achieve together.",
+  "results": "Explicit chain-of-thought (CoT) improves reasoning and audio understanding, but generating intermediate reasoning tokens delays responses. Latent reasoning can reduce this overhead, yet existing methods often trail CoT and remain limited by single-path supervision and reasoning budgets that do not adapt to problem difficulty."
  },
  "ebefb0e14debd062": {
   "approach": "",
