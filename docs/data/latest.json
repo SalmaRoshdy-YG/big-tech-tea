@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T11:00:03+00:00",
+ "generated": "2026-10-12T21:18:42+00:00",
  "labs": [
   {
    "slug": "openai",
@@ -79,6 +79,62 @@
   }
  ],
  "papers": [
+  {
+   "uid": "e05f5dfb850cddb8",
+   "source": "amazon-science",
+   "org": "Amazon Science",
+   "content": "blog",
+   "title": "Can we change an AI model\u2019s architecture without retraining it from scratch?",
+   "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch",
+   "summary": "\u201cPriming\u201d reuses pretrained Transformer weights to build models with more efficient architectures at less than 1% of the original training cost and with throughputs up to twice as high.",
+   "published": "2026-10-12T17:36:18+00:00",
+   "authors": [],
+   "tags": [
+    "amazon",
+    "aws"
+   ],
+   "brief": {
+    "overview": "\u201cPriming\u201d reuses pretrained Transformer weights to build models with more efficient architectures at less than 1% of the original training cost and with throughputs up to twice as high.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "181049058bc1c54f",
+   "source": "microsoft-research",
+   "org": "Microsoft Research",
+   "content": "blog",
+   "title": "Simulating student learning for better AI tutoring",
+   "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+   "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess, writing, and mathematics. The post Simulating student learning for better AI tutoring appeared first on Microsoft Research .",
+   "published": "2026-10-12T16:00:00+00:00",
+   "authors": [
+    "Ke Yang, Chenglong Wang, Michel Galley, Jeevana Priya Inala, ChengXiang Zhai, Jianfeng Gao"
+   ],
+   "tags": [
+    "Research Blog",
+    "microsoft"
+   ],
+   "brief": {
+    "overview": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess, writing, and mathematics.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
   {
    "uid": "8837180281395d78",
    "source": "arxiv-cs-ai",
@@ -4052,72 +4108,6 @@
     "notes": [
      "abstract doesn't compare to prior work"
     ]
-   }
-  },
-  {
-   "uid": "8c768890064c1ed1",
-   "source": "arxiv-cs-cl",
-   "org": "arXiv cs.CL",
-   "content": "paper",
-   "title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
-   "url": "https://arxiv.org/abs/2610.13623v1",
-   "summary": "Professional agents increasingly work through command-line interfaces and multiple tools over shared workspaces containing files, messages, and business applications. These environments create safety risks that are difficult to capture with attacks placed at a single, known read location. We introduce APEX-Harm, a benchmark for evaluating prompt and script injection against long-horizon agents performing finance, consulting, and legal tasks in large workspaces. Each task contains 115 to 328 files, together with email, calendar, chat, document, spreadsheet, PDF, and code-execution tools\u2026",
-   "published": "2026-10-09T14:05:47+00:00",
-   "authors": [
-    "Ziyi Yang",
-    "Adel Bibi",
-    "Guohao Li",
-    "Bernard Ghanem",
-    "Carlos Hinojosa"
-   ],
-   "tags": [
-    "cs.CR",
-    "cs.CL",
-    "arxiv",
-    "nlp"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Professional agents increasingly work through command-line interfaces and multiple tools over shared workspaces containing files, messages, and business applications. These environments create safety risks that are difficult to capture with attacks placed at a single, known read location.",
-    "prior_work": "",
-    "approach": "",
-    "results": "We introduce APEX-Harm, a benchmark for evaluating prompt and script injection against long-horizon agents performing finance, consulting, and legal tasks in large workspaces. Each task contains 115 to 328 files, together with email, calendar, chat, document, spreadsheet, PDF, and code-execution tools\u2026",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "316a799ed5f88c67",
-   "source": "arxiv-cs-cl",
-   "org": "arXiv cs.CL",
-   "content": "paper",
-   "title": "Training User Simulators with Latent Intrinsic Feedback",
-   "url": "https://arxiv.org/abs/2610.13617v1",
-   "summary": "User simulators are gaining attention as environments to train LLM assistants that can better cope with the nuances of multi-turn conversations with real users. Prior work on user simulation has emphasized generating realistic user utterances, leaving unexplored their potential as a source of direct feedback on the assistant's responses. Such evaluation signals may not be explicitly communicated in language, but can instead reside in the latent reasoning of users. In this work, we introduce user simulators with intrinsic feedback, namely, models equipped with latent evaluation states:\u2026",
-   "published": "2026-10-09T14:00:36+00:00",
-   "authors": [
-    "Tarek Naous",
-    "Craig Boutilier",
-    "Wei Xu",
-    "Ofer Meshi"
-   ],
-   "tags": [
-    "cs.CL",
-    "arxiv",
-    "nlp"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "User simulators are gaining attention as environments to train LLM assistants that can better cope with the nuances of multi-turn conversations with real users.",
-    "prior_work": "Prior work on user simulation has emphasized generating realistic user utterances, leaving unexplored their potential as a source of direct feedback on the assistant's responses.",
-    "approach": "In this work, we introduce user simulators with intrinsic feedback, namely, models equipped with latent evaluation states:\u2026 Such evaluation signals may not be explicitly communicated in language, but can instead reside in the latent reasoning of users.",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": []
    }
   }
  ]
