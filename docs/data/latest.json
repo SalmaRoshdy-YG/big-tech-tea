@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T04:57:27+00:00",
+ "generated": "2026-10-21T12:00:05+00:00",
  "labs": [
   {
    "slug": "openai",
@@ -289,36 +289,6 @@
    ],
    "brief": {
     "overview": "Dexterous multi-finger hands hold promise to unlock diverse skills like functional grasps, in-hand reorientation, and dynamic handover that the human-designed world assumes, yet existing learning recipes force a trade-off. Goal-reaching reinforcement learning generalizes to arbitrary object poses but, lacking any human prior, converges to unnatural and unreliable finger strategies; motion tracking reproduces human-like behavior from a single clip but cannot deviate from it.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "532a7b4bbff75aa3",
-   "source": "arxiv-openai",
-   "org": "OpenAI",
-   "content": "paper",
-   "title": "Matrix Multiplication from Polynomial Packings: A Constructive and Elementary Proof of $\u03c9\\le9/4$",
-   "url": "https://arxiv.org/abs/2610.28627v1",
-   "summary": "We give a self-contained constructive proof that the matrix multiplication exponent satisfies $\u03c9\\le9/4$. This bound was recently claimed by OpenAI~\\cite{original} through non-constructive arguments in Strassen's asymptotic spectral framework, counting exact scalar arithmetic operations over the complex numbers. We explicitly construct a Strassen-style matrix multiplication identity and obtain the bound by ordinary block recursion. For every $\u03b3>0$, the resulting algorithm multiplies two $n\\times n$ integer matrices using $O(n^{9/4+\u03b3})$ integer arithmetic operations.",
-   "published": "2026-10-20T17:59:14+00:00",
-   "authors": [
-    "Rafael Pass"
-   ],
-   "tags": [
-    "cs.CC",
-    "arxiv",
-    "openai"
-   ],
-   "brief": {
-    "overview": "We give a self-contained constructive proof that the matrix multiplication exponent satisfies $\u03c9\\le9/4$. This bound was recently claimed by OpenAI~\\cite{original} through non-constructive arguments in Strassen's asymptotic spectral framework, counting exact scalar arithmetic operations over the complex numbers.",
     "problem": "",
     "prior_work": "",
     "approach": "",
@@ -2801,36 +2771,6 @@
    }
   },
   {
-   "uid": "56bc48fb18f66882",
-   "source": "arxiv-openai",
-   "org": "OpenAI",
-   "content": "paper",
-   "title": "A single generation theorem for simple unital $C^*$-algebras with CPoU and comparison",
-   "url": "https://arxiv.org/abs/2610.28478v1",
-   "summary": "In this note, assuming the finite factor generation theorem obtained by OpenAI, we demonstrate that if a separable simple unital $C^*$-algebra $A$ with nonempty trace space, has the strict comparison for positive elements, and its uniform tracial completion has complemented partitions of unity (CPoU), then $A$ is singly generated.",
-   "published": "2026-10-20T16:29:14+00:00",
-   "authors": [
-    "Xin Ma"
-   ],
-   "tags": [
-    "math.OA",
-    "arxiv",
-    "openai"
-   ],
-   "brief": {
-    "overview": "In this note, assuming the finite factor generation theorem obtained by OpenAI, we demonstrate that if a separable simple unital $C^*$-algebra $A$ with nonempty trace space, has the strict comparison for positive elements, and its uniform tracial completion has complemented partitions of unity (CPoU), then $A$ is singly generated.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
    "uid": "8ecb0370e0a2578d",
    "source": "arxiv-cs-cv",
    "org": "arXiv cs.CV",
@@ -3885,36 +3825,6 @@
    }
   },
   {
-   "uid": "03e6245e190a0b50",
-   "source": "arxiv-openai",
-   "org": "OpenAI",
-   "content": "paper",
-   "title": "A note on the cube inequality",
-   "url": "https://arxiv.org/abs/2610.28390v1",
-   "summary": "In this note, we adapt ideas from No. 336 of OpenAI's October 6, 2026 mathematics release to prove the weighted cube inequality in all dimensions.",
-   "published": "2026-10-20T15:38:51+00:00",
-   "authors": [
-    "Yuchen Bi"
-   ],
-   "tags": [
-    "math.DG",
-    "arxiv",
-    "openai"
-   ],
-   "brief": {
-    "overview": "In this note, we adapt ideas from No. 336 of OpenAI's October 6, 2026 mathematics release to prove the weighted cube inequality in all dimensions.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
    "uid": "6d6a68bb41cff44a",
    "source": "arxiv-cs-lg",
    "org": "arXiv cs.LG",
@@ -4340,6 +4250,120 @@
     "next_steps": "",
     "mode": "heuristic",
     "notes": []
+   }
+  },
+  {
+   "uid": "4e683a284da99396",
+   "source": "arxiv-cs-lg",
+   "org": "arXiv cs.LG",
+   "content": "paper",
+   "title": "Beyond the Point Mass: Acceptance-Derived Weights and Distributional Losses for Speculative Decoding",
+   "url": "https://arxiv.org/abs/2610.28355v1",
+   "summary": "In speculative decoding, a lightweight draft model proposes tokens that the target model verifies in parallel, speeding up generation without changing the target distribution. D-PACE (Wu et al., 2026) trains such drafters with a loss that weights each position by its contribution to the expected accepted length. Both its weights and its cross-entropy (CE) loss use only the draft's probability of the recorded target token, treating the target as a point mass. Under rejection sampling, however, a sampled draft token is accepted with probability equal to the overlap of the draft and target\u2026",
+   "published": "2026-10-20T15:20:26+00:00",
+   "authors": [
+    "Tianyu Wu",
+    "Zhuohan Wang",
+    "Jonathan Geuter",
+    "Yu Yao",
+    "Weifan Jiang",
+    "Chengxi Zhang",
+    "Ju Li",
+    "Minlan Yu"
+   ],
+   "tags": [
+    "cs.LG",
+    "arxiv",
+    "ml"
+   ],
+   "brief": {
+    "overview": "In speculative decoding, a lightweight draft model proposes tokens that the target model verifies in parallel, speeding up generation without changing the target distribution. D-PACE (Wu et al., 2026) trains such drafters with a loss that weights each position by its contribution to the expected accepted length.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "8438a24305e43c26",
+   "source": "arxiv-cs-cv",
+   "org": "arXiv cs.CV",
+   "content": "paper",
+   "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+   "url": "https://arxiv.org/abs/2610.28354v1",
+   "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct answer: the gap between model and tools, where raw readings become usable conclusions, is left unfilled. We present S-Agent 2.0, a spatial reasoning agent that equips an\u2026",
+   "published": "2026-10-20T15:20:00+00:00",
+   "authors": [
+    "Rui Gong",
+    "Ruoyu Wang",
+    "Yalun Dai",
+    "Hao Li",
+    "Sidi Yang",
+    "Qihao Zhao",
+    "Hongyu Li",
+    "Zeyang Guan",
+    "Fangzhou Hong",
+    "Zhaoxi Chen",
+    "Kim-Hui Yap",
+    "Ziwei Liu"
+   ],
+   "tags": [
+    "cs.AI",
+    "cs.CV",
+    "arxiv",
+    "vision"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move.",
+    "prior_work": "",
+    "approach": "We present S-Agent 2.0, a spatial reasoning agent that equips an\u2026 Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct answer: the gap between model and tools, where raw readings become usable conclusions, is left unfilled.",
+    "results": "Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass.",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
+    ]
+   }
+  },
+  {
+   "uid": "0c17e6f56948f5a6",
+   "source": "arxiv-cs-cv",
+   "org": "arXiv cs.CV",
+   "content": "paper",
+   "title": "RayCo4D: Ray-Conditioned Continuous Motion Model for Monocular 4D Dynamic Reconstruction",
+   "url": "https://arxiv.org/abs/2610.28351v1",
+   "summary": "Reconstructing dynamic 3D scenes from monocular video requires inferring motion from noisy and intermittently visible observations. Long-range tracks provide valuable geometric constraints, but integrating their fragmented temporal coverage into shared, continuous motion remains challenging. We introduce \\textbf{RayCo4D}, a ray-conditioned continuous motion model for monocular 4D reconstruction that explicitly separates visual measurements from latent 3D motion states. Each track is associated with a reference-time 3D query constrained to its camera ray, and its image and depth observations\u2026",
+   "published": "2026-10-20T15:17:29+00:00",
+   "authors": [
+    "Yuanxiang Ni",
+    "Xianliang Huang",
+    "Ruihan Hou",
+    "Feng Xie",
+    "Hao Zhang"
+   ],
+   "tags": [
+    "cs.CV",
+    "cs.AI",
+    "arxiv",
+    "vision"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Reconstructing dynamic 3D scenes from monocular video requires inferring motion from noisy and intermittently visible observations. Long-range tracks provide valuable geometric constraints, but integrating their fragmented temporal coverage into shared, continuous motion remains challenging.",
+    "prior_work": "",
+    "approach": "We introduce \\textbf{RayCo4D}, a ray-conditioned continuous motion model for monocular 4D reconstruction that explicitly separates visual measurements from latent 3D motion states.",
+    "results": "Each track is associated with a reference-time 3D query constrained to its camera ray, and its image and depth observations\u2026",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
+    ]
    }
   }
  ]

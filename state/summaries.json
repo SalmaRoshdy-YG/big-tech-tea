@@ -4007,6 +4007,18 @@
   "problem": "Dance-to-music (D2M) generation aims to synthesize music that is rhythmically and stylistically aligned with dance videos. A key challenge arises from the semantic mismatch between sparse dance cues, such as rhythm and style, and the dense information required for music composition, including structure, instrumentation, and expressive dynamics.",
   "results": ""
  },
+ "0c17e6f56948f5a6": {
+  "approach": "We introduce \\textbf{RayCo4D}, a ray-conditioned continuous motion model for monocular 4D reconstruction that explicitly separates visual measurements from latent 3D motion states.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Reconstructing dynamic 3D scenes from monocular video requires inferring motion from noisy and intermittently visible observations. Long-range tracks provide valuable geometric constraints, but integrating their fragmented temporal coverage into shared, continuous motion remains challenging.",
+  "results": "Each track is associated with a reference-time 3D query constrained to its camera ray, and its image and depth observations\u2026"
+ },
  "0c23b85c85b44083": {
   "approach": "",
   "mode": "heuristic",
@@ -24743,6 +24755,18 @@
   "problem": "Mixture-of-experts (MoE) routers typically apply softmax to the router scores and keep the top-K experts, making every token use exactly K experts. Sparsity-inducing probability maps such as sparsemax, alpha-entmax and normmax can adaptively assign exact zeros to selected experts, and therefore appear to offer token-dependent expert participation, even when using the same top-K machinery.",
   "results": ""
  },
+ "4e683a284da99396": {
+  "approach": "",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "short feed blurb, not a structured abstract"
+  ],
+  "overview": "In speculative decoding, a lightweight draft model proposes tokens that the target model verifies in parallel, speeding up generation without changing the target distribution. D-PACE (Wu et al., 2026) trains such drafters with a loss that weights each position by its contribution to the expected accepted length.",
+  "prior_work": "",
+  "problem": "",
+  "results": ""
+ },
  "4e7502c1c2de0620": {
   "approach": "",
   "mode": "heuristic",
@@ -41234,6 +41258,18 @@
   "prior_work": "Existing methods for Critical View of Safety (CVS) assessment typically treat it as a holistic prediction task, mapping visual features directly to criterion-level labels.",
   "problem": "Surgical scene understanding is critical for computer-assisted intervention, yet laparoscopic cholecystectomy remains challenged by the complex anatomy of the hepatocystic triangle and the risk of bile duct injury.",
   "results": ""
+ },
+ "8438a24305e43c26": {
+  "approach": "We present S-Agent 2.0, a spatial reasoning agent that equips an\u2026 Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct answer: the gap between model and tools, where raw readings become usable conclusions, is left unfilled.",
+  "mode": "heuristic",
+  "next_steps": "",
+  "notes": [
+   "abstract doesn't compare to prior work"
+  ],
+  "overview": "",
+  "prior_work": "",
+  "problem": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move.",
+  "results": "Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass."
  },
  "8438d62fafe55ec4": {
   "approach": "We introduce BLARM, a feed-forward method for video-driven 3D mesh animation. Rather than relying on explicit rigs or directly regressing high-dimensional vertex motion, we represent animation using a compact set of learned, time-varying rigid motion components and time-invariant vertex-to-component skinning weights.",
