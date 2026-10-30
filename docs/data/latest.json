@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T18:31:51+00:00",
+ "generated": "2026-10-30T01:08:48+00:00",
  "labs": [
   {
    "slug": "openai",
@@ -79,6 +79,35 @@
   }
  ],
  "papers": [
+  {
+   "uid": "8eef8a1c6a51e974",
+   "source": "microsoft-research",
+   "org": "Microsoft Research",
+   "content": "blog",
+   "title": "Microsoft Research Focus \u2013 Edition #97",
+   "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/",
+   "summary": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft\u2014from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting. The post Microsoft Research Focus \u2013 Edition #97 appeared first on Microsoft Research .",
+   "published": "2026-10-29T19:19:16+00:00",
+   "authors": [
+    "Sowbhagya Suresh"
+   ],
+   "tags": [
+    "Microsoft Research Podcast",
+    "microsoft"
+   ],
+   "brief": {
+    "overview": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft\u2014from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting. The post Microsoft Research Focus \u2013 Edition #97 appeared first on Microsoft Research .",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
   {
    "uid": "7bf0065ceb1646f5",
    "source": "openai",
@@ -2474,8 +2503,8 @@
   },
   {
    "uid": "75ea53f9b5ce84c4",
-   "source": "arxiv-alibaba",
-   "org": "Alibaba",
+   "source": "arxiv-cs-cl",
+   "org": "arXiv cs.CL",
    "content": "paper",
    "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
    "url": "https://arxiv.org/abs/2610.37481v1",
@@ -2494,8 +2523,7 @@
     "cs.AI",
     "cs.CL",
     "arxiv",
-    "alibaba",
-    "qwen"
+    "nlp"
    ],
    "brief": {
     "overview": "Fine-tuning Large Language Models (LLMs) on instruction data can quietly erode their safety, even when no training example looks harmful. Because this safety-degrading data looks benign, standard content filters struggle to catch it.",
@@ -3872,8 +3900,8 @@
   },
   {
    "uid": "68bbd0a2da3d818c",
-   "source": "arxiv-alibaba",
-   "org": "Alibaba",
+   "source": "arxiv-cs-ai",
+   "org": "arXiv cs.AI",
    "content": "paper",
    "title": "Uncovering Why LLMs Fail: From Internal Mechanisms to Adversarial Reasoning Trajectories",
    "url": "https://arxiv.org/abs/2610.37369v1",
@@ -3890,8 +3918,7 @@
    "tags": [
     "cs.AI",
     "arxiv",
-    "alibaba",
-    "qwen"
+    "ai"
    ],
    "brief": {
     "overview": "Large language models (LLMs) are usually evaluated by final-output correctness or safety, yet an endpoint label does not reveal how a failure develops throughout the reasoning process. We therefore ask whether ordinary reasoning failures and adversarially induced failures can be characterized using the same internal coordinates.",
@@ -4286,40 +4313,6 @@
     "mode": "heuristic",
     "notes": [
      "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "0d6766f3678c9ad3",
-   "source": "arxiv-alibaba",
-   "org": "Alibaba",
-   "content": "paper",
-   "title": "Hidden in Plain Sight: an Empirical Study about The Instruction Stacks of Coding Agents",
-   "url": "https://arxiv.org/abs/2610.37332v1",
-   "summary": "Coding agents send their models more than the user's prompt: they add instructions, tool definitions, and environmental context that form an instruction stack. This stack guides execution and changes across releases, yet remains largely unexposed to users and insufficiently characterized in research. We present a longitudinal, cross-agent study of the instruction stacks captured in the first model requests of 1,886 releases of Claude Code, Codex, Gemini CLI, Qwen Code, and OpenCode. Under controlled conditions, we analyze their composition and evolution and trace changes in the four\u2026",
-   "published": "2026-10-27T14:38:25+00:00",
-   "authors": [
-    "Felipe de Sant'Anna Paix\u00e3o",
-    "Dhyego Tavares",
-    "Eduardo Almeida",
-    "Iftekhar Ahmed"
-   ],
-   "tags": [
-    "cs.SE",
-    "arxiv",
-    "alibaba",
-    "qwen"
-   ],
-   "brief": {
-    "overview": "Coding agents send their models more than the user's prompt: they add instructions, tool definitions, and environmental context that form an instruction stack. This stack guides execution and changes across releases, yet remains largely unexposed to users and insufficiently characterized in research.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
     ]
    }
   },
