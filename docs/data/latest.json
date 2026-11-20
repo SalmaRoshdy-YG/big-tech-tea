@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T20:44:27+00:00",
+ "generated": "2026-11-20T02:23:04+00:00",
  "labs": [
   {
    "slug": "openai",
@@ -189,6 +189,351 @@
    }
   },
   {
+   "uid": "7d961757397cdd71",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "PAIR-MED: Policy-reward Alternation for Iterative Refinement in Multilingual Medical Reasoning",
+   "url": "https://arxiv.org/abs/2611.25446v1",
+   "summary": "Large language models demonstrate strong medical question-answering capabilities, yet reasoning performance remains uneven across languages. Process reward models (PRMs) provide step-level feedback for improving reasoning, but a fixed PRM may become increasingly misaligned with the trajectory distribution of an evolving policy during reinforcement learning, thereby reducing the reliability of its supervision. We propose a policy--reward alternating training framework that jointly adapts a medical PRM and optimizes a multilingual reasoning policy. Following supervised initialization, the\u2026",
+   "published": "2026-11-19T03:25:14+00:00",
+   "authors": [
+    "Fan Gao",
+    "Xiaohang Xu",
+    "Lang Huang",
+    "Nan Lu",
+    "Irene Li"
+   ],
+   "tags": [
+    "cs.CL",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Large language models demonstrate strong medical question-answering capabilities, yet reasoning performance remains uneven across languages.",
+    "prior_work": "",
+    "approach": "We propose a policy--reward alternating training framework that jointly adapts a medical PRM and optimizes a multilingual reasoning policy.",
+    "results": "Process reward models (PRMs) provide step-level feedback for improving reasoning, but a fixed PRM may become increasingly misaligned with the trajectory distribution of an evolving policy during reinforcement learning, thereby reducing the reliability of its supervision. Following supervised initialization, the\u2026",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
+    ]
+   }
+  },
+  {
+   "uid": "5d54058dca71cd5b",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "Text Lives in the Guidance: Preventing Silent Text Rewriting in Cached Diffusion Transformers",
+   "url": "https://arxiv.org/abs/2611.25382v1",
+   "summary": "Diffusion transformers (DiTs) now render long, legible text in images, and feature caching is a standard way to accelerate them. Caches are judged by image-level metrics, which do not check whether the rendered text is still correct. We find that caching silently rewrites this text. On Z-Image, TaylorSeer at 2.9x fewer FLOPs lowers word accuracy from 62% to 46%, while ImageReward and CLIP Score barely change. Sampling with fewer steps at the same compute keeps almost all of this text, so the loss comes from how the cache predicts the skipped steps. Decomposing the cache error along\u2026",
+   "published": "2026-11-19T02:23:19+00:00",
+   "authors": [
+    "Kun Zhou",
+    "Wenmian Yang",
+    "Zhensheng Wang",
+    "Weijia Jia"
+   ],
+   "tags": [
+    "cs.CV",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Diffusion transformers (DiTs) now render long, legible text in images, and feature caching is a standard way to accelerate them. Caches are judged by image-level metrics, which do not check whether the rendered text is still correct.",
+    "prior_work": "",
+    "approach": "",
+    "results": "We find that caching silently rewrites this text. On Z-Image, TaylorSeer at 2.9x fewer FLOPs lowers word accuracy from 62% to 46%, while ImageReward and CLIP Score barely change.",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
+    ]
+   }
+  },
+  {
+   "uid": "154d56947033dbe1",
+   "source": "arxiv-fair",
+   "org": "Meta FAIR",
+   "content": "paper",
+   "title": "Now You See Me Now You Don't: A Framework To Detect and Reduce Proxy Capacity",
+   "url": "https://arxiv.org/abs/2611.25327v1",
+   "summary": "In regulated domains such as lending, the two most salient fairness concepts are disparate impact and disparate treatment: disparate impact is generally defined by differential rates of adverse outcomes between demographic groups, while disparate treatment is generally defined by the use of demographic information or proxies to issue decisions. There already exist established methods to quantitatively detect and mitigate disparate impact; however, there has been less research on doing the same for disparate treatment. From a practitioner's perspective, the manner in which a conditional\u2026",
+   "published": "2026-11-19T01:02:01+00:00",
+   "authors": [
+    "Nirek Sharma"
+   ],
+   "tags": [
+    "cs.LG",
+    "arxiv",
+    "meta"
+   ],
+   "brief": {
+    "overview": "In regulated domains such as lending, the two most salient fairness concepts are disparate impact and disparate treatment: disparate impact is generally defined by differential rates of adverse outcomes between demographic groups, while disparate treatment is generally defined by the use of demographic information or proxies to issue decisions. There already exist established methods to quantitatively detect and mitigate disparate impact; however, there has been less research on doing the same for disparate treatment.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "4b08ec50268e04a4",
+   "source": "openai",
+   "org": "OpenAI",
+   "content": "blog",
+   "title": "Deploying Daybreak Red",
+   "url": "https://openai.com/business/learn/deploying-daybreak-red",
+   "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+   "published": "2026-11-19T00:00:00+00:00",
+   "authors": [],
+   "tags": [
+    "Guides",
+    "openai"
+   ],
+   "brief": {
+    "overview": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "cb99e2baa62e7866",
+   "source": "openai",
+   "org": "OpenAI",
+   "content": "blog",
+   "title": "See PR scans in action",
+   "url": "https://openai.com/business/learn/pr-scans-demo",
+   "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+   "published": "2026-11-19T00:00:00+00:00",
+   "authors": [],
+   "tags": [
+    "Demos",
+    "openai"
+   ],
+   "brief": {
+    "overview": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "e29ac258c013c12c",
+   "source": "openai",
+   "org": "OpenAI",
+   "content": "blog",
+   "title": "Explore the Codex Security Plugin",
+   "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+   "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+   "published": "2026-11-19T00:00:00+00:00",
+   "authors": [],
+   "tags": [
+    "Demos",
+    "openai"
+   ],
+   "brief": {
+    "overview": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "a2fb00344062975f",
+   "source": "openai",
+   "org": "OpenAI",
+   "content": "blog",
+   "title": "Get started with Daybreak Blue",
+   "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+   "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+   "published": "2026-11-19T00:00:00+00:00",
+   "authors": [],
+   "tags": [
+    "Demos",
+    "openai"
+   ],
+   "brief": {
+    "overview": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "761087c2b424b0ab",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "CalibCache: Cache-to-Full Feature Dynamics Calibration for Diffusion Transformers",
+   "url": "https://arxiv.org/abs/2611.25296v1",
+   "summary": "Diffusion Transformers generate high-quality images, but iterative sampling remains computationally expensive. Feature caching reduces the number of full network evaluations, yet its approximation error can become more severe under short sampling schedules, where fewer full-compute steps and a coarser sampling grid can make history-based extrapolation less reliable. In this paper, we propose CalibCache, a lightweight offline calibration method that corrects systematic discrepancies between cached and full-compute feature dynamics. Specifically, CalibCache calibrates feature acceleration,\u2026",
+   "published": "2026-11-18T23:43:52+00:00",
+   "authors": [
+    "Mingyu Liang",
+    "Dingkun Xu",
+    "Jingwei Xu"
+   ],
+   "tags": [
+    "cs.CV",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Diffusion Transformers generate high-quality images, but iterative sampling remains computationally expensive.",
+    "prior_work": "",
+    "approach": "In this paper, we propose CalibCache, a lightweight offline calibration method that corrects systematic discrepancies between cached and full-compute feature dynamics.",
+    "results": "Feature caching reduces the number of full network evaluations, yet its approximation error can become more severe under short sampling schedules, where fewer full-compute steps and a coarser sampling grid can make history-based extrapolation less reliable. CalibCache calibrates feature acceleration,\u2026",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
+    ]
+   }
+  },
+  {
+   "uid": "8585bfae0250575d",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "LLMs Are Already Confidence-Aware Zero-Shot Classifiers",
+   "url": "https://arxiv.org/abs/2611.25289v1",
+   "summary": "Zero-shot large language models (LLMs) are increasingly used as text classifiers, but their labels are only useful when we know to what extent we can trust them. We compare black-box methods (verbalised confidence and sampling) with white-box methods that read token probabilities (P(True), and multiple logit-scoring methods using constrained generation). We evaluate eleven open-weight LLMs (1B-32B parameters) on five classification datasets with 3 to 151 labels, measuring classification performance (accuracy, F1-macro), discrimination (AUROC), and calibration (ECE and Brier score). The\u2026",
+   "published": "2026-11-18T23:33:16+00:00",
+   "authors": [
+    "Owen Cook",
+    "Xingyi Song"
+   ],
+   "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "Zero-shot large language models (LLMs) are increasingly used as text classifiers, but their labels are only useful when we know to what extent we can trust them. We compare black-box methods (verbalised confidence and sampling) with white-box methods that read token probabilities (P(True), and multiple logit-scoring methods using constrained generation).",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "260f44797a38b42b",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "Branch Caching After Step Distillation in Four- and Eight-Step Image Generators",
+   "url": "https://arxiv.org/abs/2611.25248v1",
+   "summary": "Can a distilled image generator save time by reusing features between its few remaining denoising steps? We study a fixed branch cache that replaces selected attention and MLP evaluations while preserving the student's noise schedule. One full trajectory and one raw-cache trajectory from the same initial noise supply a scalar correction for each branch type and reuse position. At $1024^2$, one internal reuse reduces four-step Qwen-Image-Lightning denoising time from 1.279 to 0.977 seconds. Three reuses yield $1.51\\times$ speedup on eight-step Lightning and $1.53\\times$ on eight-step\u2026",
+   "published": "2026-11-18T22:34:48+00:00",
+   "authors": [
+    "Mingyu Liang",
+    "Dingkun Xu"
+   ],
+   "tags": [
+    "cs.CV",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "Can a distilled image generator save time by reusing features between its few remaining denoising steps? We study a fixed branch cache that replaces selected attention and MLP evaluations while preserving the student's noise schedule.",
+    "prior_work": "",
+    "approach": "One full trajectory and one raw-cache trajectory from the same initial noise supply a scalar correction for each branch type and reuse position.",
+    "results": "At $1024^2$, one internal reuse reduces four-step Qwen-Image-Lightning denoising time from 1.279 to 0.977 seconds. Three reuses yield $1.51\\times$ speedup on eight-step Lightning and $1.53\\times$ on eight-step\u2026",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
+    ]
+   }
+  },
+  {
+   "uid": "99be32b1b92d0861",
+   "source": "arxiv-fair",
+   "org": "Meta FAIR",
+   "content": "paper",
+   "title": "From FAIR to AWARE: Data Readiness for Agentic AI in the Earth Sciences",
+   "url": "https://arxiv.org/abs/2611.25209v1",
+   "summary": "Artificial intelligence in the Earth sciences is beginning to act: prototype agents already search archives, run simulations and draft analyses. Scientific data were curated for researchers who bring expert judgement; an autonomous agent cannot be assumed to supply it. Data can satisfy the FAIR principles and still mislead a machine acting alone. We propose that Earth-science data become AWARE (Actionable, Well-described, Auditable, Recipe-equipped, Epistemically labelled), an agent-specific requirements layer that extends FAIR, within a three-part agenda: AWARE data, bounded tools, layered\u2026",
+   "published": "2026-11-18T21:36:17+00:00",
+   "authors": [
+    "Ivan Kuznetsov",
+    "Dmitrii Pantiukhin",
+    "Sonja H\u00e4nzelmann",
+    "Fabian Wachsmann",
+    "Jonas S\u00f8lvsteen",
+    "Daniel Wiesmann",
+    "Thomas Jung",
+    "Nikolay Koldunov"
+   ],
+   "tags": [
+    "physics.ao-ph",
+    "cs.AI",
+    "physics.geo-ph",
+    "arxiv",
+    "meta"
+   ],
+   "brief": {
+    "overview": "Artificial intelligence in the Earth sciences is beginning to act: prototype agents already search archives, run simulations and draft analyses. Scientific data were curated for researchers who bring expert judgement; an autonomous agent cannot be assumed to supply it.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
    "uid": "b898a1b2127c5756",
    "source": "deepmind",
    "org": "Google DeepMind",
@@ -212,6 +557,74 @@
     "mode": "heuristic",
     "notes": [
      "feed gave no abstract; open the paper for detail"
+    ]
+   }
+  },
+  {
+   "uid": "398d1bf49159a234",
+   "source": "arxiv-deepmind",
+   "org": "Google DeepMind",
+   "content": "paper",
+   "title": "Auditing Learned Dynamics in Weather Models",
+   "url": "https://arxiv.org/abs/2611.25119v1",
+   "summary": "Learned weather models are experimentally accessible computational systems whose internal representations can be inspected and manipulated. Using sparse autoencoder features from GraphCast, DeepMind's autoregressive weather forecasting model, we test whether causal relevance requires physical semantics, a question that matters for auditing whether AI forecasters used in high-assurance settings rely on reliable mechanisms. We also look at whether physically associated latent directions can be steered to improve extreme-event forecasts, where interventions are applied to the model's internal\u2026",
+   "published": "2026-11-18T19:58:01+00:00",
+   "authors": [
+    "Skylar Gu",
+    "Christina Last"
+   ],
+   "tags": [
+    "cs.LG",
+    "arxiv",
+    "deepmind",
+    "google"
+   ],
+   "brief": {
+    "overview": "Learned weather models are experimentally accessible computational systems whose internal representations can be inspected and manipulated. Using sparse autoencoder features from GraphCast, DeepMind's autoregressive weather forecasting model, we test whether causal relevance requires physical semantics, a question that matters for auditing whether AI forecasters used in high-assurance settings rely on reliable mechanisms.",
+    "problem": "",
+    "prior_work": "",
+    "approach": "",
+    "results": "",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "short feed blurb, not a structured abstract"
+    ]
+   }
+  },
+  {
+   "uid": "b38793d0439d1a01",
+   "source": "arxiv-alibaba",
+   "org": "Alibaba",
+   "content": "paper",
+   "title": "Twindex: Index Cache Offloading with Coarse-to-Fine Selection for Long-Context Sparse-Attention Serving",
+   "url": "https://arxiv.org/abs/2611.25078v1",
+   "summary": "In long-context decoding, GPU memory (HBM) caps how many requests a GPU decodes at once. Sparse-attention models such as Qwen3.8-Flash-Next, DeepSeek V4.1-Flash and GLM-5.2 add an indexer: at every step it scores all past index entries with its own indexer cache, and attention reads the main KV of only the top-k entries. We find that once serving systems move the main KV to host memory, the indexer cache becomes the HBM bottleneck, at 63% of per-request HBM on Qwen and 75% on V4.1 at 1M tokens. Therefore, we introduce Twindex, which keeps only a compact copy of the indexer cache in HBM and\u2026",
+   "published": "2026-11-18T19:19:42+00:00",
+   "authors": [
+    "Yuxuan Xia",
+    "Jiakun Fan",
+    "Han Meng",
+    "Hao Mark Chen",
+    "Shenji Wan",
+    "Dongsheng Yang"
+   ],
+   "tags": [
+    "cs.DC",
+    "arxiv",
+    "alibaba",
+    "qwen"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "In long-context decoding, GPU memory (HBM) caps how many requests a GPU decodes at once.",
+    "prior_work": "",
+    "approach": "we introduce Twindex, which keeps only a compact copy of the indexer cache in HBM and\u2026",
+    "results": "Sparse-attention models such as Qwen3.8-Flash-Next, DeepSeek V4.1-Flash and GLM-5.2 add an indexer: at every step it scores all past index entries with its own indexer cache, and attention reads the main KV of only the top-k entries. We find that once serving systems move the main KV to host memory, the indexer cache becomes the HBM bottleneck, at 63% of per-request HBM on Qwen and 75% on V4.1 at 1M tokens.",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
     ]
    }
   },
@@ -1480,6 +1893,37 @@
     "next_steps": "",
     "mode": "heuristic",
     "notes": []
+   }
+  },
+  {
+   "uid": "34f434b2d4eeb4a5",
+   "source": "arxiv-openai",
+   "org": "OpenAI",
+   "content": "paper",
+   "title": "On Hilbert's tenth problem over a quadratic field",
+   "url": "https://arxiv.org/abs/2611.25002v1",
+   "summary": "In 2026, OpenAI proved that Hilbert's Tenth Problem over the field $\\mathbb Q$ of rational numbers has a negative solution. In this paper we study Hilbert's Tenth Problem over the quadratic field $K=\\mathbb Q(\\sqrt2)$. We prove that there is no algorithm to decide for any polynomial equation $P(x_1,\\ldots,x_{48})=0$ with integer coefficients whether it has solutions with $x_1,\\ldots,x_{48}\\in K$. We also show the existence of a polynomial $f(x_0,x_1,\\ldots,x_{25})$ with integer coefficients such that $a\\in K$ is a rational integer if and only if $f(a,x_1,\\ldots,x_{25})=0$ for some\u2026",
+   "published": "2026-11-18T17:46:23+00:00",
+   "authors": [
+    "Zhi-Wei Sun"
+   ],
+   "tags": [
+    "math.NT",
+    "math.LO",
+    "arxiv",
+    "openai"
+   ],
+   "brief": {
+    "overview": "",
+    "problem": "In 2026, OpenAI proved that Hilbert's Tenth Problem over the field $\\mathbb Q$ of rational numbers has a negative solution. In this paper we study Hilbert's Tenth Problem over the quadratic field $K=\\mathbb Q(\\sqrt2)$.",
+    "prior_work": "",
+    "approach": "We prove that there is no algorithm to decide for any polynomial equation $P(x_1,\\ldots,x_{48})=0$ with integer coefficients whether it has solutions with $x_1,\\ldots,x_{48}\\in K$.",
+    "results": "We also show the existence of a polynomial $f(x_0,x_1,\\ldots,x_{25})$ with integer coefficients such that $a\\in K$ is a rational integer if and only if $f(a,x_1,\\ldots,x_{25})=0$ for some\u2026",
+    "next_steps": "",
+    "mode": "heuristic",
+    "notes": [
+     "abstract doesn't compare to prior work"
+    ]
    }
   },
   {
@@ -3653,476 +4097,6 @@
     "notes": [
      "short feed blurb, not a structured abstract"
     ]
-   }
-  },
-  {
-   "uid": "4b3090d550b9d450",
-   "source": "arxiv-cs-lg",
-   "org": "arXiv cs.LG",
-   "content": "paper",
-   "title": "Diffusion Models are Provably Efficient Priors for Sparse Recovery",
-   "url": "https://arxiv.org/abs/2611.24602v1",
-   "summary": "Diffusion models have transformed generative modeling through their ability to capture and generate samples from complex data distributions. This success has spurred substantial interest in using pretrained diffusion models as expressive priors for highly ill-posed inverse problems in imaging and sensing. Despite strong empirical performance, theoretical understanding of this approach remains limited: existing guarantees are often asymptotic or entail prohibitive computational costs in the worst case. In this paper, we address this gap by studying sparse recovery from a small number of\u2026",
-   "published": "2026-11-18T15:27:29+00:00",
-   "authors": [
-    "Ivan Lee",
-    "Xingyu Xu",
-    "Yuejie Chi"
-   ],
-   "tags": [
-    "stat.ML",
-    "cs.IT",
-    "cs.LG",
-    "math.OC",
-    "arxiv",
-    "ml"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Diffusion models have transformed generative modeling through their ability to capture and generate samples from complex data distributions. This success has spurred substantial interest in using pretrained diffusion models as expressive priors for highly ill-posed inverse problems in imaging and sensing.",
-    "prior_work": "Despite strong empirical performance, theoretical understanding of this approach remains limited: existing guarantees are often asymptotic or entail prohibitive computational costs in the worst case.",
-    "approach": "In this paper, we address this gap by studying sparse recovery from a small number of\u2026",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": []
-   }
-  },
-  {
-   "uid": "6dc5a5904439b0a3",
-   "source": "arxiv-cs-lg",
-   "org": "arXiv cs.LG",
-   "content": "paper",
-   "title": "Morpho-Spectral Projection Analysis (MSPA) for Plant Spectroscopy",
-   "url": "https://arxiv.org/abs/2611.24599v1",
-   "summary": "Plant reflectance spectroscopy across the visible, near-infrared, and shortwave infrared domain encodes foliar biochemical and anatomical traits into contiguous spectral signatures with locally differentiable structure; however, extreme inter-band collinearity and unfavorable sample-to-feature ratios challenge predictive modeling. Conventional dimensionality reduction methods routinely adopted in spectroscopy, are column-permutation invariant: they treat adjacent wavelengths as unordered tabular columns and discard the sequential differential geometry of absorption features. Here, we propose\u2026",
-   "published": "2026-11-18T15:25:27+00:00",
-   "authors": [
-    "Lucas Prado Osco",
-    "Marcelo Santos da Silva",
-    "Filipe Vieira Silva",
-    "Liang Zhao",
-    "Ana Paula Marques Ramos",
-    "Ednaldo Jose Ferreira",
-    "Roberto Dantas de Medeiros",
-    "Amaury Burlamaqui Bendahan",
-    "Lucio Andre de Castro Jorge"
-   ],
-   "tags": [
-    "cs.LG",
-    "arxiv",
-    "ml"
-   ],
-   "brief": {
-    "overview": "Plant reflectance spectroscopy across the visible, near-infrared, and shortwave infrared domain encodes foliar biochemical and anatomical traits into contiguous spectral signatures with locally differentiable structure; however, extreme inter-band collinearity and unfavorable sample-to-feature ratios challenge predictive modeling. Conventional dimensionality reduction methods routinely adopted in spectroscopy, are column-permutation invariant: they treat adjacent wavelengths as unordered tabular columns and discard the sequential differential geometry of absorption features.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "1a9261d28a26d1c1",
-   "source": "arxiv-alibaba",
-   "org": "Alibaba",
-   "content": "paper",
-   "title": "Chain-of-Thought Hidden States Reveal Task-Solving Directions for Direct Answers",
-   "url": "https://arxiv.org/abs/2611.24598v1",
-   "summary": "Chain-of-Thought (CoT) prompting improves the performance of Large Language Models by eliciting intermediate reasoning steps. However, CoT is far from perfect: on some tasks, models perform worse than with direct-answer prompting, and on others they generate a few hundred tokens to reach the correct answer. We start by labelling each CoT hidden state as recovering if patching it into the direct prompt yields the correct answer, and failed otherwise. A linear probe shows that the model encodes these two classes differently. We then show that the representation space of the direct prompt holds\u2026",
-   "published": "2026-11-18T15:25:14+00:00",
-   "authors": [
-    "Houman Mehrafarin",
-    "Ioannis Konstas"
-   ],
-   "tags": [
-    "cs.CL",
-    "cs.AI",
-    "arxiv",
-    "alibaba",
-    "qwen"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Chain-of-Thought (CoT) prompting improves the performance of Large Language Models by eliciting intermediate reasoning steps. CoT is far from perfect: on some tasks, models perform worse than with direct-answer prompting, and on others they generate a few hundred tokens to reach the correct answer.",
-    "prior_work": "A linear probe shows that the model encodes these two classes differently.",
-    "approach": "",
-    "results": "We start by labelling each CoT hidden state as recovering if patching it into the direct prompt yields the correct answer, and failed otherwise. We then show that the representation space of the direct prompt holds\u2026",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": []
-   }
-  },
-  {
-   "uid": "66e9e6dc51c285e3",
-   "source": "arxiv-cs-cv",
-   "org": "arXiv cs.CV",
-   "content": "paper",
-   "title": "DAL: Dynamic Angular Loss for Imbalanced Medical Image Classification",
-   "url": "https://arxiv.org/abs/2611.24597v1",
-   "summary": "Class imbalance remains a major obstacle in medical image classification, where rare but clinically important classes are often overshadowed by majority categories. Although current strategies for reducing bias, including angle-based softmax (ABS) losses, offer strong discriminative features, their behavior in settings with a small number of severely imbalanced classes remains insufficiently understood. Previous approaches that estimate the intrinsic parameters of ABS rely on the assumption of many classes, which does not hold in medical settings. We derive data-driven upper and lower bounds\u2026",
-   "published": "2026-11-18T15:23:46+00:00",
-   "authors": [
-    "Salman Mohammad",
-    "Furkan Kas\u0131m",
-    "Manuel G\u00fcnther"
-   ],
-   "tags": [
-    "cs.CV",
-    "arxiv",
-    "vision"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Class imbalance remains a major obstacle in medical image classification, where rare but clinically important classes are often overshadowed by majority categories.",
-    "prior_work": "",
-    "approach": "Previous approaches that estimate the intrinsic parameters of ABS rely on the assumption of many classes, which does not hold in medical settings.",
-    "results": "Although current strategies for reducing bias, including angle-based softmax (ABS) losses, offer strong discriminative features, their behavior in settings with a small number of severely imbalanced classes remains insufficiently understood. We derive data-driven upper and lower bounds\u2026",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "c36e2d0be3183ddb",
-   "source": "arxiv-cs-lg",
-   "org": "arXiv cs.LG",
-   "content": "paper",
-   "title": "From Activity Recognition to Shift Detection: Variational Wi-Fi Sensing with Evidential Uncertainty",
-   "url": "https://arxiv.org/abs/2611.24596v1",
-   "summary": "Human motion perturbs wireless channels, making commodity Wi-Fi devices a practical platform for device-free activity recognition. Yet Channel State Information (CSI) also depends strongly on the person, receiver position, recording session, and surrounding environment, so a classifier can continue producing activity labels after its deployment conditions have moved away from those seen during training. We propose Wi-HAR, a multi-antenna architecture in which four Variational Auto-Encoders learn compact distributions from raw Wi-Fi 6 CSI magnitudes and a delayed-fusion classifier combines\u2026",
-   "published": "2026-11-18T15:23:30+00:00",
-   "authors": [
-    "Luca Cotti",
-    "Marco Cominelli",
-    "Francesco Gringoli",
-    "Lance M. Kaplan",
-    "Mani B. Srivastava",
-    "Trevor Bihl",
-    "Erik Blasch",
-    "Kara Combs",
-    "Daniel O. Brigham",
-    "Federico Cerutti"
-   ],
-   "tags": [
-    "cs.LG",
-    "arxiv",
-    "ml"
-   ],
-   "brief": {
-    "overview": "Human motion perturbs wireless channels, making commodity Wi-Fi devices a practical platform for device-free activity recognition. Yet Channel State Information (CSI) also depends strongly on the person, receiver position, recording session, and surrounding environment, so a classifier can continue producing activity labels after its deployment conditions have moved away from those seen during training.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "38c4c8e925572ffc",
-   "source": "arxiv-cs-ai",
-   "org": "arXiv cs.AI",
-   "content": "paper",
-   "title": "Think Offline, Act in Real Time: Self-Improving Visual Game Agents through Code",
-   "url": "https://arxiv.org/abs/2611.24590v1",
-   "summary": "Pre-trained models can read screens and reason about games, yet on an unfamiliar game, an agent still has to learn to play. We ask how an agent can self-improve on such a game from a few of its own attempts, in real-time visual games where the agent sees only the screen and the game keeps running while the agent thinks. We study two kinds of policy that can carry this improvement. In model as policy, a model selects actions during play; we adapt real-time chunking so that committed actions keep executing while the model reasons, and train a 2B controller for this interface. In code as\u2026",
-   "published": "2026-11-18T15:18:22+00:00",
-   "authors": [
-    "Zipeng Qiu",
-    "Shusheng Xu",
-    "Jiale Li",
-    "Yukun Zhou",
-    "Chenyue Li",
-    "Wenshuang Li",
-    "Tongkai Yang",
-    "Binhang Yuan"
-   ],
-   "tags": [
-    "cs.AI",
-    "arxiv",
-    "ai"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Pre-trained models can read screens and reason about games, yet on an unfamiliar game, an agent still has to learn to play.",
-    "prior_work": "",
-    "approach": "",
-    "results": "We ask how an agent can self-improve on such a game from a few of its own attempts, in real-time visual games where the agent sees only the screen and the game keeps running while the agent thinks. We study two kinds of policy that can carry this improvement.",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "4b57c9dc495caf3f",
-   "source": "arxiv-cs-cl",
-   "org": "arXiv cs.CL",
-   "content": "paper",
-   "title": "Large Language Models or AI Agents for English to Arabic Translation? An assessment on WikiEn-Ar190",
-   "url": "https://arxiv.org/abs/2611.24588v1",
-   "summary": "This research investigates whether a large language model or an autonomous AI Agent performs better at translating from English to Arabic, which is considered a low-resource language. The authors introduce WikiEn-Ar190, a new dataset of 190 carefully selected Wikipedia articles from 18 different areas, which were created and verified by two native Arabic speakers to ensure that they accurately reflect both meaning and style. Using this dataset, the study evaluates the translation quality of GPT-5-mini both as an independent neural translator and when used within a more complex process that\u2026",
-   "published": "2026-11-18T15:15:03+00:00",
-   "authors": [
-    "Fatima Zahra Iguenfer",
-    "Yousra Chtouki"
-   ],
-   "tags": [
-    "cs.CL",
-    "arxiv",
-    "nlp"
-   ],
-   "brief": {
-    "overview": "This research investigates whether a large language model or an autonomous AI Agent performs better at translating from English to Arabic, which is considered a low-resource language. The authors introduce WikiEn-Ar190, a new dataset of 190 carefully selected Wikipedia articles from 18 different areas, which were created and verified by two native Arabic speakers to ensure that they accurately reflect both meaning and style.",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "16a7823c50bd84b4",
-   "source": "arxiv-cs-cv",
-   "org": "arXiv cs.CV",
-   "content": "paper",
-   "title": "ALIVE: Bring Foundation Features to Life with Events",
-   "url": "https://arxiv.org/abs/2611.24579v1",
-   "summary": "Visual foundation models provide powerful representations for diverse tasks, but their features become stale as visual content changes between image observations. Refreshing them requires new frames and repeated runs of a computationally expensive image encoder. We introduce ALIVE, an event-based method that incrementally updates native foundation model features between image observations. Given an anchor image, ALIVE uses subsequent events to transport and correct existing multi-layer features extracted by a frozen DINOv3 encoder. Its lightweight updater is trained end-to-end using only\u2026",
-   "published": "2026-11-18T15:10:48+00:00",
-   "authors": [
-    "Rong Zou",
-    "Haiqing Hao",
-    "Davide Scaramuzza"
-   ],
-   "tags": [
-    "cs.CV",
-    "cs.RO",
-    "arxiv",
-    "vision"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Visual foundation models provide powerful representations for diverse tasks, but their features become stale as visual content changes between image observations. Refreshing them requires new frames and repeated runs of a computationally expensive image encoder.",
-    "prior_work": "Given an anchor image, ALIVE uses subsequent events to transport and correct existing multi-layer features extracted by a frozen DINOv3 encoder.",
-    "approach": "We introduce ALIVE, an event-based method that incrementally updates native foundation model features between image observations.",
-    "results": "Its lightweight updater is trained end-to-end using only\u2026",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": []
-   }
-  },
-  {
-   "uid": "6810a09b612abfb1",
-   "source": "arxiv-cs-cv",
-   "org": "arXiv cs.CV",
-   "content": "paper",
-   "title": "BaseRSI: Recursive Self-Improvement of a Base Vision-Language Model via Training-Free Harness Internalization",
-   "url": "https://arxiv.org/abs/2611.24578v1",
-   "summary": "Recursive self-improvement (RSI) is moving from the harness of prompts and tools around a base model toward the model itself. However, existing RSI still faces key challenges, including harness-bound gains that stay outside the base model, black-box supervision that reads only the model's outputs, and imprecise edits whose site and strength are fixed in advance. To address these challenges, we propose BaseRSI, a new paradigm of Recursive Harness Internalization: the base model improves its harness, then writes what the harness adds into its own weights through training-free edits, round\u2026",
-   "published": "2026-11-18T15:10:11+00:00",
-   "authors": [
-    "Mingda Zhang",
-    "Yuanhao Dong",
-    "Qiang Huang",
-    "Rui Qian",
-    "Yanjin Li",
-    "Zhenyu Liu",
-    "Xiao Huang",
-    "Zihao Yang",
-    "Jian Wang",
-    "Pinjia He",
-    "Xiaoying Tang"
-   ],
-   "tags": [
-    "cs.CV",
-    "cs.AI",
-    "arxiv",
-    "vision"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Recursive self-improvement (RSI) is moving from the harness of prompts and tools around a base model toward the model itself. existing RSI still faces key challenges, including harness-bound gains that stay outside the base model, black-box supervision that reads only the model's outputs, and imprecise edits whose site and strength are fixed in advance.",
-    "prior_work": "",
-    "approach": "To address these challenges, we propose BaseRSI, a new paradigm of Recursive Harness Internalization: the base model improves its harness, then writes what the harness adds into its own weights through training-free edits, round\u2026",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "9aaf60f65be6819a",
-   "source": "arxiv-cs-cl",
-   "org": "arXiv cs.CL",
-   "content": "paper",
-   "title": "Late Entry in Looped Language Models",
-   "url": "https://arxiv.org/abs/2611.24576v1",
-   "summary": "Looped language models deepen reasoning at a compact parameter count by iterating a shared layer stack T times per token, turning recurrence depth directly into sequential decoding latency. Conventional early-exit decoding halts after initial passes without cache completion, truncating cached key-value states of past tokens to shallow depth. We study the opposite strategy, late entry, where new tokens skip initial passes and enter directly into the final K T alongside subsequent steps at zero extra serial calls. Projecting these finished T-pass wake states inside the existing output GEMM\u2026",
-   "published": "2026-11-18T15:09:01+00:00",
-   "authors": [
-    "Ziqi Jin",
-    "Jiaxi Li",
-    "Weiwen Xu",
-    "Aixin Sun"
-   ],
-   "tags": [
-    "cs.CL",
-    "arxiv",
-    "nlp"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Looped language models deepen reasoning at a compact parameter count by iterating a shared layer stack T times per token, turning recurrence depth directly into sequential decoding latency. We study the opposite strategy, late entry, where new tokens skip initial passes and enter directly into the final K T alongside subsequent steps at zero extra serial calls.",
-    "prior_work": "Conventional early-exit decoding halts after initial passes without cache completion, truncating cached key-value states of past tokens to shallow depth. Projecting these finished T-pass wake states inside the existing output GEMM\u2026",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": []
-   }
-  },
-  {
-   "uid": "a624ef06114d12ba",
-   "source": "arxiv-cs-lg",
-   "org": "arXiv cs.LG",
-   "content": "paper",
-   "title": "AGAMOTTO: An AI-Enabled Framework for Time-Critical Tactical Course-of-Action Evaluation and Generation",
-   "url": "https://arxiv.org/abs/2611.24568v1",
-   "summary": "Current command and control (C2) platforms lack integrated simulation capabilities that would allow commanders to dynamically explore courses of action (COAs) during live operations. This paper presents ongoing research and contributions to the development of AGAMOTTO (Advanced Guidance and Analytics for Military Operations, Tactical Threats, and Outcomes) as part of the overarching NGC2 program, which advances the Army's efforts to modernize C2 systems, such as the Tactical Assault Kit (TAK). The paper outlines the current design, preliminary findings, and the remaining research tasks, with\u2026",
-   "published": "2026-11-18T15:04:02+00:00",
-   "authors": [
-    "Matthew L. Corbett"
-   ],
-   "tags": [
-    "cs.AI",
-    "cs.LG",
-    "arxiv",
-    "ml"
-   ],
-   "brief": {
-    "overview": "Current command and control (C2) platforms lack integrated simulation capabilities that would allow commanders to dynamically explore courses of action (COAs) during live operations. This paper presents ongoing research and contributions to the development of AGAMOTTO (Advanced Guidance and Analytics for Military Operations, Tactical Threats, and Outcomes) as part of the overarching NGC2 program, which advances the Army's efforts to modernize C2 systems, such as the Tactical Assault Kit (TAK).",
-    "problem": "",
-    "prior_work": "",
-    "approach": "",
-    "results": "",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "short feed blurb, not a structured abstract"
-    ]
-   }
-  },
-  {
-   "uid": "b40defdab3966812",
-   "source": "arxiv-cs-cl",
-   "org": "arXiv cs.CL",
-   "content": "paper",
-   "title": "Objective-Specialized Residual Streams in Manifold-Constrained Hyper-Connections",
-   "url": "https://arxiv.org/abs/2611.24567v1",
-   "summary": "Manifold-constrained Hyper-Connections (mHC) extend a Transformer's residual stream into multiple parallel streams with learned cross-stream connections. Prior work trains all streams toward a shared objective. We instead study whether assigning distinct learning objectives to different streams can improve task performance and induce objective-specific specialization. Using complementary lexical (sparse) and semantic (dense) retrieval objectives as a test case, we find that objective-specialized mHC consistently outperforms a non-specialized mHC model across the full sparse--dense fusion\u2026",
-   "published": "2026-11-18T15:03:54+00:00",
-   "authors": [
-    "Shantanu Agarwal",
-    "Ruchita V. Maitri",
-    "Zhiqi Huang",
-    "Vivek Datla",
-    "Alfy Samuel"
-   ],
-   "tags": [
-    "cs.CL",
-    "arxiv",
-    "nlp"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Manifold-constrained Hyper-Connections (mHC) extend a Transformer's residual stream into multiple parallel streams with learned cross-stream connections.",
-    "prior_work": "Prior work trains all streams toward a shared objective.",
-    "approach": "",
-    "results": "We instead study whether assigning distinct learning objectives to different streams can improve task performance and induce objective-specific specialization. Using complementary lexical (sparse) and semantic (dense) retrieval objectives as a test case, we find that objective-specialized mHC consistently outperforms a non-specialized mHC model across the full sparse--dense fusion\u2026",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": []
-   }
-  },
-  {
-   "uid": "0aa65e180ccfcac5",
-   "source": "arxiv-cs-cv",
-   "org": "arXiv cs.CV",
-   "content": "paper",
-   "title": "Beyond Appearance: Evidence-Guided Programmatic 3D Scene Reconstruction with Agentic Lighting Reasoning",
-   "url": "https://arxiv.org/abs/2611.24565v1",
-   "summary": "Image-to-code methods for 3D scene reconstruction produce executable code that generates editable digital content and supports visual simulation. However, existing methods primarily rely on appearance similarity, which provides limited guidance for distinguishing errors in geometry, materials, and illumination. Light shapes scene appearance through its interactions with geometry and materials, influencing shading, cast shadows, and reflections. We therefore present LightHarness, a VLM-based agentic framework that incorporates explicit lighting reasoning into iterative scene reconstruction.\u2026",
-   "published": "2026-11-18T15:01:21+00:00",
-   "authors": [
-    "Zeting Luo",
-    "Yifan Li",
-    "Shuai Yang"
-   ],
-   "tags": [
-    "cs.CV",
-    "arxiv",
-    "vision"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "Image-to-code methods for 3D scene reconstruction produce executable code that generates editable digital content and supports visual simulation. existing methods primarily rely on appearance similarity, which provides limited guidance for distinguishing errors in geometry, materials, and illumination.",
-    "prior_work": "",
-    "approach": "Light shapes scene appearance through its interactions with geometry and materials, influencing shading, cast shadows, and reflections.",
-    "results": "We therefore present LightHarness, a VLM-based agentic framework that incorporates explicit lighting reasoning into iterative scene reconstruction.\u2026",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": [
-     "abstract doesn't compare to prior work"
-    ]
-   }
-  },
-  {
-   "uid": "c028427c881c2c6e",
-   "source": "arxiv-cs-lg",
-   "org": "arXiv cs.LG",
-   "content": "paper",
-   "title": "Taming the Tails of Stochastic Gradient Descent in the Interpolation Regime",
-   "url": "https://arxiv.org/abs/2611.24562v1",
-   "summary": "In this paper, we study stochastic gradient descent in the smooth interpolation regime, where the population objective shares a common minimizer with the sample losses. In contrast to prior work, which has largely focused on in-expectation analysis, we obtain high-probability convergence guarantees under the same assumptions. In the convex case, we prove a fast rate of order $\\log(\u03b2^{-1}) \\cdot n^{-1}$ after $n$ iterations, with failure probability at most $\u03b2$. In the strongly convex case, we derive a family of moment-based bounds of order $\u03b2^{-p} \\cdot \\exp(-\\mathcal{O}(p \\cdot n))$ for $p\u2026",
-   "published": "2026-11-18T15:00:06+00:00",
-   "authors": [
-    "Leonardo Galli",
-    "Daniela Angela Parletta",
-    "Andrea Paudice"
-   ],
-   "tags": [
-    "math.OC",
-    "cs.LG",
-    "arxiv",
-    "ml"
-   ],
-   "brief": {
-    "overview": "",
-    "problem": "In this paper, we study stochastic gradient descent in the smooth interpolation regime, where the population objective shares a common minimizer with the sample losses.",
-    "prior_work": "In contrast to prior work, which has largely focused on in-expectation analysis, we obtain high-probability convergence guarantees under the same assumptions.",
-    "approach": "In the convex case, we prove a fast rate of order $\\log(\u03b2^{-1}) \\cdot n^{-1}$ after $n$ iterations, with failure probability at most $\u03b2$.",
-    "results": "In the strongly convex case, we derive a family of moment-based bounds of order $\u03b2^{-p} \\cdot \\exp(-\\mathcal{O}(p \\cdot n))$ for $p\u2026",
-    "next_steps": "",
-    "mode": "heuristic",
-    "notes": []
    }
   }
  ]
